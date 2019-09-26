@@ -25,7 +25,7 @@ class AppMain extends Component {
     }
 
     render() {
-        const {cookies} = this.props;
+        const { cookies } = this.props;
         debugger;
         return (
             <Fragment>
@@ -55,7 +55,7 @@ class AppMain extends Component {
                         </div>
                     </div>
                 }>
-                    <Route path="/pages" render={() => (<Pages match={this.props.match} cookies={this.props.cookies} />)} />
+                    <Route path="/pages" render={(props) => <Pages {...props} cookies={props.cookies} />} />
                 </Suspense>
 
                 {/* <Suspense fallback={

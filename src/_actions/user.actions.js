@@ -25,16 +25,30 @@ function getToken(userName, password, pathname) {
                             brandService.getBrandByName(userName)
                                 .then(
                                     brand => {
-                                        localStorage.setItem("brand", brand.brand[0].fullName);
+
+                                        //dispatch(success(brand));
+                                        // history.push({
+                                        //     pathname: '/widgets/dashboard-boxes',
+                                        //     state: { Brand: brand.brand, type: type }
+                                        // })
+
+                                        localStorage.setItem("brandFullName", brand.brand[0].fullName);
+                                        localStorage.setItem("brandName", brand.brand[0].brandName);
                                         history.replace({ pathname: '/widgets/dashboard-boxes', state: { Brand: brand.brand, type: type } });
                                     },
                                     error => {
                                         toast.warn(error.toString() + " Please login again");
+                                        //history.push('/pages/loginpage');
                                         history.replace({ pathname: '/pages/loginpage' });
                                     }
                                 )
+
                         }
                         else if (type === "Influencer") {
+                            // history.push({
+                            //     pathname: '/widgets/dashboard-boxes',
+                            //     state: { userName: userName, type: type }
+                            // })
                             history.replace({ pathname: '/widgets/dashboard-boxes', state: { userName: userName, type: type } });
                         }
                         toast.success("Welcome " + userName);
@@ -59,11 +73,11 @@ function getToken(userName, password, pathname) {
     function failure(error) { return { type: userConstants.LOGIN_FAILURE, error } }
 }
 
-function login(userName, password, captcha) {
+function login(userName, password) {
     return dispatch => {
         dispatch(request({ userName }));
 
-        userService.login(userName, password, captcha)
+        userService.login(userName, password)
             .then(
                 user => {
                     dispatch(success(user));

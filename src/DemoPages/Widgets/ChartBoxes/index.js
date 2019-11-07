@@ -216,11 +216,7 @@ class WidgetsChartBoxes extends React.Component {
             {
                 title: 'Comparison Influencers',
                 content: <CompareInfluencers ComparedInfluencers={ComparedInfluencers} />
-            },
-            {
-                title: 'Create Campaign',
-                content: <CreateCampaign Brand={Brand} Influencer={Influencer} />
-            },
+            }
         ]
 
         const clickedStyle = {
@@ -263,108 +259,6 @@ class WidgetsChartBoxes extends React.Component {
                         <Button color="primary" onClick={this.handleConfirmNavigationClick}>Yes</Button>{' '}
                     </ModalFooter>
                 </Modal>
-                {/* <PageTitleCategory
-                    heading="Chart Boxes"
-                    subheading="These boxes can be used to show numbers and data in a breautiful user friendly way."
-                    icon="pe-7s-star icon-gradient bg-ripe-malin"
-                /> */}
-                <Row>
-                    <Col md="12">
-                        <Card className="main-card mb-3">
-                            <CardBody>
-                                <Row>
-                                    <Col md="2">
-                                        <div onClick={() => this.onCheckboxBtnClick('Food', '')}
-                                            className={"font-icon-wrapper" + (!cSelected.includes('Food') ? " text-primary" : '')}>
-                                            <FontAwesomeIcon icon={faHamburger} size="4x" />
-                                            <p>Food</p>
-                                        </div>
-                                    </Col>
-                                    <Col md="2">
-                                        <div onClick={() => this.onCheckboxBtnClick('Cosmetics', '')}
-                                            className={"font-icon-wrapper" + (!cSelected.includes('Cosmetics') ? " text-success" : '')}>
-                                            <FontAwesomeIcon icon={faMortarPestle} size="4x" />
-                                            <p>Cosmetics</p>
-                                        </div>
-                                    </Col>
-                                    <Col md="2">
-                                        <div onClick={() => this.onCheckboxBtnClick('Fashion', '')}
-                                            className={"font-icon-wrapper" + (!cSelected.includes('Fashion') ? " text-danger" : '')}>
-                                            <FontAwesomeIcon icon={faTshirt} size="4x" />
-                                            <p>Fashion</p>
-                                        </div>
-                                    </Col>
-                                    <Col md="2">
-                                        <div onClick={() => this.onCheckboxBtnClick('Sport', '')}
-                                            className={"font-icon-wrapper" + (!cSelected.includes('Sport') ? " text-info" : '')}>
-                                            <FontAwesomeIcon icon={faRunning} size="4x" />
-                                            <p>Sport</p>
-                                        </div>
-                                    </Col>
-                                    <Col md="2">
-                                        <div onClick={() => this.onCheckboxBtnClick('Travel', '')}
-                                            className={"font-icon-wrapper" + (!cSelected.includes('Travel') ? " text-warning" : '')}>
-                                            <FontAwesomeIcon icon={faPlaneDeparture} size="4x" />
-                                            <p>Travel</p>
-                                        </div>
-                                    </Col>
-                                    <Col md="2">
-                                        <div onClick={() => this.onCheckboxBtnClick('Event', 'Entertaining')}
-                                            className={"font-icon-wrapper" + (!cSelected.includes('Event') || !cSelected.includes('Event') ? " text-danger" : '')}>
-                                            <FontAwesomeIcon icon={faMicrophoneAlt} size="4x" />
-                                            <p>Events-Entertaining</p>
-                                        </div>
-                                    </Col>
-                                    <Col md="2">
-                                        <div onClick={() => this.onCheckboxBtnClick('HouseWife', '')}
-                                            className={"font-icon-wrapper" + (!cSelected.includes('HouseWife') ? " text-focus" : '')}>
-                                            <FontAwesomeIcon icon={faStoreAlt} size="4x" />
-                                            <p>HouseWife</p>
-                                        </div>
-                                    </Col>
-                                    <Col md="2">
-                                        <div onClick={() => this.onCheckboxBtnClick('Technology', '')}
-                                            className={"font-icon-wrapper" + (!cSelected.includes('Technology') ? " text-info" : '')}>
-                                            <FontAwesomeIcon icon={faMicrochip} size="4x" />
-                                            <p>Technology</p>
-                                        </div>
-                                    </Col>
-                                    <Col md="2">
-                                        <div onClick={() => this.onCheckboxBtnClick('Appliances', '')}
-                                            className={"font-icon-wrapper" + (!cSelected.includes('Appliances') ? " text-alternate" : '')}>
-                                            <FontAwesomeIcon icon={faBlender} size="4x" />
-                                            <p>Appliances</p>
-                                        </div>
-                                    </Col>
-                                    <Col md="2">
-                                        <div onClick={() => this.onCheckboxBtnClick('RealEstate', '')}
-                                            className={"font-icon-wrapper" + (!cSelected.includes('RealEstate') ? " text-primary" : '')}>
-                                            <FontAwesomeIcon icon={faLandmark} size="4x" />
-                                            <p>Real Estate</p>
-                                        </div>
-                                    </Col>
-                                    <Col md="2">
-                                        <div onClick={() => this.onCheckboxBtnClick('Furniture', '')}
-                                            className={"font-icon-wrapper" + (!cSelected.includes('Furniture') ? " text-secondary" : '')}>
-                                            <FontAwesomeIcon icon={faCouch} size="4x" />
-                                            <p>Furniture</p>
-                                        </div>
-                                    </Col>
-                                    <Col md="2">
-                                        <div onClick={() => this.onCheckboxBtnClick('Auto', 'Game')}
-                                            className={"font-icon-wrapper" + (!cSelected.includes('Auto') || !cSelected.includes('Game') ? " text-success" : '')}>
-                                            <FontAwesomeIcon icon={faCar} size="4x" />
-                                            <FontAwesomeIcon icon={faGamepad} size="3x" />
-                                            <p>Auto-Games</p>
-                                        </div>
-
-                                    </Col>
-                                </Row>
-                            </CardBody>
-                        </Card>
-
-                    </Col>
-                </Row>
                 <Tabs onChange={this.onChangeTab} selectedTabKey={this.state.selectedTabKey} tabsWrapperClass="body-tabs body-tabs-layout" transform={false} showInkBar={true} items={getTabs()} />
                 <ScrollUpButton />
             </Fragment>

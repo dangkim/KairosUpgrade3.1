@@ -8,20 +8,17 @@ import './assets/base.css';
 import Main from './DemoPages/Main';
 //import {configureStore} from './config/configureStore';
 import { Provider } from 'react-redux';
-import { CookiesProvider } from 'react-cookie';
-
+import "react-loader-spinner/dist/loader/css/react-spinner-loader.css"
 //const store = configureStore();
 const rootElement = document.getElementById('root');
 
 const renderApp = Component => {
   ReactDOM.render(
-    <CookiesProvider>
-      <Provider store={store}>
-        <Router history={history}>
-          <Component />
-        </Router>
-      </Provider>
-    </CookiesProvider>,
+    <Provider store={store}>
+      <Router history={history}>
+        <Component />
+      </Router>
+    </Provider>,
     rootElement
   );
 };

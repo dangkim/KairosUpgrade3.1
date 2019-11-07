@@ -6,7 +6,7 @@ import citynights from '../../../assets/utils/images/originals/citynights.jpg'
 import citydark from '../../../assets/utils/images/originals/citydark.jpg'
 import Slider from "react-slick";
 import new_logo from '../../../assets/utils/images/originals/new_logo.png'
-import { userActions, imageActions } from '../../../_actions';
+import { userActions } from '../../../_actions';
 import { history } from '../../../_helpers';
 
 class LoginPage extends React.Component {
@@ -21,17 +21,11 @@ class LoginPage extends React.Component {
             email: '',
             password: '',
             submitted: false,
-            token: '',
-            captcha: '',
+            token: ''
         };
 
         this.handleChange = this.handleChange.bind(this);
         this.handleSubmit = this.handleSubmit.bind(this);
-    }
-
-    componentDidMount() {
-        const { dispatch } = this.props;
-        dispatch(imageActions.getImageData('https://cors-anywhere.herokuapp.com/https://h3bet.com/account/refreshcaptcha'));
     }
 
     handleChange(e) {
@@ -43,19 +37,18 @@ class LoginPage extends React.Component {
         e.preventDefault();
 
         this.setState({ submitted: true });
-        const { userName, email, password, captcha } = this.state;
+        const { userName, email, password } = this.state;
         const { dispatch } = this.props;
-        if (userName && password && captcha) {
-            // dispatch(imageActions.getImageData('https://cors-anywhere.herokuapp.com/https://h3bet.com/account/refreshcaptcha'));
+        if (userName && password) {
+            
             const pathname = this.props.location.pathname;
-            //dispatch(userActions.getToken(userName, password, pathname));
-            dispatch(userActions.login(userName, password, captcha));
+            dispatch(userActions.getToken(userName, password, pathname));
         }
     }
 
     render() {
-        const { loggingIn, token, imageData } = this.props;
-        const { userName, password, submitted, captcha } = this.state;
+        const { loggingIn, token } = this.props;
+        const { userName, password, submitted } = this.state;
         const settings = {
             dots: true,
             infinite: true,
@@ -65,10 +58,6 @@ class LoginPage extends React.Component {
             autoplay: true,
             slidesToScroll: 1
         };
-
-        debugger;
-        const { cookies } = this.props;
-
         return (
             <div className="app-container app-theme-white body-tabs-shadow">
                 <div className="app-container">
@@ -128,7 +117,7 @@ class LoginPage extends React.Component {
                                     <div>
                                         <form className="" onSubmit={this.handleSubmit}>
                                             <div className="form-row">
-                                                <div className="col-md-4">
+                                                <div className="col-md-6">
                                                     <div className="position-relative form-group">
                                                         <label htmlFor="userName" className="">Email</label>
                                                         <input type="userName" name="userName" id="userName" placeholder="" className="form-control" value={userName} onChange={this.handleChange} />
@@ -137,23 +126,13 @@ class LoginPage extends React.Component {
                                                         }
                                                     </div>
                                                 </div>
-                                                <div className="col-md-4">
+                                                <div className="col-md-6">
                                                     <div className="position-relative form-group">
                                                         <label htmlFor="password" className="">Password</label>
                                                         <input name="password" id="password" placeholder="" type="password" className="form-control" value={password} onChange={this.handleChange} />
                                                         {submitted && !password &&
                                                             <div className="help-block text-danger">Password is required</div>
                                                         }
-                                                    </div>
-                                                </div>
-                                                <div className="col-md-2">
-                                                    <label htmlFor="captcha" className="">Captcha</label>
-                                                    <input name="captcha" id="captcha" placeholder="" className="form-control" value={captcha} onChange={this.handleChange} />
-                                                </div>
-                                                <div className="col-md-2">
-                                                    <label htmlFor="imageData" className=""></label>
-                                                    <div className="position-relative form-group">
-                                                        <img src={imageData} />
                                                     </div>
                                                 </div>
                                             </div>
@@ -183,11 +162,9 @@ class LoginPage extends React.Component {
 
 function mapStateToProps(state) {
     const { loggingIn, token } = state.authentication;
-    const { imageData } = state.image;
     return {
         loggingIn,
-        token,
-        imageData
+        token
     };
 }
 

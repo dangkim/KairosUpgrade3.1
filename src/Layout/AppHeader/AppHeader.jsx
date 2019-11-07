@@ -58,7 +58,7 @@ class AppHeader extends React.Component {
             enableHeaderShadow
         } = this.props;
 
-        const fullName = localStorage.getItem("brand");
+        const fullName = localStorage.getItem("brandFullName");
         return (
             <Fragment>
                 <CSSTransition timeout={1500} unmountOnExit

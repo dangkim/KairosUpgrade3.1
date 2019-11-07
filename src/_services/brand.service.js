@@ -38,20 +38,17 @@ function getBrandByName(userName) {
 function getAll() {
     const GET_ALL_BRAND = `
     {
-        {
-            brand {
-                title: displayText,
-                contentItemId,
-                brandName,
-                businessAreas,
-                fullName,
-                email,
-                location,
-                phone,
-                createdUtc,
-            }
-          }
-    }
+        brand(status: ALL) {
+          brandName
+          businessAreas
+          contentItemId
+          email
+          fullName
+          location
+          phone
+          published
+        }
+      }
     `;
 
     const token = localStorage.getItem('token');

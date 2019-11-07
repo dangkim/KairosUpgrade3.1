@@ -19,16 +19,8 @@ import {
     faArrowUp,
 } from '@fortawesome/free-solid-svg-icons';
 
-import avatar1 from '../../../../assets/utils/images/avatars/1.jpg';
-import avatar2 from '../../../../assets/utils/images/avatars/2.jpg';
-import avatar3 from '../../../../assets/utils/images/avatars/3.jpg';
-import avatar4 from '../../../../assets/utils/images/avatars/4.jpg';
-
 import { infActions } from '../../../../_actions';
-import Select from 'react-select';
 import default_user from '../../../../assets/utils/images/avatars/default_user.jpg';
-import defaultAvatar from '../../../../assets/utils/images/avatars/default.jpg'
-
 import originalMoment from "moment";
 import { extendMoment } from "moment-range";
 import 'react-daterange-picker/dist/css/react-calendar.css'
@@ -340,7 +332,7 @@ class Influencers extends Component {
                                                     <Col key={index} md="4">
                                                         <div className="card mb-3 widget-chart">
                                                             <div className="">
-                                                                <img className="rounded-circle" style={{ maxHeight: '120px', maxWidth: '120px' }} src={value ? value.photo.paths[2] : default_user} />
+                                                                <img className="rounded-circle" style={{ maxHeight: '120px', maxWidth: '120px' }} src={value ? value.photo.paths[1] : default_user} />
                                                             </div>
                                                             <div className="widget-numbers-sm">
                                                                 {value.fullName}
@@ -355,8 +347,7 @@ class Influencers extends Component {
                                                             <ButtonGroup>
                                                                 <Button color="info" onClick={() => this.gotoDetail(index)}>Detail</Button>
                                                                 <Button color="success" onClick={() => this.onCheckboxBtnClick(index)}
-                                                                    active={this.state.cSelected.includes(index)}>Compare</Button>
-                                                                <Button color="warning" onClick={() => this.createCampaign(index)}>Campaign</Button>
+                                                                    active={this.state.cSelected.includes(index)}>Compare</Button>                                                                
                                                             </ButtonGroup>
                                                         </div>
                                                     </Col>

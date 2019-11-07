@@ -3,7 +3,8 @@ import { authHeader } from '../_helpers';
 
 export const campaignService = {
     register,
-    //getAll,
+    getAll,
+    getCampaignByBrand,
     getAllInteresting,
     getAllLocation
 };
@@ -22,40 +23,95 @@ function register(campaignType) {
     return fetch(`${configOrchardCore.apiUrl}content/Post?draft=true`, requestOptions).then(handleContentResponse);
 }
 
-// function getAll() {
-//     const GET_ALL_COMPAIGN = `
-//     {
-//         campaigns{
-//           title:displayText,
-//           bag {
-//             contentItems {
-//               ... on Campaign {
-//                 title:displayText,
-//                 campaignName,
-//                 campaignTarget,
-//                 currency,
-//                 budget,
-//                 fromAge,
-//                 toAge,
-//                 fromDate,
-//                 toDate,
-//                 gender,
-//                 productInfo,
-//                 modifiedUtc
-//               }
-//             }
-//           }
-//         }
-//       }
-//     `;
-//     const requestOptions = {
-//         method: 'POST',
-//         headers: { 'Content-Type': 'application/graphql' },
-//         body: GET_ALL_COMPAIGN
-//     };
+function getAll() {
+    const GET_ALL_COMPAIGN = `
+    {
+        campaign(status: ALL) {
+          budget
+          campaignName
+          campaignTarget
+          contentItemId
+          description
+          fromAge
+          toAge
+          fromDate
+          toDate
+          hashTag
+          gender
+          jobName
+          keyword
+          link
+          published
+          currency
+          createdUtc
+          bag {
+            contentItems {
+              ... on Influencer {
+                fullName
+              }
+            }
+          }
+        }
+      }
+    `;
 
-//     return fetch(`${configOrchardCore.apiUrl}graphql`, requestOptions).then(handleGraphResponse);
-// }
+    const token = localStorage.getItem('token');
+    const requestOptions = {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/graphql',
+            'Authorization': token
+        },
+        body: GET_ALL_COMPAIGN
+    };
+
+    return fetch(`${configOrchardCore.apiUrl}graphql`, requestOptions).then(handleGraphCampResponse);
+}
+
+function getCampaignByBrand(brandName) {
+    const GET_ALL_COMPAIGN = `
+    {
+        campaign(status: ALL, where: {displayText_contains: "` + brandName + `"}) {
+          budget
+          campaignName
+          campaignTarget
+          contentItemId
+          description
+          fromAge
+          toAge
+          fromDate
+          toDate
+          hashTag
+          gender
+          jobName
+          keyword
+          link
+          published
+          currency
+          createdUtc
+          bag {
+            contentItems {
+              ... on Influencer {
+                fullName
+              }
+            }
+          }
+        }
+      }
+    `;
+
+    const token = localStorage.getItem('token');
+    const requestOptions = {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/graphql',
+            'Authorization': token
+        },
+        body: GET_ALL_COMPAIGN
+    };
+
+    return fetch(`${configOrchardCore.apiUrl}graphql`, requestOptions).then(handleGraphCampResponse);
+}
 
 function getAllInteresting() {
     const GET_ALL_INTERESTING = `
@@ -121,7 +177,7 @@ function handleGraphLocationResponse(response) {
     return response.json().then(text => {
         const data = text.data.locations;
         //
-        
+
         if (!response.ok) {
             if (response.status === 401) {
                 // auto logout if 401 response returned from api
@@ -141,7 +197,7 @@ function handleGraphInterestingResponse(response) {
     return response.json().then(text => {
         const data = text.data.interestingList;
         //
-        
+
         if (!response.ok) {
             if (response.status === 401) {
                 // auto logout if 401 response returned from api
@@ -172,5 +228,19 @@ function handleContentResponse(response) {
         }
 
         return data;
-    });    
+    });
+}
+
+function handleGraphCampResponse(response) {
+    if (!response.ok) {
+        if (response.status === 401) {
+            const error = response.statusText;
+            return Promise.reject(error);
+        }
+    }
+
+    return response.json().then(text => {
+        const data = text.data;
+        return data;
+    });
 }

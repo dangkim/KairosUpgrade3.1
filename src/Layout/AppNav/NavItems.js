@@ -112,6 +112,11 @@ export const WidgetsNav = [
         label: 'Dashboard Boxes',
         to: '/widgets/dashboard-boxes',
     },
+    {
+        icon: 'pe-7s-display2',
+        label: 'Campaigns',
+        to: '/widgets/campaigns-table',
+    }
 ];
 export const ChartsNav = [
     {

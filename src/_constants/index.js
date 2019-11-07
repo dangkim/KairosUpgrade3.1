@@ -4,4 +4,3 @@ export * from './campaign.constants';
 export * from './brand.constants';
 export * from './influencer.constants';
 export * from './theme.constants';
-export * from './image.constants';

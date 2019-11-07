@@ -1,6 +1,5 @@
 import configOrchardCore from 'configOrchardCore';
 import { authHeader } from '../_helpers';
-import { Cookies } from 'react-cookie';
 
 export const influencerService = {
   register,
@@ -11,8 +10,7 @@ export const influencerService = {
   updateInfluencers,
   registerJobs,
   getInfluencersByName,
-  getInfluencersByCategory,
-  getImageData
+  getInfluencersByCategory
 };
 
 function getAll(first, skip) {
@@ -448,18 +446,6 @@ function register(InfluencerType, token) {
   return fetch(`${configOrchardCore.apiUrl}content/Post`, requestOptions).then(handleContentResponse);
 }
 
-function getImageData(url) {
-  const requestOptions = {
-    method: 'GET',
-    headers: {
-      'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
-      'Accept-Encoding': 'gzip, deflate, br',
-      'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36'
-    },
-  };
-  return fetch(url, requestOptions).then(handleImageDataResponse);
-}
-
 function updateInfluencers(InfluencerType) {
   const token = localStorage.getItem('token');
 
@@ -592,21 +578,6 @@ function handleContentJobsResponse(response) {
         //location.reload(true);
       }
 
-      const error = (data && data.message) || response.statusText;
-      return Promise.reject(error);
-    }
-
-    return data;
-  });
-}
-
-function handleImageDataResponse(response) {
-  return response.text().then(text => {
-    const data = text;
-    // debugger;
-    // const aspnet_SessionId = Cookies.get('ASP.NET_SessionId');
-
-    if (!response.ok) {
       const error = (data && data.message) || response.statusText;
       return Promise.reject(error);
     }

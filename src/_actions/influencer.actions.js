@@ -202,8 +202,6 @@ function getInfluencersByCategory(previousValues, first, skip, categories) {
     function failure(error) { return { type: infConstants.INFS_GETBYCATEGORY_FAILURE, error } }
 }
 
-
-
 function getAllJobCategories() {
     return dispatch => {
         dispatch(request());

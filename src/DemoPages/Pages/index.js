@@ -14,7 +14,6 @@ import AppSidebar from '../../Layout/AppSidebar';
 import AppFooter from '../../Layout/AppFooter';
 
 const Pages = ({ match }) => {
-    debugger;
     return (
         <Fragment>
             <Route path={`${match.url}/loginpage`} component={LoginPage} />

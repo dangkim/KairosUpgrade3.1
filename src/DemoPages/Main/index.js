@@ -4,13 +4,10 @@ import cx from 'classnames';
 import { withRouter } from 'react-router-dom';
 import { themeActions } from '../../_actions';
 import ResizeDetector from 'react-resize-detector';
-import { withCookies } from 'react-cookie';
-import { compose } from 'redux';
 
 import AppMain from '../../Layout/AppMain';
 
 class Main extends React.Component {
-
     constructor(props) {
         super(props);
         this.state = {
@@ -32,6 +29,15 @@ class Main extends React.Component {
         } = this.props;
 
         return (
+            // <ResizeDetector
+            //     handleWidth
+            //     handleHeight
+            //     render={({ width, height }) => (
+            //         <div>
+            //             Width:{width}, Height:{height}
+            //         </div>
+            //     )}
+            // />
             <ResizeDetector
                 handleWidth
                 render={({ width }) => (
@@ -44,8 +50,8 @@ class Main extends React.Component {
                             { 'closed-sidebar': enableClosedSidebar || width < 1250 },
                             { 'closed-sidebar-mobile': closedSmallerSidebar || width < 1250 },
                             { 'sidebar-mobile-open': enableMobileMenu },
-                        )}>
-                            <AppMain match={this.props.match} cookies={this.props.cookies}/>
+                        )}>                            
+                            <AppMain />
                         </div>
                     </Fragment>
                 )}
@@ -54,25 +60,25 @@ class Main extends React.Component {
     }
 }
 
-
-const mapStateToProp = (state, ownProps) => {
+const mapStateToProp = state => {
     return ({
-        state: state,
-        cookies: ownProps.cookies,
-        colorScheme: state.theme.colorScheme,
-        enableFixedHeader: state.theme.enableFixedHeader,
-        enableMobileMenu: state.theme.enableMobileMenu,
-        enableFixedFooter: state.theme.enableFixedFooter,
-        enableFixedSidebar: state.theme.enableFixedSidebar,
-        enableClosedSidebar: state.theme.enableClosedSidebar,
-        enablePageTabsAlt: state.theme.enablePageTabsAlt,
-    })
-};
+    colorScheme:state.theme.colorScheme,
+    enableFixedHeader:state.theme.enableFixedHeader,
+    enableMobileMenu:state.theme.enableMobileMenu,
+    enableFixedFooter:state.theme.enableFixedFooter,
+    enableFixedSidebar:state.theme.enableFixedSidebar,
+    enableClosedSidebar:state.theme.enableClosedSidebar,
+    enablePageTabsAlt:state.theme.enablePageTabsAlt,
 
-export default compose(
-    withRouter,
-    withCookies,
-    connect(mapStateToProp),
-  )(Main);
+})};
 
-// export default withRouter(connect(mapStateToProp)(Main));
+// function mapStateToProps(state) {
+//     
+//     const { loggingIn, token } = state.authentication;
+//     return {
+//         loggingIn,
+//         token
+//     };
+// }
+
+export default withRouter(connect(mapStateToProp)(Main));

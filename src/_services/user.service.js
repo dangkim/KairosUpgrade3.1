@@ -5,7 +5,7 @@ import { authHeader, history } from '../_helpers';
 var qs = require('qs');
 
 export const userService = {
-    login,
+    //login,
     getToken,
     logout,
     getContentType,
@@ -49,26 +49,21 @@ function getContentType(token) {
     return fetch(`${configOrchardCore.apiUrl}content/Post04`, requestOptions).then(handleContentTypeResponse);
 }
 
-function login(userName, password, captcha) {
-    debugger;
-    const requestOptions = {
-        method: 'POST',
-        headers: {'Content-Type': 'application/x-www-form-urlencoded'},
-        body: qs.stringify({
-            Username: userName,
-            Password: password,
-            Captcha: captcha,
-        })
-    };
+// function login(userName, password) {
+//     const requestOptions = {
+//         method: 'POST',
+//         headers: { 'Content-Type': 'application/json' },
+//         body: JSON.stringify({ userName, password })
+//     };
 
-    return fetch('https://cors-anywhere.herokuapp.com/https://h3bet.com/VN/Account/Login', requestOptions)
-        .then(handleLoginResponse)
-        .then(user => {
-            // store user details and jwt token in local storage to keep user logged in between page refreshes
-            localStorage.setItem('user', JSON.stringify(user));
-            return user;
-        });
-}
+//     return fetch(`${configContent.apiUrl}/users/authenticate`, requestOptions)
+//         .then(handleResponse)
+//         .then(user => {
+//             // store user details and jwt token in local storage to keep user logged in between page refreshes
+//             localStorage.setItem('user', JSON.stringify(user));
+//             return user;
+//         });
+// }
 
 function logout() {
     debugger;
@@ -174,18 +169,6 @@ function handleTokenResponse(response) {
     });
 }
 
-function handleLoginResponse(response) {
-    return response.json().then(data => {
-        debugger;
-        if (!response.ok) {
-            const error = response.statusText;
-            return Promise.reject(error);
-        }
-
-        localStorage.setItem('token', token);
-        return token;
-    });
-}
 
 function handleContentTypeResponse(response) {
     return response.text().then(text => {

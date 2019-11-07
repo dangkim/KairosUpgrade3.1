@@ -44,7 +44,7 @@ import { extendMoment } from "moment-range";
 import NumberFormat from 'react-number-format';
 
 import { campaignActions, infActions, brandActions } from '../../../../_actions';
-import { createLocations, createInterestings, createJobs } from '../../../../_models/CommonModels';
+import { createLocations, createInterestings, createJobs, createGender } from '../../../../_models/CommonModels';
 import { history } from '../../../../_helpers';
 
 class CreateCampaign extends Component {
@@ -81,6 +81,7 @@ class CreateCampaign extends Component {
         const jobStorage = localStorage.getItem('job') ? JSON.parse(localStorage.getItem('job')) : job;
         const campaignStorage = localStorage.getItem('campaign') ? JSON.parse(localStorage.getItem('campaign')) : campaign;
         const dateValue = localStorage.getItem('dateValue') ? moment.range(JSON.parse(localStorage.getItem('dateValue')).start, JSON.parse(localStorage.getItem('dateValue')).end) : moment.range(today.clone(), today.clone().add(7, "days"));
+        const genderStorage = localStorage.getItem('selectedOptionGender') ? JSON.parse(localStorage.getItem('selectedOptionGender')) : [{ value: 3, label: "Mọi Giới" }];
         const locationStorage = localStorage.getItem('selectedOptionLocation') ? JSON.parse(localStorage.getItem('selectedOptionLocation')) : [{ value: "TPHCM", label: "TPHCM" }];
         const interestingStorage = localStorage.getItem('selectedOptionInteresting') ? JSON.parse(localStorage.getItem('selectedOptionInteresting')) : [{ value: "Fashion", label: "Fashion" }];
         const jobCategoryStorage = localStorage.getItem('selectedOptionJobCategory') ? JSON.parse(localStorage.getItem('selectedOptionJobCategory')) : [{ value: 'Share Link', label: 'Share Link' }, { value: 'Post Image', label: 'Post Image' }];
@@ -88,9 +89,10 @@ class CreateCampaign extends Component {
         this.state = {
             campaign: campaignStorage,
             job: jobStorage,
-            selectedOptionLocation: locationStorage,//[{ value: "TPHCM", label: "TPHCM" }],
-            selectedOptionInteresting: interestingStorage,//[{ value: "Fashion", label: "Fashion" }],
-            selectedOptionJobCategory: jobCategoryStorage,//[{ value: 'Share Link', label: 'Share Link' }, { value: 'Post Image', label: 'Post Image' }],
+            selectedOptionGender: genderStorage,
+            selectedOptionLocation: locationStorage,
+            selectedOptionInteresting: interestingStorage,
+            selectedOptionJobCategory: jobCategoryStorage,
             selectedInfluencers: [],
             submitted: false,
             isFormStep: true,
@@ -111,13 +113,13 @@ class CreateCampaign extends Component {
         this.handleCampaignChange = this.handleCampaignChange.bind(this);
         this.handleJobChange = this.handleJobChange.bind(this);
         this.handleSubmitJobs = this.handleSubmitJobs.bind(this);
+        this.handleOptionGenderChange = this.handleOptionGenderChange.bind(this);
         this.handleOptionLocationChange = this.handleOptionLocationChange.bind(this);
         this.handleOptionInterestingChange = this.handleOptionInterestingChange.bind(this);
         this.handleOptionJobCategoryChange = this.handleOptionJobCategoryChange.bind(this);
         this.handleCheckBoxChange = this.handleCheckBoxChange.bind(this);
         this.handleInfluencerStep = this.handleInfluencerStep.bind(this);
         this.handleBackStep = this.handleBackStep.bind(this);
-        this.handleJobStep = this.handleJobStep.bind(this);
         this.nextPageFluencers = this.nextPageFluencers.bind(this);
         this.prePageFluencers = this.prePageFluencers.bind(this);
         this.onChangePage = this.onChangePage.bind(this);
@@ -164,6 +166,7 @@ class CreateCampaign extends Component {
         this.setState({ submitted: true });
         const { campaign,
             job,
+            selectedOptionGender,
             selectedOptionLocation,
             selectedOptionInteresting,
             selectedOptionJobCategory,
@@ -180,6 +183,7 @@ class CreateCampaign extends Component {
             campaign.productInfo &&
             campaign.gender &&
             campaign.budget &&
+            selectedOptionGender &&
             selectedOptionLocation &&
             selectedOptionInteresting &&
             selectedOptionJobCategory &&
@@ -190,6 +194,7 @@ class CreateCampaign extends Component {
                 dateValue.start.format("DD MMM YYYY"),
                 dateValue.end.format("DD MMM YYYY"),
                 job,
+                selectedOptionGender,
                 selectedOptionLocation,
                 selectedOptionInteresting,
                 selectedOptionJobCategory,
@@ -203,7 +208,7 @@ class CreateCampaign extends Component {
 
     handleInfluencerStep(event) {
 
-        const { campaign, dateValue, selectedOptionLocation, selectedOptionInteresting } = this.state;
+        const { campaign, dateValue, selectedOptionGender, selectedOptionLocation, selectedOptionInteresting } = this.state;
         event.preventDefault();
 
         this.setState({ submitted: true });
@@ -215,40 +220,11 @@ class CreateCampaign extends Component {
             campaign.toAge &&
             campaign.productInfo &&
             campaign.gender &&
-            campaign.budget &&
+            selectedOptionGender &&
             selectedOptionLocation &&
             selectedOptionInteresting) {
 
             this.setState({ isFormStep: false, isInfluencerStep: true, isJobStep: false });
-        }
-    }
-
-    handleJobStep(event) {
-        event.preventDefault();
-        //this.setState({ submitted: true });
-        const { campaign,
-            job,
-            dateValue,
-            selectedOptionLocation,
-            selectedOptionInteresting,
-            selectedInfluencers,
-            checkedInfluencers } = this.state;
-        const { dispatch, brands } = this.props;
-
-        if (campaign.campaignName &&
-            campaign.campaignTarget &&
-            dateValue.start &&
-            dateValue.end &&
-            campaign.fromAge &&
-            campaign.toAge &&
-            campaign.productInfo &&
-            campaign.gender &&
-            campaign.budget &&
-            selectedOptionLocation &&
-            selectedOptionInteresting &&
-            checkedInfluencers.size > 0) {
-
-            this.setState({ isFormStep: false, isInfluencerStep: false, isJobStep: true });
         }
     }
 
@@ -267,9 +243,12 @@ class CreateCampaign extends Component {
         //dispatch(infActions.getAll());
     }
 
+    handleOptionGenderChange = selectedOptionGender => {
+        this.setState({ selectedOptionGender });
+    };
+
     handleOptionLocationChange = selectedOptionLocation => {
         this.setState({ selectedOptionLocation });
-        //console.log(`Option selected:`, selectedOptionLocation);
     };
 
     handleOptionInterestingChange = selectedOptionInteresting => {
@@ -353,6 +332,7 @@ class CreateCampaign extends Component {
         const { submitted,
             campaign,
             job,
+            selectedOptionGender,
             selectedOptionLocation,
             selectedOptionInteresting,
             selectedOptionJobCategory,
@@ -374,6 +354,7 @@ class CreateCampaign extends Component {
 
         let imgSrc = defaultAvatar;
 
+        const genders = createGender();
         const locations = createLocations();
         const interestings = createInterestings();
         const jobs = createJobs();
@@ -383,6 +364,8 @@ class CreateCampaign extends Component {
         localStorage.setItem('campaign', JSON.stringify(campaign));
 
         localStorage.setItem('dateValue', JSON.stringify(dateValue));
+
+        localStorage.setItem('selectedOptionGender', JSON.stringify(selectedOptionGender));
 
         localStorage.setItem('selectedOptionLocation', JSON.stringify(selectedOptionLocation));
 
@@ -489,11 +472,13 @@ class CreateCampaign extends Component {
                                             <FormGroup>
                                                 <Label for="gender" className="">
                                                     <span className="text-danger">*</span> Gender</Label>
-                                                <Input disabled={Influencer === null} type="text" name="gender" id="gender" placeholder="Gender" value={campaign.gender} onChange={this.handleCampaignChange} />
-                                                {
-                                                    submitted && !campaign.gender &&
-                                                    <div className="help-block text-dander">Gender is required</div>
-                                                }
+                                                <Select disabled={Influencer === null}
+                                                    value={selectedOptionGender}
+                                                    onChange={this.handleOptionGenderChange}
+                                                    isMulti={false}
+                                                    placeholder="Gender..."
+                                                    options={genders}
+                                                />
                                             </FormGroup>
                                         </Col>
                                     </Row>

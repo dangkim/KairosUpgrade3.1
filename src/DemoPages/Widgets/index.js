@@ -9,6 +9,7 @@ import { WidgetsChartBoxes } from "./ChartBoxes/";
 import { AppHeader } from '../../Layout/AppHeader';
 import AppSidebar from '../../Layout/AppSidebar/';
 import AppFooter from '../../Layout/AppFooter/';
+import { CampaignsTable } from './Campaigns';
 
 class Widgets extends React.Component {
     constructor(props) {
@@ -54,6 +55,10 @@ class Widgets extends React.Component {
                         <Route path={`${this.props.match.url}/dashboard-boxes`}
                             render={(routeProps) => (
                                 <WidgetsChartBoxes FilterInfluencers={influencerItems} SearchValue={searchValue} {...this.props} />
+                            )} />
+                        <Route path={`${this.props.match.url}/campaigns-table`}
+                            render={(routeProps) => (
+                                <CampaignsTable {...this.props} />
                             )} />
                     </div>
                 </div>

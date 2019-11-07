@@ -20,7 +20,7 @@ export function campaigns(state = {}, action) {
       };
     case campaignConstants.CAMS_GETALL_SUCCESS:
       return {
-        items: action.campaigns
+        campaigns: action.campaigns
       };
     case campaignConstants.CAMS_GETALL_FAILURE:
       return { 

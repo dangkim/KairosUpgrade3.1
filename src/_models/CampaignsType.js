@@ -56,6 +56,7 @@ export function createCampaign(campaign,
   fromDate,
   toDate,
   job,
+  selectedOptionGender,
   selectedOptionLocation,
   selectedOptionInteresting,
   selectedOptionJobCategory,
@@ -261,7 +262,7 @@ export function createCampaign(campaign,
         Value: campaign.toAge
       },
       Gender: {
-        Value: campaign.gender
+        Value: selectedOptionGender[0].value
       },
       JobName: {
         Text: job.jobName

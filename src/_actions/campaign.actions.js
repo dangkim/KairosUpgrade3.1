@@ -7,7 +7,8 @@ import { toast } from "react-toastify";
 
 export const campaignActions = {
     register,
-    //getAll,
+    getAll,
+    getCampaignByBrand,
     getAllLocation,
     getAllInteresting
 };
@@ -16,6 +17,7 @@ function register(campaign,
     fromDate,
     toDate,
     job,
+    selectedOptionGender,
     selectedOptionLocation,
     selectedOptionInteresting,
     selectedOptionJobCategory,
@@ -32,6 +34,7 @@ function register(campaign,
             fromDate,
             toDate,
             job,
+            selectedOptionGender,
             selectedOptionLocation,
             selectedOptionInteresting,
             selectedOptionJobCategory,
@@ -79,21 +82,37 @@ function register(campaign,
     // function failure(error) { return { type: campaignConstants.CAM_REGISTER_FAILURE, error } }
 }
 
-// function getAll() {
-//     return dispatch => {
-//         dispatch(request());
+function getAll() {
+    return dispatch => {
+        dispatch(request());
 
-//         userService.getAll()
-//             .then(
-//                 campaign => dispatch(success(campaign)),
-//                 error => dispatch(failure(error.toString()))
-//             );
-//     };
+        campaignService.getAll()
+            .then(
+                campaign => dispatch(success(campaign)),
+                error => dispatch(failure(error.toString()))
+            );
+    };
 
-//     function request() { return { type: campaignConstants.CAMS_GETALL_REQUEST } }
-//     function success(campaign) { return { type: campaignConstants.CAMS_GETALL_SUCCESS, campaign } }
-//     function failure(error) { return { type: campaignConstants.CAMS_GETALL_FAILURE, error } }
-// }
+    function request() { return { type: campaignConstants.CAMS_GETALL_REQUEST } }
+    function success(campaign) { return { type: campaignConstants.CAMS_GETALL_SUCCESS, campaign } }
+    function failure(error) { return { type: campaignConstants.CAMS_GETALL_FAILURE, error } }
+}
+
+function getCampaignByBrand(brandName) {
+    return dispatch => {
+        dispatch(request());
+
+        campaignService.getCampaignByBrand(brandName)
+            .then(
+                campaign => dispatch(success(campaign)),
+                error => dispatch(failure(error.toString()))
+            );
+    };
+
+    function request() { return { type: campaignConstants.CAMS_GETBY_BRAND_REQUEST } }
+    function success(campaign) { return { type: campaignConstants.CAMS_GETBY_BRAND_SUCCESS, campaign } }
+    function failure(error) { return { type: campaignConstants.CAMS_GETBY_BRAND_FAILURE, error } }
+}
 
 function getAllLocation() {
     return dispatch => {

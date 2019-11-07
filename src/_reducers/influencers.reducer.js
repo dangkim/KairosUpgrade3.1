@@ -93,7 +93,7 @@ export function influencers(state = {}, action) {
       return {
         loading: true
       };
-    case infConstants.INFS_GETBYCATEGORY_FAILURE:
+      case infConstants.INFS_GETBYCATEGORY_FAILURE:
       return {
         error: action.error
       };
@@ -103,20 +103,6 @@ export function influencers(state = {}, action) {
         items: action.influencers
       };
     case infConstants.INFS_GETBYCATEGORY_REQUEST:
-      return {
-        loading: true,
-        items: action.previousValues
-      };
-    case infConstants.INFS_GET_IMAGEDATA_FAILURE:
-      return {
-        error: action.error
-      };
-    case infConstants.INFS_GET_IMAGEDATA_SUCCESS:
-      return {
-        loading: false,
-        imageData: action.imageData
-      };
-    case infConstants.INFS_GET_IMAGEDATA_REQUEST:
       return {
         loading: true,
         items: action.previousValues

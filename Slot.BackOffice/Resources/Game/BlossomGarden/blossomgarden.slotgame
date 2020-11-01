@@ -1,0 +1,40 @@
+{
+    "GameId": 72,
+    "Name": "blossomgarden",
+    "Width": 5,
+    "Height": 3,
+    "Lines": 30,
+    "CollapsingReels": {
+        "FullReelCollapse": true,
+        "Multiplier": 1
+    },
+    "PayLineType": 1, //ThreeByFive
+    "PayLineId": "local3x5c_30",
+    "ParSheetId": "N_3x5_BlossomGarden",
+    "BonusRepoId": "blossomgarden",
+    "BonusSeqRepoId": "blossomgarden",
+    "DemoRepoId": "blossomgarden",
+    "PayoutContext": {
+        "ClsId": 17, //PayoutContextCollapsingLR
+        "Scatters": [ 10 ],
+        "WildSymbol": {
+            "Id": 11,
+            "Multiplier": 1,
+            "IsExpand": false
+        }
+    },
+    "PayTable": [
+        { "Id": 0,  "Name": "Ten",      "Pay": [ { "Count": 3, "Mp": 5  },  { "Count": 4, "Mp": 15  },   { "Count": 5, "Mp": 50   } ] },
+        { "Id": 1,  "Name": "Jack",     "Pay": [ { "Count": 3, "Mp": 5  },  { "Count": 4, "Mp": 15  },   { "Count": 5, "Mp": 50   } ] },
+        { "Id": 2,  "Name": "Queen",    "Pay": [ { "Count": 3, "Mp": 5  },  { "Count": 4, "Mp": 15  },   { "Count": 5, "Mp": 50   } ] },
+        { "Id": 3,  "Name": "King",     "Pay": [ { "Count": 3, "Mp": 6  },  { "Count": 4, "Mp": 20  },   { "Count": 5, "Mp": 75   } ] },
+        { "Id": 4,  "Name": "Ace",      "Pay": [ { "Count": 3, "Mp": 6  },  { "Count": 4, "Mp": 20  },   { "Count": 5, "Mp": 75   } ] }, 
+        { "Id": 5,  "Name": "Fan",      "Pay": [ { "Count": 3, "Mp": 8  },  { "Count": 4, "Mp": 30  },   { "Count": 5, "Mp": 100  } ] },
+        { "Id": 6,  "Name": "Lantern",  "Pay": [ { "Count": 3, "Mp": 8  },  { "Count": 4, "Mp": 30  },   { "Count": 5, "Mp": 100  } ] },
+        { "Id": 7,  "Name": "Peach",    "Pay": [ { "Count": 3, "Mp": 10 },  { "Count": 4, "Mp": 40  },   { "Count": 5, "Mp": 150  } ] },
+        { "Id": 8,  "Name": "Lotus",    "Pay": [ { "Count": 3, "Mp": 15 },  { "Count": 4, "Mp": 50  },   { "Count": 5, "Mp": 200  } ] },
+        { "Id": 9,  "Name": "Wiseman",  "Pay": [ { "Count": 3, "Mp": 20 },  { "Count": 4, "Mp": 75  },   { "Count": 5, "Mp": 300  } ] },
+        { "Id": 10, "Name": "Scatter",  "Pay": [ { "Count": 3, "Mp": 1  } ] },
+        { "Id": 11, "Name": "Wild",     "Pay": [ { "Count": 3, "Mp": 30 },  { "Count": 4, "Mp": 150 },   { "Count": 5, "Mp": 1000 } ] }
+    ]
+}

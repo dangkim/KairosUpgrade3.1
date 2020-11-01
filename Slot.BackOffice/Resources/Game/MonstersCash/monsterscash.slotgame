@@ -1,0 +1,43 @@
+﻿{
+    "GameId": 68,
+    "Name": "monsterscash",
+    "Width": 5,
+    "Height": 3,
+    "Lines": 10,
+    "PayLineType": 1,
+    "PayLineId": "local3x5_10",
+    "ParSheetId": "N_3x5_MonstersCash",
+    "BonusRepoId": "monsterscash",
+    "BonusSeqRepoId": "monsterscash",
+    "DemoRepoId": "monsterscash",
+    "PayoutContext": {
+        "ClsId": 1,
+        "Scatters": [ 9 ],
+        "WildSymbol": {
+            "Id": 10,
+            "Multiplier": 1,
+            "IsExpand": false
+        }
+    },
+    "PayTable": [
+        { "Id": 0, "Name": "Ten",           "Pay": [ { "Count": 2, "Mp": 1  }, { "Count": 3, "Mp": 2  }, { "Count": 4, "Mp": 3  }, { "Count": 5, "Mp": 5  } ] },
+        { "Id": 1, "Name": "Jack",          "Pay": [ { "Count": 3, "Mp": 2  }, { "Count": 4, "Mp": 3  }, { "Count": 5, "Mp": 10 } ] },
+        { "Id": 2, "Name": "Queen",         "Pay": [ { "Count": 3, "Mp": 2  }, { "Count": 4, "Mp": 5  }, { "Count": 5, "Mp": 15 } ] },
+        { "Id": 3, "Name": "King",          "Pay": [ { "Count": 3, "Mp": 2  }, { "Count": 4, "Mp": 5  }, { "Count": 5, "Mp": 15 } ] },
+        { "Id": 4, "Name": "Ace",           "Pay": [ { "Count": 3, "Mp": 4  }, { "Count": 4, "Mp": 10 }, { "Count": 5, "Mp": 20 } ] },
+        { "Id": 5, "Name": "BlueMonster",   "Pay": [ { "Count": 3, "Mp": 10 }, { "Count": 4, "Mp": 15 }, { "Count": 5, "Mp": 35 } ] },
+        { "Id": 6, "Name": "GreenMonster",  "Pay": [ { "Count": 3, "Mp": 10 }, { "Count": 4, "Mp": 15 }, { "Count": 5, "Mp": 40 } ] },
+        { "Id": 7, "Name": "Dino",          "Pay": [ { "Count": 3, "Mp": 10 }, { "Count": 4, "Mp": 20 }, { "Count": 5, "Mp": 40 } ] },
+        { "Id": 8, "Name": "Hunter",        "Pay": [ { "Count": 3, "Mp": 10 }, { "Count": 4, "Mp": 25 }, { "Count": 5, "Mp": 70 } ] },
+        { "Id": 9, "Name": "TreasureChest", "Pay": [ { "Count": 2, "Mp": 1  }, { "Count": 3, "Mp": 5  } ] }
+    ],
+    "SymbolReplacement": {
+        "11": 10,
+        "12": 10,
+        "13": 10,
+        "14": 4,
+        "15": 1,
+        "16": 3,
+        "17": 2
+    }
+}

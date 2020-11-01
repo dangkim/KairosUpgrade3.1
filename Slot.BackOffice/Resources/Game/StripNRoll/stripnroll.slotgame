@@ -1,0 +1,65 @@
+{  "Version" : 1,
+    "GameId": 102,
+    "Name": "StripNRoll",
+    "Width": 5,
+    "Height": 3,
+    "Lines": 20,
+    "PayLineType": 1,
+    "PayLineId": "local3x5_20",
+    "ParSheetId": "N_3x5_StripNRoll",
+    "BonusRepoId": "StripNRoll",
+    "BonusSeqRepoId": "StripNRoll",
+    "DemoRepoId": "",
+    "PayoutContext": {
+        "ClsId": 11,
+        "Scatters": [ ],
+        "WildSymbol": {
+            "Id": 10,
+            "Multiplier": 1,
+            "IsExpand": false
+        },
+        "ExpandingWilds": [
+            {
+                "Id": 10,
+                "Multiplier": 1,
+                "IsExpand": true,
+                "ExpandType": 1,
+                "ExpandReels": [ 2, 3, 4 ]
+            },
+             {
+                "Id": 12,
+                "Multiplier": 1,
+                "IsExpand": true,
+                "ExpandType": 3,
+                "ExpandReels": [2, 3, 4]
+            },
+            {
+                "Id": 11,
+                "Multiplier": 1,
+                "IsExpand": true,
+                "ExpandType": 2,
+                "ExpandReels": [ 3 ]
+            },
+            {
+                "Id": 13,
+                "Multiplier": 1,
+                "IsExpand": true,
+                "ExpandType": 4,
+                "ExpandReels": [ 2, 3, 4 ]
+            }
+        ]
+    },
+    "PayTable": [
+        { "Id": 0, "Name": "Nine",      "Pay": [ { "Count": 2, "Mp": 2 },   { "Count": 3, "Mp": 5 },    { "Count": 4, "Mp": 8 },        { "Count":  5, "Mp":  10} ] },
+        { "Id": 1, "Name": "Ten",       "Pay": [ { "Count": 3, "Mp": 5 },   { "Count": 4, "Mp": 8 },    { "Count": 5, "Mp": 30 } ] },
+        { "Id": 2, "Name": "J",         "Pay": [ { "Count": 3, "Mp": 5 },   { "Count": 4, "Mp": 8 },    { "Count": 5, "Mp": 35 } ] },
+        { "Id": 3, "Name": "Q",         "Pay": [ { "Count": 3, "Mp": 5 },   { "Count": 4, "Mp": 10 },   { "Count": 5, "Mp": 40 } ] },
+        { "Id": 4, "Name": "K",         "Pay": [ { "Count": 3, "Mp": 8 },   { "Count": 4, "Mp": 15 },   { "Count": 5, "Mp": 50 } ] },
+        { "Id": 5, "Name": "A",         "Pay": [ { "Count": 3, "Mp": 8 },   { "Count": 4, "Mp": 15 },   { "Count": 5, "Mp": 75 } ] },
+        { "Id": 6, "Name": "P4",        "Pay": [ { "Count": 3, "Mp": 10 },  { "Count": 4, "Mp": 20 },   { "Count": 5, "Mp": 100 } ] },
+        { "Id": 7, "Name": "P3",        "Pay": [ { "Count": 3, "Mp": 15 },  { "Count": 4, "Mp": 25 },   { "Count": 5, "Mp": 150 } ] },
+        { "Id": 8, "Name": "P2",        "Pay": [ { "Count": 3, "Mp": 20 },  { "Count": 4, "Mp": 30 },   { "Count": 5, "Mp": 200 } ] },
+        { "Id": 9, "Name": "P1",        "Pay": [ { "Count": 3, "Mp": 30 },  { "Count": 4, "Mp": 50 },   { "Count": 5, "Mp": 250 } ] },
+        { "Id": 10, "Name": "Wild-X",   "Pay": [ { "Count": 3, "Mp": 30 },  { "Count": 4, "Mp": 50 },   { "Count": 5, "Mp": 250 } ] }
+    ]
+}

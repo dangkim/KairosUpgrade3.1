@@ -1,0 +1,35 @@
+{
+   "GameId"           : 6,
+   "Name"             : "fruitilicious",
+   "Width"            : 3,
+   "Height"           : 3,
+   "Lines"            : 8,
+   "PayLineType"      : 0,
+   "PayLineId"        : "local3x3_8",
+   "ParSheetId"       : "I_3x3_Fruitilicious",
+   "BonusRepoId"      : "",
+   "BonusSeqRepoId"	  : "",
+   "DemoRepoId"       : "",
+   "PayoutContext"    : {
+      "ClsId"     : 3,
+	  "Scatters"  : [],
+      "FloatingSymbol": 8
+   },
+   "PayTable": [
+      { "Id":0, "Name": "Apple",       "Pay":[ {"Count":3, "Mp":10} ] },
+	  { "Id":1, "Name": "Mango",       "Pay":[ {"Count":3, "Mp":20} ] },
+	  { "Id":2, "Name": "Grape",       "Pay":[ {"Count":3, "Mp":30} ] },
+	  { "Id":3, "Name": "Orange",      "Pay":[ {"Count":3, "Mp":40} ] },
+	  { "Id":4, "Name": "Avocado",     "Pay":[ {"Count":3, "Mp":80} ] },
+	  { "Id":5, "Name": "Mangosteen",  "Pay":[ {"Count":3, "Mp":100} ] },
+	  { "Id":6, "Name": "Pineapple",   "Pay":[ {"Count":3, "Mp":200} ] },
+	  { "Id":7, "Name": "DragonFruit", "Pay":[ {"Count":3, "Mp":1000} ] },
+	  { "Id":8, "Name": "MixedFruit",  "Pay":
+        [ 
+          {"Count":1, "Mp":2}, 
+		  {"Count":2, "Mp":10},
+		  {"Count":3, "Mp":200}
+        ]
+      }
+   ]
+}

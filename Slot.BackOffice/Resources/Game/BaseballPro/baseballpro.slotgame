@@ -1,0 +1,39 @@
+{
+   "GameId"           : 38,
+   "Name"             : "baseballpro",
+   "Width"            : 5,
+   "Height"           : 3,
+   "Lines"            : 30,
+   "PayLineType"      : 1,
+   "PayLineId"        : "local3x5_30",
+   "ParSheetId"       : "N_3x5_BaseballPro",
+   "BonusRepoId"      : "BaseballPro",
+   "BonusSeqRepoId"	  : "BaseballPro",
+   "DemoRepoId"       : "BaseballPro",
+   "PayoutContext"    : {
+      "ClsId"     : 1,
+	  "Scatters"  : [ 8, 9, 10 ],
+      "WildSymbol": {
+         "Id"              : -1,
+         "Multiplier"      : 1,
+         "IsExpand"        : false
+      }
+   },
+   "PayTable": [
+      { "Id":0, "Name": "Shoe",    "Pay":[ {"Count":3, "Mp":10}, {"Count":4, "Mp":20},  {"Count":5, "Mp":50}  ] },
+	  { "Id":1, "Name": "Ball",    "Pay":[ {"Count":3, "Mp":15}, {"Count":4, "Mp":30},  {"Count":5, "Mp":75}  ] },
+	  { "Id":2, "Name": "Trophy",  "Pay":[ {"Count":3, "Mp":20}, {"Count":4, "Mp":40},  {"Count":5, "Mp":100}  ] },
+	  { "Id":3, "Name": "Hanger",  "Pay":[ {"Count":3, "Mp":25}, {"Count":4, "Mp":50},  {"Count":5, "Mp":125}  ] },
+	  { "Id":4, "Name": "Stadium", "Pay":[ {"Count":3, "Mp":25}, {"Count":4, "Mp":75},  {"Count":5, "Mp":150}  ] },
+	  { "Id":5, "Name": "Cap",     "Pay":[ {"Count":3, "Mp":40}, {"Count":4, "Mp":100}, {"Count":5, "Mp":300}  ] },
+	  { "Id":6, "Name": "Girl",    "Pay":[ {"Count":3, "Mp":75}, {"Count":4, "Mp":150}, {"Count":5, "Mp":300}  ] },
+      { "Id":7, "Name": "Man",     "Pay":
+        [ 
+		  {"Count":2, "Mp":20},
+		  {"Count":3, "Mp":80},
+		  {"Count":4, "Mp":200},
+		  {"Count":5, "Mp":400}
+        ]
+      }
+   ]
+}

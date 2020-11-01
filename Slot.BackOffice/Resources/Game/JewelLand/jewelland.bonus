@@ -1,0 +1,75 @@
+﻿{
+  "66": {
+    "ClsId": 66, //BonusFeature.MatchingReelsMultiplier
+    "ClientId": 3,
+    "Multiplier": 1,
+    "NumReveal": 1,
+    "MultiplierSelection": [ 10, 2, 4, 3, 5, 2, 2, 3, 3, 2, 2, 3, 2, 2, 3, 3, 2, 2, 3, 2, 2, 3, 3, 2, 2, 3, 5, 2, 2, 3, 3, 2, 2, 3, 2, 2, 3, 3, 2 ],
+    "Trigger": {
+      "ClsId": 30, //TriggerClsId = MatchingReels
+      "WildSymbol": 8,
+      "NumberOfMatchedReels": 3,
+      "PayTableMultiplier": {
+        "8": 80,
+        "0": 25,
+        "1": 20,
+        "2": 15,
+        "3": 7,
+        "4": 6,
+        "5": 5,
+        "6": 4,
+        "7": 2
+      }
+    }
+  },
+  "67": {
+    "ClsId": 67, //BonusFeature.MatchingReelsReSpin
+    "ClientId": 2,
+    "ParSheetId": "N_3x3_JewelLand",
+    "ReSpinCount": 1,
+    "NumReveal": 1,
+    "MultiplierSelection": [ 10, 2, 4, 3, 5, 2, 2, 3, 3, 2, 2, 3, 2, 2, 3, 3, 2, 2, 3, 2, 2, 3, 3, 2, 2, 3, 5, 2, 2, 3, 3, 2, 2, 3, 2, 2, 3, 3, 2 ],
+    "Trigger": {
+      "ClsId": 30, //TriggerClsId = MatchingReels
+      "WildSymbol": 8,
+      "NumberOfMatchedReels": 2,
+      "PayTableMultiplier": {
+        "8": 80,
+        "0": 25,
+        "1": 20,
+        "2": 15,
+        "3": 7,
+        "4": 6,
+        "5": 5,
+        "6": 4,
+        "7": 2
+      }
+    },
+    "MultiplierTrigger": {
+      "ClsId": 30, //TriggerClsId = MatchingReels
+      "WildSymbol": 8,
+      "NumberOfMatchedReels": 3,
+      "PayTableMultiplier": {
+        "8": 80,
+        "0": 25,
+        "1": 20,
+        "2": 15,
+        "3": 7,
+        "4": 6,
+        "5": 5,
+        "6": 4,
+        "7": 2
+      }
+    },
+    "PayoutContext": {
+      "ClsId": 29, //29 is LRMatching
+      "Scatters": [],
+      "WildSymbol": {
+        "Id": 8,
+        "Multiplier": 1,
+        "IsExpand": false
+      }
+    }
+  }
+
+}

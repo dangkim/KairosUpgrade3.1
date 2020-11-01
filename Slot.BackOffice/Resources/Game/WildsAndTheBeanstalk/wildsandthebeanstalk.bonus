@@ -1,0 +1,46 @@
+﻿{
+    "43": {
+        "ClsId": 43, //BonusFeature.FSContinuity
+        "ClientId": 2, //FreeSpin
+        "FsParSheetId": "N_3x5_WildsAndTheBeanstalkFreeSpin",
+        "FsInitSpinCount": 5,
+        "FsMultiplier": 2,
+        "Trigger": {
+            "ClsId": 19, //ContinuityBonusLevel
+            "Level": 23
+        },
+        "Retrigger": {
+            "ClsId": 1, //Scatter
+            "Symbol": 8,
+            "MinCount": 1
+        },
+        "PayoutContext": {
+            "ClsId": 1,
+            "Scatters": [ ],
+            "WildSymbol": {
+                "Id": 7,
+                "Multiplier": 1,
+                "IsExpand": false
+            }
+        }
+    },
+    "44": {
+        "ClsId": 44, //BonusFeature.RevealContinuity
+        "ClientId": 3, //RevealOne
+        "RevealType": 1,
+        "NumChoices": 5,
+        "NumReveal": 4,
+        "IsRevealAll": true,
+        "Trigger": {
+            "ClsId": 20, //MultipleScatter
+            "Symbols": [ 9, 10 ], //UPBUTTON, DOWNBUTTON
+            "MinCount": 5
+        },
+        "RevealChoices": {
+            "1": [ 0, 60, 80, 0, 100 ],
+            "2": [ 0, 120, 160, 0, 200 ],
+            "3": [ 0, 180, 240, 300, 500 ],
+            "4": [ 0, 500, 700, 1000, 2000 ]
+        }
+    }
+}

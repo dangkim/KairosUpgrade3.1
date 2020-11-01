@@ -1,0 +1,35 @@
+{
+   "GameId"           : 53,
+   "Name"             : "fortunedice",
+   "Width"            : 5,
+   "Height"           : 3,
+   "Lines"            : 50,
+   "PayLineType"      : 1,
+   "PayLineId"        : "local3x5_50",
+   "ParSheetId"       : "N_3x5_FortuneDice",
+   "BonusRepoId"      : "FortuneDice",
+   "BonusSeqRepoId"	  : "FortuneDice",
+   "DemoRepoId"       : "FortuneDice",
+   "PayoutContext"    : {
+      "ClsId"     : 14,
+	  "Scatters"  : [ 80 ],
+      "WildSymbol": {
+         "Id"              : 70,
+         "Multiplier"      : 1,
+         "IsExpand"        : false
+      }
+   },
+   "PayTable": [
+      { "Id":100, "Name": "sm6",    "Pay":[ {"Count":3, "Mp":5  },  {"Count":4, "Mp":25},   {"Count":5, "Mp":150 } ] },
+	  { "Id":110, "Name": "sm5",    "Pay":[ {"Count":3, "Mp":10 },  {"Count":4, "Mp":30},   {"Count":5, "Mp":200 } ] },
+	  { "Id":120, "Name": "sm4",    "Pay":[ {"Count":3, "Mp":10 },  {"Count":4, "Mp":40},   {"Count":5, "Mp":200 } ] },
+	  { "Id":130, "Name": "sm3",    "Pay":[ {"Count":3, "Mp":10 },  {"Count":4, "Mp":50},   {"Count":5, "Mp":250 } ] },
+	  { "Id":140, "Name": "sm2",    "Pay":[ {"Count":3, "Mp":10 },  {"Count":4, "Mp":50},   {"Count":5, "Mp":250 } ] },
+	  { "Id":150, "Name": "sm1",    "Pay":[ {"Count":3, "Mp":15 },  {"Count":4, "Mp":50},   {"Count":5, "Mp":250 } ] },
+	  { "Id":160, "Name": "p4",     "Pay":[ {"Count":3, "Mp":15 },  {"Count":4, "Mp":75},   {"Count":5, "Mp":500 } ] },
+      { "Id":170, "Name": "p3",     "Pay":[ {"Count":3, "Mp":15 },  {"Count":4, "Mp":75},   {"Count":5, "Mp":500 } ] },
+      { "Id":180, "Name": "p2",     "Pay":[ {"Count":3, "Mp":15 },  {"Count":4, "Mp":100},  {"Count":5, "Mp":500 } ] },
+      { "Id":190, "Name": "p1",     "Pay":[ {"Count":3, "Mp":25 },  {"Count":4, "Mp":200},  {"Count":5, "Mp":750 } ] },
+      { "Id":70,  "Name": "wild",   "Pay":[ {"Count":3, "Mp":200},  {"Count":4, "Mp":500},  {"Count":5, "Mp":2000} ] }
+   ]
+}

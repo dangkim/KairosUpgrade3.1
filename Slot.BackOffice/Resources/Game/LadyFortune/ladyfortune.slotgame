@@ -1,0 +1,29 @@
+{
+    "GameId": 36,
+    "Name": "ladyfortune",
+    "Width": 3,
+    "Height": 3,
+    "Lines": 1,
+    "PayLineType": 0,
+    "PayLineId": "local3x3_1",
+    "ParSheetId": "I_3x3_LadyFortune",
+    "BonusRepoId": "",
+    "BonusSeqRepoId": "",
+    "DemoRepoId": "",
+    "PayoutContext": {
+        "ClsId": 8,
+        "Mixed": [ 0, 1, 2 ], 
+        "MixSymbol": 9
+    },
+    "PayTable": [
+        { "Id": 0, "Name": "Cricket",       "Pay": [ { "Count": 3, "Mp": 5 }, { "Count": 6, "Mp": 10 }, { "Count": 9, "Mp": 15 } ] },
+        { "Id": 1, "Name": "Ladybug",       "Pay": [ { "Count": 3, "Mp": 10 }, {"Count": 6, "Mp": 20 }, { "Count": 9, "Mp": 30} ] },
+        { "Id": 2, "Name": "Clover",        "Pay": [ { "Count": 3, "Mp": 15 }, { "Count": 6, "Mp": 30}, { "Count": 9, "Mp": 45} ] },
+        { "Id": 3, "Name": "Evil Eye",      "Pay": [ { "Count": 3, "Mp": 20 }, { "Count": 6, "Mp": 40}, {"Count":9, "Mp": 60 }] },
+        { "Id": 4, "Name": "Rainbow Pot",   "Pay": [ { "Count": 3, "Mp": 25 }, {"Count": 6, "Mp": 50 }, {"Count": 9, "Mp": 75 } ] },
+        { "Id": 5, "Name": "Horseshoe",     "Pay": [ { "Count": 3, "Mp": 40 }, {"Count": 6, "Mp": 80 }, {"Count": 9, "Mp": 120 } ] },
+        { "Id": 6, "Name": "Coin",          "Pay": [ { "Count": 3, "Mp": 100 }, { "Count": 6, "Mp": 200}, { "Count": 9, "Mp": 300} ] },
+        { "Id": 7, "Name": "Seven",         "Pay": [ { "Count": 3, "Mp": 200 }, { "Count": 6, "Mp": 400}, {"Count": 9, "Mp": 800 } ] },
+        { "Id": 9, "Name": "MIX",           "Pay": [ { "Count": 3, "Mp": 2 }, { "Count": 6, "Mp": 4 }, { "Count": 9, "Mp": 6 } ] }
+    ]
+}

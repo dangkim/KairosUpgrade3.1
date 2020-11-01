@@ -1,0 +1,48 @@
+{
+   "GameId"            : 23,
+   "Name"              : "fortunecat",
+   "Width"             : 3,
+   "Height"            : 3,
+   "Lines"             : 8,
+   "WheelEncoding"     : 1,
+   "PayLineType"       : 0,
+   "PayLineId"         : "outsource1_3x3_8",
+   "ParSheetId"        : "I_3x3_FortuneCat",
+   "BonusRepoId"       : "",
+   "BonusSeqRepoId"	   : "",
+   "DemoRepoId"        : "",
+   "PayoutContext"     : {
+      "ClsId"          : 4,
+	  "Scatters"       : [ 9 ],
+	  "Wilds"          : {
+	     "10": { "Id":10, "Multiplier": 1, "IsExpand":false, "ExpandReels":[] },
+		 "11": { "Id":11, "Multiplier": 2, "IsExpand":false, "ExpandReels":[] },
+		 "12": { "Id":12, "Multiplier": 3, "IsExpand":false, "ExpandReels":[] },
+		 "13": { "Id":13, "Multiplier": 4, "IsExpand":false, "ExpandReels":[] },
+		 "14": { "Id":14, "Multiplier": 5, "IsExpand":false, "ExpandReels":[] },
+		 "15": { "Id":15, "Multiplier":10, "IsExpand":false, "ExpandReels":[] },
+	  }
+   },
+   "PayTable": [
+      { "Id":0, "Name":"F5",  "Pay": [ {"Count":3, "Mp":1} ] },
+	  { "Id":1, "Name":"F4",  "Pay": [ {"Count":3, "Mp":3} ] },
+	  { "Id":2, "Name":"F3",  "Pay": [ {"Count":3, "Mp":5} ] },
+	  { "Id":3, "Name":"F2",  "Pay": [ {"Count":3, "Mp":10} ] },
+	  { "Id":4, "Name":"F1",  "Pay": [ {"Count":3, "Mp":25} ] },
+	  { "Id":5, "Name":"P4",  "Pay": [ {"Count":3, "Mp":50} ] },
+	  { "Id":6, "Name":"P3",  "Pay": [ {"Count":3, "Mp":75} ] },
+	  { "Id":7, "Name":"P2",  "Pay": [ {"Count":3, "Mp":100} ] },
+	  { "Id":8, "Name":"P1",  "Pay": [ {"Count":3, "Mp":200} ] },
+	  { "Id":9, "Name":"Top", "Pay": 
+	     [
+	        { "Count":3, "Mp":8 },
+		    { "Count":4, "Mp":24 },
+		    { "Count":5, "Mp":64 },
+		    { "Count":6, "Mp":160 },
+		    { "Count":7, "Mp":640 },
+		    { "Count":8, "Mp":1000 },
+		    { "Count":9, "Mp":10000 }
+	     ]
+      }
+   ]
+}

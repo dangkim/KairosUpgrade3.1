@@ -1,0 +1,28 @@
+version: '3.7'
+
+services:
+  registry:
+    image: registry:2
+    ports:
+      - "5000:5000"
+    environment:
+      - REGISTRY_HTTP_TLS_KEY=/certs/registry.uat.key
+      - REGISTRY_HTTP_TLS_CERTIFICATE=/certs/registry.uat.crt
+    volumes:
+      - "./data/registry:/var/lib/registry"
+      - "/home/slt.support03/certs:/certs"
+    logging:
+      driver: json-file
+      options:
+        max-size: '50m'
+
+  # registry-ui:
+  #   image: parabuzzle/craneoperator:latest
+  #   ports:
+  #     - "8123:80"
+  #   environment:
+  #     - REGISTRY_HOST=registry
+  #     - REGISTRY_PORT=5000
+  #     - REGISTRY_PROTOCOL=http
+  #   depends_on:
+  #     - registry

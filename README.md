@@ -1,43 +1,81 @@
-#### ArchitectUI Bootstrap 4 ReactJS Theme FREE
-#### Made with love by DashboardPack.com
+Kairos 
+===========
+opportunity, luck and favorable moments.
 
-## PRO Version Available at - https://dashboardpack.com/theme-details/architectui-dashboard-react-pro
+- All game modules must be under `GameModules` folder
+- All game modules must have `ModuleInfo` attribute
+- All game modules must be pure function, don't do any operation to database.
 
-### Installation
-Download and uncompress the theme package archive in your desired folder location.
+Api
+==========
+- https://localhost:5001/api/User/Authenticate?op=faker&token=valor
+- https://localhost:5001/api/User/GetFunPlayKey?op=faker
+- https://localhost:5001/api/Game/getbets?key=valor&game=moneymonkey
+- https://localhost:5001/api/Game/spin?key=valor&game=moneymonkey&bet=10
 
-Download and install Node.js from nodejs.org/en/download/
+Build && Publish
+==========
+```sh
+Slot.WebApiCore> dotnet publish -c Release -r win8-x64
+```
 
-Install the latest version of npm. This will be useful when running all the build commands. Run the following in a command line, either your IDE's Terminal window or in a Windows Command Prompt.
+Benchmark
+==========
+https://github.com/aliostad/SuperBenchmarker
 
-                                                            
-    npm install --global npm@latest
-                                                            
-                                                        
-Install the app dependencies by running the following command in the command line inside the folder root where you have unzipped the theme package archive.
+usages:
+- call `http://localhost:5432/api/User/Authenticate?op=faker&token=valor`
+- `sb -u "http://localhost:5432/api/Game/spin?operator=faker&key=valor&game=monkeysmash&bet=10" -n 1000 -c 100`
 
+Docker
+======
 
-    npm install
-                                                        
-After npm finishes installing the modules from package.json you can go ahead and start the application. To do so, run the command below.
+```
+docker build -t kairos/reelgems-gameservice:v2.0 -f .\Slot.WebApiCore\Dockerfile .
+```
 
-You can also use yarn to install dependencies instead of npm.
+- run on docker
+```sh
+docker run -e "ASPNETCORE_ENVIRONMENT=Development" -it -p 8100:80 --name kairos kairos
+docker run -d -p 9001:80 --name gameservice kairos.azurecr.io/gameservice:v2_14
+```
 
+- build && running all services
+```sh
+docker-compose build
+docker-compose up
+```
 
-    npm run start
-                                                        
-After the comand finished, you should see a Compiled successfully! message in your terminal window. Also, a web server service will be started so you can view your app in the browser: http://localhost:3000
+- run with 3 instances of gameservice
+```sh
+docker-compose -f .\docker-compose.yml -f .\docker-compose.prod.yml up --scale gameservice=3 -d
+```
 
-### Production Build
+- deploy to UAT
+```sh
+./deploy_uat.sh ${container_name} ${tag} ${port}
+```
+e.g. `./deploy_uat.sh gameservice_moneymonkey v13 9100`
 
-To create a production optimised build run the command below:
+- create a reverse proxy for the container
+```sh
+sudo ./create_proxy.sh ${servicename} ${port}
+```
+e.g. `sudo ./create_proxy.sh kairos03 9100`
 
+access `http://192.168.86.50/kairos03`
 
-    npm run build
-                                                        
-This created another folder in the root of your project named build. You'll have an option to start a local web server to view your newly created production build.
+Releases Branch (https://semver.org/)
+===============
 
+- `releases/v{version}`
 
-    serve -s build -l 4000
-                                                        
-This will start a local web server on port 4000, on which the production folder (/build/) will be available in your browser.
+- version: major.minor.patch
+- example: 
+- v3.2.0-uat
+- v4.0.0-prod
+
+SSH on windows
+==============
+https://github.com/PowerShell/Win32-OpenSSH/wiki/Install-Win32-OpenSSH
+https://docs.microsoft.com/en-us/powershell/scripting/core-powershell/ssh-remoting-in-powershell-core?view=powershell-6

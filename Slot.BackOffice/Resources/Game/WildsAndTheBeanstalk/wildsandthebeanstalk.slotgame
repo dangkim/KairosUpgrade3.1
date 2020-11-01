@@ -1,0 +1,33 @@
+{
+    "GameId": 64,
+    "Name": "wildsandthebeanstalk",
+    "Width": 5,
+    "Height": 3,
+    "Lines": 20,
+    "PayLineType": 1,
+    "PayLineId": "local3x5_20",
+    "ParSheetId": "N_3x5_WildsAndTheBeanstalk1",
+    "BonusRepoId": "wildsandthebeanstalk",
+    "BonusSeqRepoId": "wildsandthebeanstalk",
+    "DemoRepoId": "wildsandthebeanstalk",
+    "ContinuityId": "wildsandthebeanstalk",
+    "PayoutContext": {
+        "ClsId": 1,
+        "Scatters": [ ],
+        "WildSymbol": {
+            "Id": 7,
+            "Multiplier": 1,
+            "IsExpand": false
+        }
+    },
+    "PayTable": [
+        { "Id":0, "Name": "J",          "Pay":[ {"Count":3, "Mp":1  }, {"Count":4, "Mp":2   }, {"Count":5, "Mp":4   }  ] },
+        { "Id":1, "Name": "Q",          "Pay":[ {"Count":3, "Mp":1  }, {"Count":4, "Mp":2   }, {"Count":5, "Mp":5   }  ] },
+        { "Id":2, "Name": "K",          "Pay":[ {"Count":3, "Mp":1  }, {"Count":4, "Mp":2   }, {"Count":5, "Mp":5   }  ] },
+        { "Id":3, "Name": "A",          "Pay":[ {"Count":3, "Mp":1  }, {"Count":4, "Mp":5   }, {"Count":5, "Mp":8   }  ] },
+        { "Id":4, "Name": "BluePlant",  "Pay":[ {"Count":3, "Mp":2  }, {"Count":4, "Mp":5   }, {"Count":5, "Mp":10  }  ] },
+        { "Id":5, "Name": "PinkPlant",  "Pay":[ {"Count":3, "Mp":3  }, {"Count":4, "Mp":7   }, {"Count":5, "Mp":15  }  ] },
+        { "Id":6, "Name": "Sunflower",  "Pay":[ {"Count":3, "Mp":5  }, {"Count":4, "Mp":10  }, {"Count":5, "Mp":20  }  ] },
+        { "Id":7, "Name": "Wild",       "Pay":[ {"Count":3, "Mp":10 }, {"Count":4, "Mp":25  }, {"Count":5, "Mp":100 }  ] }
+   ]
+}

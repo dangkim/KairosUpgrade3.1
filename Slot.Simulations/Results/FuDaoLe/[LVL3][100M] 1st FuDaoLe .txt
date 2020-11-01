@@ -1,0 +1,25 @@
+Test.Level                 : 3
+Test.TimeStart             : 4/17/2019 5:22:01 PM
+Test.TimeEnd               : 4/17/2019 5:31:03 PM
+Test.SpinMode              : Random
+----------------------------------------
+SpinCount                  : 100000000
+Expanding Hit              : 9637697
+Scatter Hit                : 564212
+TotalBet                   : 3800000000.00
+Game Win                   : 2077243120.00
+Scatter Win                :  42880112.00
+Envelope Jackpot Win       : 437554800.00
+Free Spin Win              : 1048484205.00
+Free SpinCount             :   7228075.00
+Av Num of Free Games       :        12.81
+Expanding Hit Rate         :        10.38
+MG Feature Hit Rate        :       177.24
+FG Feature Hit Rate        :         6.03
+----------------------------------------
+Main Game Non Scatter RTP  :       54.66%
+Scatter RTP                :        1.13%
+Envelope Jackpot RTP       :       11.51%
+Free Spin RTP              :       27.59%
+--- RTP.OverAll ------------------------
+RTP.Total (Over All)       :       94.90%

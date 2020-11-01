@@ -1,0 +1,29 @@
+﻿{
+    "52": {
+        "ClsId": 52, //BonusFeature.FSWithCountDependOnScatterReward
+        "ClientId": 2, //FreeSpin
+        "FSParSheetId": "N_3x5_HulaGirl",
+        "FSMultiplier": 3,
+        "InitStep": true,
+        "Trigger": {
+            "ClsId": 22, //ConsecutiveAnyScatter
+            "Symbols": [ 11, 12, 13, 14 ],
+            "MinCount": 2
+        },
+        "TriggeredSymbolCountFSReward": {
+            "2": 3,
+            "3": 8,
+            "4": 20,
+            "5": 50
+        },
+        "PayoutContext": {
+            "ClsId": 23, //LRConsecutiveAnyScatter
+            "Scatters": [ 11, 12, 13, 14 ],
+            "WildSymbol": {
+                "Id": 10,
+                "Multiplier": 1,
+                "IsExpand": false
+            }
+        }
+    }
+}

@@ -1,0 +1,44 @@
+version: "3.7"
+
+services:
+  gameservice:
+    image: kairos.azurecr.io/gameservice:latest
+    container_name: gameservice
+    restart: always
+    logging:
+      options:
+        max-size: '12m'
+        max-file: '5'
+      driver: json-file
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Production
+    ports:
+      - "8000:80"
+    networks:
+      - kairos
+    links:
+      - "walletproxy:proxy.slotwallet.com"
+    extra_hosts:
+      - "logserver:192.168.77.34"
+    depends_on:
+      - walletproxy
+  walletproxy:
+    image: kairos.azurecr.io/walletproxy:latest
+    container_name: walletproxy
+    restart: always
+    logging:
+      options:
+        max-size: '12m'
+        max-file: '5'
+      driver: json-file
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Production
+      - ConnectionString=Server=slots_failover.database.tw;User Id=slots_user_tw;Password=FTKubsuW-@59Z5YZQgBRf-&k;Database=Slots;
+    extra_hosts:
+      - "logserver:192.168.77.34"
+    networks:
+      - kairos
+
+networks:
+  kairos:      
+    name: kairos

@@ -1,0 +1,24 @@
+﻿{
+    "GameId"         : 45,
+    "Name"           : "Panda",
+    "Width"          : 3,
+    "Height"         : 3,
+    "Lines"          : 1,
+    "PayLineType"    : 0,
+    "PayLineId"      : "local3x3_1",
+    "ParSheetId"     : "I_3x3_Panda",
+    "BonusRepoId"    : "",
+    "BonusSeqRepoId" : "",
+    "DemoRepoId"     : "",
+    "PayoutContext"  : {
+        "ClsId"      : 8,
+        "Mixed"      : [ 0, 1, 2 ],
+        "MixSymbol"  : 4
+    },
+    "PayTable": [
+        { "Id": 0, "Name": "Speak",   "Pay": [ { "Count": 3, "Mp":  3  }, { "Count": 6, "Mp":  6 },  { "Count": 9, "Mp":  9 } ] },
+        { "Id": 1, "Name": "Hear",    "Pay": [ { "Count": 3, "Mp":  10 }, { "Count": 6, "Mp": 20 },  { "Count": 9, "Mp": 30 } ] },
+        { "Id": 2, "Name": "See",     "Pay": [ { "Count": 3, "Mp":  25 }, { "Count": 6, "Mp": 50 },  { "Count": 9, "Mp": 85 } ] },
+		    { "Id": 4, "Name": "MIX",     "Pay": [ { "Count": 3, "Mp":   2 }, { "Count": 6, "Mp":  4 },  { "Count": 9, "Mp":  6 } ] }
+    ]
+}

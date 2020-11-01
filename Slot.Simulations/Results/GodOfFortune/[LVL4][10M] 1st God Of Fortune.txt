@@ -1,0 +1,10 @@
+Test.Level                : 4
+Test.TimeStart            : 5/3/2019 9:52:56 AM
+Test.TimeEnd              : 5/3/2019 10:02:50 AM
+Test.SpinMode             : Random
+----------------------------------------
+SpinCount                 : 10000000
+TotalBet                  :  80000000.00
+Game Win                  :  74002794.00
+--- RTP.OverAll ------------------------
+RTP.Total (Over All)      :       92.50%

@@ -1,0 +1,37 @@
+﻿{
+    "53": {
+        "ClsId": 53, //BonusFeature.FSDependOnScatterInBigReel
+        "ClientId": 2, //FreeSpin
+        "FSParSheetId": "N_345677_WuxiaPrincessMegaReelsFreeSpin",
+        "FSMultiplier": 1,
+        "InitStep": false,
+        "Trigger": {
+            "ClsId": 23, //NonReel
+            "Symbol": 10,
+            "MinCount": 10,
+            "FunPlayKey": 5
+        },
+        "TriggeredSymbolCountFSReward": {
+            "10": 10,
+            "11": 15,
+            "12": 20,
+            "13": 25,
+            "14": 30,
+            "15": 35,
+            "16": 40,
+            "17": 45,
+            "18": 50,
+            "19": 100,
+            "20": 250
+        },
+        "PayoutContext": {
+            "ClsId": 1, //LR
+            "Scatters": [ 10 ],
+            "WildSymbol": {
+                "Id": 11,
+                "Multiplier": 1,
+                "IsExpand": false
+            }
+        }
+    }
+}

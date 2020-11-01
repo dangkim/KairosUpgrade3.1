@@ -1,0 +1,59 @@
+metricbeat.modules:
+- module: nginx
+  metricsets:
+    - stubstatus
+  period: 10s
+  hosts: ["http://127.0.0.1"]
+  # Path to server status. Default server-status
+  server_status_path: "server-status"
+
+- module: system
+  metricsets:
+    - cpu             # CPU usage
+    - load            # CPU load averages
+    - memory          # Memory usage
+    - network         # Network IO
+    - process         # Per process metrics
+    - process_summary # Process summary
+  process.include_top_n:
+    by_cpu: 5      # include top 5 processes by CPU
+    by_memory: 5   # include top 5 processes by memory
+  period: 10s
+
+  # Configure the metric types that are included by these metricsets.
+  cpu.metrics:  ["percentages"]  # The other available options are normalized_percentages and ticks.
+  core.metrics: ["percentages"]  # The other available option is ticks.
+
+- module: system
+  period: 1m
+  metricsets:
+    - filesystem
+    - fsstat
+  processors:
+  - drop_event.when.regexp:
+      system.filesystem.mount_point: '^/(sys|cgroup|proc|dev|etc|host|lib)($|/)'
+
+- module: system
+  period: 15m
+  metricsets:
+    - uptime
+
+logging.level: info
+logging.to_files: true
+logging.files:
+  path: /mnt/data/log/metricbeat
+  name: metricbeat
+  keepfiles: 7
+  permissions: 0644
+
+
+output.elasticsearch:
+  hosts: ["http://logserver:9200"]
+  index: "apigateway-%{[agent.version]}-%{+yyyy.MM.dd}"
+
+# setup.kibana:
+#   host: "http://logserver:5601"
+#   path: "/kibana"
+
+setup.template.name: "apigateway"
+setup.template.pattern: "apigateway-*"

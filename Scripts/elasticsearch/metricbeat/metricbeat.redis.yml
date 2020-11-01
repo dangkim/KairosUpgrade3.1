@@ -1,0 +1,38 @@
+metricbeat.modules:
+- module: redis
+  metricsets: ["info", "keyspace"]
+  enabled: true
+  period: 10s
+  hosts: ["127.0.0.1:6379"]
+
+- module: system
+  metricsets:
+    - cpu             # CPU usage
+    - load            # CPU load averages
+    - memory          # Memory usage
+    - network         # Network IO
+    - process         # Per process metrics
+    - process_summary # Process summary
+    - uptime          # System Uptime
+  enabled: true
+  period: 10s
+  processes: ['.*']
+
+  # Configure the metric types that are included by these metricsets.
+  cpu.metrics:  ["percentages"]  # The other available options are normalized_percentages and ticks.
+  core.metrics: ["percentages"]  # The other available option is ticks.
+
+logging.level: info
+logging.to_files: true
+logging.files:
+  path: /mnt/data/log/metricbeat
+  name: metricbeat
+  keepfiles: 7
+  permissions: 0644
+
+output.elasticsearch:
+  hosts: ["http://logserver:9200"]
+  index: "redis-server-%{[beat.version]}-%{+yyyy.MM.dd}"
+
+setup.template.name: "redis-server"
+setup.template.pattern: "redis-server-*"

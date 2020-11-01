@@ -1,0 +1,89 @@
+﻿{
+    "35": {
+        "ClsId": 35,
+        "ClientId": 2,
+        "IsContainBonus": false,
+        "InitSpinCount": 200,
+        "Trigger": {
+            "ClsId": 11,
+            "Symbol": 8,
+            "MinCount": 1,
+            "Reels": [5] 
+        },
+        "Steps": [
+            {
+                "Step": 1,
+                "Trigger": {
+                    "ClsId": 11,
+                    "Symbol": 8,
+                    "MinCount": 1,
+                    "Reels": [5]
+                },
+                "Multiplier": 2,
+                "ParSheetId": "N_3x5_Phoenix"
+            },
+            {
+                "Step": 2,
+                "Trigger": {
+                    "ClsId": 11,
+                    "Symbol": 8,
+                    "MinCount": 1,
+                    "Reels": [5]
+                },
+                "Multiplier": 4,
+                "ParSheetId": "N_3x5_Phoenix"
+            },
+            {
+                "Step": 3,
+                "Trigger": {
+                    "ClsId": 11,
+                    "Symbol": 8,
+                    "MinCount": 1,
+                    "Reels": [5]
+                },
+                "Multiplier": 8,
+                "ParSheetId": "N_3x5_Phoenix"
+            },
+            {
+                "Step": 4,
+                "Trigger": {
+                    "ClsId": 11,
+                    "Symbol": 8,
+                    "MinCount": 1,
+                    "Reels": [5]
+                },
+                "Multiplier": 16,
+                "ParSheetId": "N_3x5_Phoenix"
+            },
+            {
+                "Step": 5,
+                "Multiplier": 16,
+                "Trigger": {
+                    "ClsId": 15,
+                    "Reels": [ ]
+                },
+                "ParSheetId": "N_3x5_Phoenix_FS1"
+            },
+            {
+                "Step": 6,
+                "Multiplier": 16,
+                "Trigger": {
+                    "ClsId": 15,
+                    "Symbol": 7,
+                    "Position": 2,
+                    "Reels": [5]
+                },
+                "ParSheetId": "N_3x5_Phoenix_FS2"
+            }
+        ],
+        "PayoutContext": {
+            "ClsId": 12,
+            "Scatters": [ 8 ],
+            "WildSymbol": {
+                "Id": 9,
+                "Multiplier": 1,
+                "IsExpand": false
+            }
+        }
+    }
+}

@@ -1,0 +1,160 @@
+﻿[LVL1][10M]
+-----------------------------------------------------------
+Test.SpinCount				: 10000000
+Test.Level					: 1
+Test.TimeStart				: 8/14/2019 11:39 AM
+Test.TimeEnd				: 8/14/2019 11:46 AM
+-----------------------------------------------------------
+TotalBet					: 750000000
+TotalWin					: 728106585
+Max Win						: 7180
+Max Spin Win				: 5955
+Max Collapse Win			: 4390
+Max Free Spin Win			: 7180
+Max Free Spin Collapse Win	: 6800
+Max Free Retriggers			: 2
+-----------------------------------------------------------
+Spin Count					: 10000000
+Collapse Count				: 3404019
+Scatter Count				: 116793
+Reveal Count				: 39057
+Instant Win Count			: 38911
+Free Spin Count				: 205960
+-----------------------------------------------------------
+Collapse Counter: 	1 | Count: 	2299790
+Collapse Counter: 	2 | Count: 	423193
+Collapse Counter: 	3 | Count: 	79338
+Collapse Counter: 	4 | Count: 	10753
+Collapse Counter: 	5 | Count: 	2109
+Collapse Counter: 	6 | Count: 	465
+-----------------------------------------------------------
+RTP.Spin					: 70.73%
+RTP.Collapse				: 13.29%
+RTP.Scatter					: 1.17%
+RTP.Free Spins				: 2.91%
+RTP.Free Spins Collapse		: 0.58%
+RTP.Reveal					: 2.73%
+RTP.Instant Win				: 5.68%
+RTP.Expected				: 97.06%
+RTP.Total					: 97.08%
+
+
+[LVL1][50M]
+-----------------------------------------------------------
+Test.SpinCount				: 50000000
+Test.Level					: 1
+Test.TimeStart				: 8/14/2019 11:46 AM
+Test.TimeEnd				: 8/14/2019 12:29 PM
+-----------------------------------------------------------
+TotalBet					: 3750000000
+TotalWin					: 3636250900
+Max Win						: 7230
+Max Spin Win				: 7230
+Max Collapse Win			: 4950
+Max Free Spin Win			: 7180
+Max Free Spin Collapse Win	: 7210
+Max Free Retriggers			: 3
+-----------------------------------------------------------
+Spin Count					: 50000000
+Collapse Count				: 17005146
+Scatter Count				: 583091
+Reveal Count				: 194663
+Instant Win Count			: 194155
+Free Spin Count				: 1031485
+-----------------------------------------------------------
+Collapse Counter: 	1 | Count: 	11498298
+Collapse Counter: 	2 | Count: 	2109011
+Collapse Counter: 	3 | Count: 	396788
+Collapse Counter: 	4 | Count: 	53354
+Collapse Counter: 	5 | Count: 	10512
+Collapse Counter: 	6 | Count: 	2252
+-----------------------------------------------------------
+RTP.Spin					: 70.54%
+RTP.Collapse				: 13.29%
+RTP.Scatter					: 1.17%
+RTP.Free Spins				: 2.94%
+RTP.Free Spins Collapse		: 0.57%
+RTP.Reveal					: 2.73%
+RTP.Instant Win				: 5.73%
+RTP.Expected				: 97.06%
+RTP.Total					: 96.97%
+
+[LVL1][100M]
+-----------------------------------------------------------
+Test.SpinCount				: 100000000
+Test.Level					: 1
+Test.TimeStart				: 8/14/2019 12:29 PM
+Test.TimeEnd				: 8/14/2019 1:59 PM
+-----------------------------------------------------------
+TotalBet					: 7500000000
+TotalWin					: 7283384815
+Max Win						: 9030
+Max Spin Win				: 7290
+Max Collapse Win			: 5770
+Max Free Spin Win			: 9030
+Max Free Spin Collapse Win	: 4720
+Max Free Retriggers			: 3
+-----------------------------------------------------------
+Spin Count					: 100000000
+Collapse Count				: 34031980
+Scatter Count				: 1170259
+Reveal Count				: 390166
+Instant Win Count			: 389955
+Free Spin Count				: 2071060
+-----------------------------------------------------------
+Collapse Counter: 	1 | Count: 	22997542
+Collapse Counter: 	2 | Count: 	4225218
+Collapse Counter: 	3 | Count: 	795224
+Collapse Counter: 	4 | Count: 	107488
+Collapse Counter: 	5 | Count: 	20703
+Collapse Counter: 	6 | Count: 	4737
+-----------------------------------------------------------
+RTP.Spin					: 70.65%
+RTP.Collapse				: 13.31%
+RTP.Scatter					: 1.17%
+RTP.Free Spins				: 2.96%
+RTP.Free Spins Collapse		: 0.57%
+RTP.Reveal					: 2.73%
+RTP.Instant Win				: 5.73%
+RTP.Expected				: 97.06%
+RTP.Total					: 97.11%
+
+[LVL1][Full Cycle]
+-----------------------------------------------------------
+Test.SpinCount				: 33554432
+Test.Level					: 1
+Test.TimeStart				: 8/14/2019 1:59 PM
+Test.TimeEnd				: 8/14/2019 3:02 PM
+-----------------------------------------------------------
+TotalBet					: 2516582400
+TotalWin					: 2443206910
+Max Win						: 12160
+Max Spin Win				: 10270
+Max Collapse Win			: 7180
+Max Free Spin Win			: 12160
+Max Free Spin Collapse Win	: 9880
+Max Free Retriggers			: 4
+-----------------------------------------------------------
+Spin Count					: 33554432
+Collapse Count				: 11418712
+Scatter Count				: 392010
+Reveal Count				: 131102
+Instant Win Count			: 130469
+Free Spin Count				: 692750
+-----------------------------------------------------------
+Collapse Counter: 	1 | Count: 	7716198
+Collapse Counter: 	2 | Count: 	1418084
+Collapse Counter: 	3 | Count: 	266544
+Collapse Counter: 	4 | Count: 	36012
+Collapse Counter: 	5 | Count: 	6983
+Collapse Counter: 	6 | Count: 	1555
+-----------------------------------------------------------
+RTP.Spin					: 70.62%
+RTP.Collapse				: 13.31%
+RTP.Scatter					: 1.17%
+RTP.Free Spins				: 2.96%
+RTP.Free Spins Collapse		: 0.57%
+RTP.Reveal					: 2.74%
+RTP.Instant Win				: 5.72%
+RTP.Expected				: 97.06%
+RTP.Total					: 97.08%

@@ -1,0 +1,33 @@
+{
+    "GameId"           : 79,
+    "Name"             : "kungfufurry",
+    "Width"            : 6,
+    "Height"           : 3,
+    "Lines"            : 16,
+    "PayLineType"      : 0, //Dual ThreeByThree
+    "PayLineId"        : "local3x3_8",
+    "ParSheetId"       : "I_D3x3_KungfuFurry",
+    "BonusRepoId"      : "kungfufurry",
+    "BonusSeqRepoId"	 : "kungfufurry",
+    "DemoRepoId"       : "kungfufurry",
+    "PayoutContext"    : {
+        "ClsId"      : 24,  //NonReelMultiWheel
+	      "Scatters"   : [ 9 ],
+        "WildSymbols": [
+            { "Id": 10, "Multiplier": 1, "IsExpand": false },//Wild
+            { "Id": 16, "Multiplier": 1, "IsExpand": false }//Battle
+        ]
+    },
+    "PayTable": [
+        { "Id":0, "Name": "F5",   "Pay":[ {"Count":3, "Mp":2  } ] },
+        { "Id":1, "Name": "F4",   "Pay":[ {"Count":3, "Mp":3  } ] },
+        { "Id":2, "Name": "F3",   "Pay":[ {"Count":3, "Mp":5  } ] },
+	    { "Id":3, "Name": "F2",   "Pay":[ {"Count":3, "Mp":10 } ] },
+        { "Id":4, "Name": "F1",	  "Pay":[ {"Count":3, "Mp":25 } ] },
+        { "Id":5, "Name": "P4",   "Pay":[ {"Count":3, "Mp":50 } ] },
+        { "Id":6, "Name": "P3",   "Pay":[ {"Count":3, "Mp":75 } ] },
+        { "Id":7, "Name": "P2",	  "Pay":[ {"Count":3, "Mp":80} ] },
+        { "Id":8, "Name": "P1",   "Pay":[ {"Count":3, "Mp":200} ] },
+        { "Id":9, "Name": "TOP",  "Pay":[ {"Count": 3, "Mp": 8 }, {"Count": 4, "Mp": 24 }, {"Count": 5, "Mp": 50}, {"Count": 6, "Mp": 80}, {"Count": 7, "Mp": 200}, {"Count": 8, "Mp": 300},{"Count": 9, "Mp": 1000 }]}
+    ]
+}

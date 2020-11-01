@@ -1,0 +1,33 @@
+{
+   "GameId"           : 29,
+   "Name"             : "assaultontitan",
+   "Width"            : 5,
+   "Height"           : 3,
+   "Lines"            : 30,
+   "PayLineType"      : 1,
+   "PayLineId"        : "local3x5_30",
+   "ParSheetId"       : "N_3x5_AssaultOnTitan",
+   "BonusRepoId"      : "AssaultOnTitan",
+   "BonusSeqRepoId"	  : "AssaultOnTitan",
+   "DemoRepoId"       : "AssaultOnTitan",
+   "PayoutContext"    : {
+      "ClsId"     : 5,
+	  "Scatters"  : [ 8, 9 ],
+      "WildSymbol": {
+         "Id"              : 10,
+         "Multiplier"      : 1,
+         "IsExpand"        : false
+      }
+   },
+   "PayTable": [
+      { "Id":0, "Name": "Ring",          "Pay":[ {"Count":3, "Mp":13}, {"Count":4, "Mp":23},  {"Count":5, "Mp":133} ] },
+	  { "Id":1, "Name": "ManeuverGear",  "Pay":[ {"Count":3, "Mp":13}, {"Count":4, "Mp":23},  {"Count":5, "Mp":133} ] },
+	  { "Id":2, "Name": "Canon",         "Pay":[ {"Count":3, "Mp":13}, {"Count":4, "Mp":23},  {"Count":5, "Mp":233} ] },
+	  { "Id":3, "Name": "ErenTransform", "Pay":[ {"Count":3, "Mp":13}, {"Count":4, "Mp":23},  {"Count":5, "Mp":233} ] },
+	  { "Id":4, "Name": "FemaleTitan",   "Pay":[ {"Count":3, "Mp":23}, {"Count":4, "Mp":33},  {"Count":5, "Mp":333} ] },
+	  { "Id":5, "Name": "Mikasa",        "Pay":[ {"Count":3, "Mp":23}, {"Count":4, "Mp":33},  {"Count":5, "Mp":333} ] },
+	  { "Id":6, "Name": "Eren",          "Pay":[ {"Count":3, "Mp":23}, {"Count":4, "Mp":63},  {"Count":5, "Mp":433} ] },
+	  { "Id":7, "Name": "ErenTitan",     "Pay":[ {"Count":3, "Mp":33}, {"Count":4, "Mp":333}, {"Count":5, "Mp":3333} ] },
+	  { "Id":9, "Name": "Scatter",       "Pay":[ {"Count":3, "Mp":3},  {"Count":4, "Mp":13},  {"Count":5, "Mp":33} ] }
+   ]
+}

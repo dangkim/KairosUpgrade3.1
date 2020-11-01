@@ -1,0 +1,117 @@
+﻿{
+   "31": {
+      "ClsId":31,
+      "ClientId":5,
+      "Trigger":
+      {
+         "ClsId":5,
+		 "Probability":0.0071
+      },
+	  "InstantWinWeights":
+      {
+         "1":{ "0.50":1, "0.70":2, "0.90":3, "1":5 },
+         "2":{ "0.50":1, "0.70":2, "0.90":3, "1":5 },
+         "3":{ "0.50":1, "0.70":2, "0.90":3, "1":5 }
+      }
+   },
+   "23": {
+      "ClsId":23,
+      "ClientId":4,
+      "RevealType":1,
+      "NumChoices":5,
+      "NumReveal":5,
+      "IsRevealAll":false,
+      "Trigger":
+      {
+         "ClsId":2,
+	     "Symbol":8,
+	     "MinCount":3
+      },
+	  "NumRevealWeights":
+	  {
+	     "1": { "0.64":2, "0.90":3, "0.95":4, "1":5 },
+	     "2": { "0.64":2, "0.90":3, "0.95":4, "1":5 },
+	     "3": { "0.64":2, "0.90":3, "0.95":4, "1":5 }
+	  },
+      "RevealWeights":
+      {
+	     "1": {
+		   "2":{ "0.75":1, "0.85":2, "0.95":3, "1":5 },
+		   "3":{ "0.55":1, "0.85":2, "0.95":3, "1":5 },
+		   "4":{ "0.60":1, "0.85":2, "0.95":3, "1":5 },
+		   "5":{ "0.65":1, "0.85":2, "0.95":3, "1":5 }
+         },
+	     "2": {
+		   "2":{ "0.75":1, "0.85":2, "0.95":3, "1":5 },
+		   "3":{ "0.55":1, "0.85":2, "0.95":3, "1":5 },
+		   "4":{ "0.60":1, "0.85":2, "0.95":3, "1":5 },
+		   "5":{ "0.65":1, "0.85":2, "0.95":3, "1":5 }
+         },
+	     "3": {
+		   "2":{ "0.75":1, "0.85":2, "0.95":3, "1":5 },
+		   "3":{ "0.55":1, "0.85":2, "0.95":3, "1":5 },
+		   "4":{ "0.60":1, "0.85":2, "0.95":3, "1":5 },
+		   "5":{ "0.65":1, "0.85":2, "0.95":3, "1":5 }
+         }
+      }
+   },
+   "15": {
+      "ClsId":15,
+      "ClientId":2,
+      "Trigger":
+      {
+         "ClsId":2,
+	     "Symbol":9,
+	     "MinCount":3
+      },
+      "FSInfo":
+      {
+	     "1":{
+		    "FSInitSpinCount" : 20,
+		    "FSMultiplier"    : 1,
+		    "FSParSheetId"    : "N_3x5_AssaultOnTitanFreeSpin1",
+		    "PayoutContext":
+		    {
+		       "ClsId"     : 5,
+	           "Scatters"  : [ 8, 9 ],
+			   "WildSymbol": {
+                 "Id"              : 10,
+                 "Multiplier"      : 1,
+                 "IsExpand"        : false
+               }
+		    }
+         },
+		 "2":{
+		    "FSInitSpinCount" : 15,
+			"FSMultiplier"    : 1,
+			"FSParSheetId"    : "W_3x5_AssaultOnTitanFreeSpin2",
+		    "PayoutContext":
+		    {
+		       "ClsId"     : 5,
+	           "Scatters"  : [ 8, 9 ],
+			   "WildSymbol": {
+                 "Id"              : 10,
+                 "Multiplier"      : 1,
+                 "IsExpand"        : false
+               }
+            }
+         },
+         "3":{
+		    "FSInitSpinCount"  : 8,
+			"FSMultiplier"     : 1,
+			"FSParSheetId"     : "W_3x5_AssaultOnTitanFreeSpin3",
+		    "PayoutContext":
+		    {
+		       "ClsId"     : 5,
+	           "Scatters"  : [ 8, 9 ],
+			   "WildSymbol": {
+                 "Id"              : 10,
+                 "Multiplier"      : 1,
+                 "IsExpand"        : true,
+                 "ExpandReels"     : [ true, true, true, true, true ]
+			   }
+            }
+         }
+      }
+   }
+}

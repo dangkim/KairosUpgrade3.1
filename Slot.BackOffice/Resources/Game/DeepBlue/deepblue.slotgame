@@ -1,0 +1,72 @@
+{
+   "GameId"           : 10,
+   "Name"             : "deepblue",
+   "Width"            : 5,
+   "Height"           : 3,
+   "Lines"            : 25,
+   "PayLineType"      : 1,
+   "PayLineId"        : "local3x5_25",
+   "ParSheetId"       : "W_3x5_DeepBlue",
+   "BonusRepoId"      : "DeepBlue",
+   "BonusSeqRepoId"	  : "DeepBlue",
+   "DemoRepoId"       : "DeepBlue",
+   "PayoutContext"    : {
+      "ClsId"     : 1,
+	  "Scatters"  : [ 11 ],
+      "WildSymbol": {
+         "Id"              : 12,
+         "Multiplier"      : 2,
+         "IsExpand"        : false
+      }
+   },
+   "PayTable": [
+      { "Id":0, "Name": "Nine", "Pay":
+        [ 
+		      {"Count":2, "Mp":2},
+		      {"Count":3, "Mp":5},
+		      {"Count":4, "Mp":25},
+		      {"Count":5, "Mp":100}
+        ]
+      },
+	    { "Id":1, "Name": "Ten",       "Pay":[ {"Count":3, "Mp":5},  {"Count":4, "Mp":25},  {"Count":5, "Mp":100}  ] },
+	    { "Id":2, "Name": "Jack",      "Pay":[ {"Count":3, "Mp":5},  {"Count":4, "Mp":25},  {"Count":5, "Mp":100}  ] },
+	    { "Id":3, "Name": "Queen",     "Pay":[ {"Count":3, "Mp":5},  {"Count":4, "Mp":25},  {"Count":5, "Mp":100}  ] },
+	    { "Id":4, "Name": "King",      "Pay":[ {"Count":3, "Mp":10}, {"Count":4, "Mp":50},  {"Count":5, "Mp":150}  ] },
+	    { "Id":5, "Name": "Ace",       "Pay":[ {"Count":3, "Mp":10}, {"Count":4, "Mp":50},  {"Count":5, "Mp":150}  ] },
+	    { "Id":6, "Name": "Nautilus",  "Pay":[ {"Count":3, "Mp":15}, {"Count":4, "Mp":75},  {"Count":5, "Mp":250}  ] },
+	    { "Id":7, "Name": "StingRay",  "Pay":[ {"Count":3, "Mp":15}, {"Count":4, "Mp":75},  {"Count":5, "Mp":250}  ] },
+	    { "Id":8, "Name": "SeaDragon", "Pay":[ {"Count":3, "Mp":20}, {"Count":4, "Mp":100}, {"Count":5, "Mp":400}  ] },
+      { "Id":9, "Name": "BlueFish",  "Pay":
+        [ 
+		      {"Count":2, "Mp":2},
+		      {"Count":3, "Mp":25},
+		      {"Count":4, "Mp":125},
+		      {"Count":5, "Mp":750}
+        ]
+      },
+      { "Id":10, "Name": "AnglerFish", "Pay":
+        [ 
+		      {"Count":2, "Mp":2},
+		      {"Count":3, "Mp":25},
+		      {"Count":4, "Mp":125},
+		      {"Count":5, "Mp":750}
+        ]
+      },
+      { "Id":11, "Name": "JellyFish", "Pay":
+        [ 
+		      {"Count":2, "Mp":2},
+		      {"Count":3, "Mp":5},
+		      {"Count":4, "Mp":20},
+		      {"Count":5, "Mp":500}
+        ]
+      },
+      { "Id":12, "Name": "BlueWhale", "Pay":
+        [ 
+		      {"Count":2, "Mp":2},
+		      {"Count":3, "Mp":250},
+		      {"Count":4, "Mp":2500},
+		      {"Count":5, "Mp":10000}
+        ]
+      }
+   ]
+}

@@ -1,0 +1,8 @@
+﻿SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+
+ALTER TABLE [dbo].[GameHistory_35days]
+  ADD [RoundId] [bigint] NULL;
+GO

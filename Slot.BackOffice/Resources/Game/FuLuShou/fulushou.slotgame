@@ -1,0 +1,32 @@
+{
+   "GameId"           : 55,
+   "Name"             : "fulushou",
+   "Width"            : 5,
+   "Height"           : 3,
+   "Lines"            : 20,
+   "PayLineType"      : 1,
+   "PayLineId"        : "local3x5_20",
+   "ParSheetId"       : "N_3x5_FuLuShou",
+   "BonusRepoId"      : "FuLuShou",
+   "BonusSeqRepoId"	  : "FuLuShou",
+   "DemoRepoId"       : "FuLuShou",
+   "PayoutContext"    : {
+      "ClsId"     : 1,
+	  "Scatters"  : [ ],
+      "WildSymbol": {
+         "Id"              : 7,
+         "Multiplier"      : 1,
+         "IsExpand"        : true,
+         "ExpandReels"     : [ false, true, true, true, false ]
+      }
+   },
+   "PayTable": [
+      { "Id":0, "Name": "Peach",        "Pay":[ {"Count":3, "Mp":5},  {"Count":4, "Mp":10},  {"Count":5, "Mp":25} ] },
+	  { "Id":1, "Name": "FortuneStick", "Pay":[ {"Count":3, "Mp":5},  {"Count":4, "Mp":10},  {"Count":5, "Mp":25} ] },
+	  { "Id":2, "Name": "Ruyi",         "Pay":[ {"Count":3, "Mp":7},  {"Count":4, "Mp":15},  {"Count":5, "Mp":40} ] },
+	  { "Id":3, "Name": "Ingot",        "Pay":[ {"Count":3, "Mp":8},  {"Count":4, "Mp":20},  {"Count":5, "Mp":50} ] },
+	  { "Id":4, "Name": "Shou",         "Pay":[ {"Count":3, "Mp":10}, {"Count":4, "Mp":25},  {"Count":5, "Mp":60} ] },
+	  { "Id":5, "Name": "Lu",           "Pay":[ {"Count":3, "Mp":25}, {"Count":4, "Mp":60},  {"Count":5, "Mp":120} ] },
+	  { "Id":6, "Name": "Fu",           "Pay":[ {"Count":3, "Mp":50}, {"Count":4, "Mp":200}, {"Count":5, "Mp":250} ] }
+   ]
+}

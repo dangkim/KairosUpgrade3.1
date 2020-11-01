@@ -1,0 +1,58 @@
+{
+   "GameId"           : 41,
+   "Name"             : "casinoroyalepro",
+   "Width"            : 5,
+   "Height"           : 3,
+   "Lines"            : 30,
+   "PayLineType"      : 1,
+   "PayLineId"        : "local3x5_30",
+   "ParSheetId"       : "N_3x5_CasinoRoyalePro",
+   "BonusRepoId"      : "CasinoRoyalePro",
+   "BonusSeqRepoId"	  : "CasinoRoyalePro",
+   "DemoRepoId"       : "CasinoRoyalePro",
+   "PayoutContext"    : {
+      "ClsId"     : 5,
+	  "Scatters"  : [ 11 ],
+      "WildSymbol": {
+         "Id"              : 12,
+         "Multiplier"      : 1,
+         "IsExpand"        : true,
+         "ExpandReels"     : [ false, true, true, true, false ]
+      }
+   },
+   "PayTable": [
+      { "Id":0, "Name": "Club",      "Pay":[ {"Count":3, "Mp":4},  {"Count":4, "Mp":15}, {"Count":5, "Mp":100} ] },
+	  { "Id":1, "Name": "Diamond",   "Pay":[ {"Count":3, "Mp":4},  {"Count":4, "Mp":15}, {"Count":5, "Mp":100} ] },
+	  { "Id":2, "Name": "Heart",     "Pay":[ {"Count":3, "Mp":7},  {"Count":4, "Mp":25}, {"Count":5, "Mp":200} ] },
+	  { "Id":3, "Name": "Spade",     "Pay":[ {"Count":3, "Mp":7},  {"Count":4, "Mp":25}, {"Count":5, "Mp":200} ] },
+	  { "Id":4, "Name": "Card",      "Pay":[ {"Count":3, "Mp":10}, {"Count":4, "Mp":30}, {"Count":5, "Mp":300} ] },
+	  { "Id":5, "Name": "ThreeCard", "Pay":[ {"Count":3, "Mp":10}, {"Count":4, "Mp":30}, {"Count":5, "Mp":300} ] },
+	  { "Id":6, "Name": "Chip",      "Pay":[ {"Count":3, "Mp":12}, {"Count":4, "Mp":50}, {"Count":5, "Mp":500} ] },
+	  { "Id":7, "Name": "Notes",     "Pay":[ {"Count":3, "Mp":12}, {"Count":4, "Mp":50}, {"Count":5, "Mp":500} ] },
+	  { "Id":8, "Name": "Jack",      "Pay":[ {"Count":3, "Mp":15}, {"Count":4, "Mp":80}, {"Count":5, "Mp":750} ] },
+	  { "Id":9, "Name": "Queen", "Pay":
+	    [ 
+		  {"Count":2, "Mp":5},
+		  {"Count":3, "Mp":20},
+		  {"Count":4, "Mp":100},
+		  {"Count":5, "Mp":2500}
+       ]
+      },
+	  { "Id":10, "Name": "King", "Pay":
+	    [ 
+		  {"Count":2, "Mp":5},
+		  {"Count":3, "Mp":40},
+		  {"Count":4, "Mp":150},
+		  {"Count":5, "Mp":3500}
+       ]
+      },
+	  { "Id":11, "Name": "Crown", "Pay":
+	    [ 
+		  {"Count":2, "Mp":2},
+		  {"Count":3, "Mp":5},
+		  {"Count":4, "Mp":25},
+		  {"Count":5, "Mp":200}
+       ]
+      },
+   ]
+}

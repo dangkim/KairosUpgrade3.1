@@ -1,0 +1,70 @@
+version: '3.7'
+
+services:
+  elasticsearch:
+    image: docker.elastic.co/elasticsearch/elasticsearch:7.0.0
+    container_name: elasticsearch
+    environment:
+      - node.name=es01
+      - cluster.name=logging-prod
+      - cluster.initial_master_nodes=es01
+      - xpack.security.enabled=true
+      - bootstrap.memory_lock=true
+      - path.repo=/usr/share/elasticsearch/backups
+      - "ES_JAVA_OPTS=-Xms2g -Xmx2g"
+    ulimits:
+      nproc: 65535
+      memlock:
+        soft: -1
+        hard: -1
+    volumes:
+      - esdata1:/usr/share/elasticsearch/data
+      - esdata1_backup:/usr/share/elasticsearch/backups
+    logging:
+      driver: json-file
+      options:
+        max-size: '50m'
+    ports:
+      - 9200:9200
+    networks:
+      - esnet
+  kibana:
+    image: docker.elastic.co/kibana/kibana:7.0.0
+    container_name: kibana
+    environment:
+      SERVER_NAME: localhost
+      SERVER_BASEPATH: "/kibana"
+      ELASTICSEARCH_HOSTS: http://elasticsearch:9200/
+    ulimits:
+      nproc: 65535
+      memlock:
+        soft: -1
+        hard: -1
+    logging:
+      driver: json-file
+      options:
+        max-size: '50m'
+    ports:
+      - 5601:5601
+    networks:
+      - esnet
+    depends_on:
+      - elasticsearch
+
+volumes:
+  esdata1:
+    driver: local
+    driver_opts:
+      type: none
+      device: /mnt/data/elasticsearch/data
+      o: bind
+  esdata1_backup:
+    driver: local
+    driver_opts:
+      type: none
+      device: /mnt/data/elasticsearch/backups
+      o: bind
+
+networks:
+  esnet:
+    name: esnet

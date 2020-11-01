@@ -1,0 +1,32 @@
+{
+   "GameId"           : 32,
+   "Name"             : "fortunekoi",
+   "Width"            : 5,
+   "Height"           : 3,
+   "Lines"            : 10,
+   "PayLineType"      : 1,
+   "PayLineId"        : "local3x5_10",
+   "ParSheetId"       : "N_3x5_FortuneKoi",
+   "BonusRepoId"      : "FortuneKoi",
+   "BonusSeqRepoId"	  : "FortuneKoi",
+   "DemoRepoId"       : "FortuneKoi",
+   "PayoutContext"    : {
+      "ClsId"     : 2,
+	  "Scatters"  : [ ],
+      "WildSymbol": {
+         "Id"              : 7,
+         "Multiplier"      : 1,
+         "IsExpand"        : true,
+         "ExpandReels"     : [ false, true, true, true, false ]
+      }
+   },
+   "PayTable": [
+      { "Id":0, "Name": "G5",    "Pay":[ {"Count":3, "Mp":5},  {"Count":4, "Mp":10},  {"Count":5, "Mp":15} ] },
+	  { "Id":1, "Name": "G4",    "Pay":[ {"Count":3, "Mp":5},  {"Count":4, "Mp":10},  {"Count":5, "Mp":20} ] },
+	  { "Id":2, "Name": "G3",    "Pay":[ {"Count":3, "Mp":7},  {"Count":4, "Mp":15},  {"Count":5, "Mp":25} ] },
+	  { "Id":3, "Name": "G2",    "Pay":[ {"Count":3, "Mp":8},  {"Count":4, "Mp":20},  {"Count":5, "Mp":40} ] },
+	  { "Id":4, "Name": "G1",    "Pay":[ {"Count":3, "Mp":10}, {"Count":4, "Mp":20},  {"Count":5, "Mp":50} ] },
+	  { "Id":5, "Name": "Seven", "Pay":[ {"Count":3, "Mp":25}, {"Count":4, "Mp":50},  {"Count":5, "Mp":100} ] },
+	  { "Id":6, "Name": "Bar",   "Pay":[ {"Count":3, "Mp":50}, {"Count":4, "Mp":200}, {"Count":5, "Mp":250} ] }
+   ]
+}

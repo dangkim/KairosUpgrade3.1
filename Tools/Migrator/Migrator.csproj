@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Scripts\**\*" CopyToPublishDirectory="PreserveNewest" />
+    <None Remove="Scripts\20180704.01 - MonkeyMash GameSetting.sql" />
+    <None Remove="Scripts\20180713.01 - SampleGame GameSetting.sql" />
+    <None Remove="Scripts\20181101.01 - GETDAILYGAMEHISTORY_35DAYS.sql" />
+    <None Remove="Scripts\20181101.02 - Add indexes to GameHistory.sql" />
+    <None Remove="Scripts\20181101.03 - Create tmpArcGHfrom15to35Days.sql" />
+    <None Remove="Scripts\20181101.04 -  Add RoundId to GameHistory_35days.sql" />
+    <PackageReference Include="DbUp" Version="4.1.0" />
+    <PackageReference Include="dbup-sqlserver" Version="4.1.0" />
+  </ItemGroup>
+</Project>

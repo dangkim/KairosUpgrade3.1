@@ -1,0 +1,33 @@
+{
+   "GameId"           : 56,
+   "Name"             : "redchamber",
+   "Width"            : 5,
+   "Height"           : 3,
+   "Lines"            : 25,
+   "PayLineType"      : 1,
+   "PayLineId"        : "local3x5_25",
+   "ParSheetId"       : "N_3x5_RedChamber",
+   "BonusRepoId"      : "RedChamber",
+   "BonusSeqRepoId"	  : "RedChamber",
+   "DemoRepoId"       : "RedChamber",
+   "PayoutContext"    : {
+      "ClsId"     : 1,
+	  "Scatters"  : [ 9, 11 ], //9 - Book: Scatter, 11 - Screen: Bonus
+      "WildSymbol": {
+         "Id"              : 10, //10 - Rim: Wild
+         "Multiplier"      : 1,
+         "IsExpand"        : false
+      }
+   },
+   "PayTable": [
+	  { "Id":0,  "Name": "Koi",         "Pay":[                        {"Count":3, "Mp":3},   {"Count":4, "Mp":15},   {"Count":5, "Mp":50} ]   },
+      { "Id":1,  "Name": "Incense",     "Pay":[                        {"Count":3, "Mp":5},   {"Count":4, "Mp":25},   {"Count":5, "Mp":75} ]   },
+      { "Id":2,  "Name": "Mirror",      "Pay":[                        {"Count":3, "Mp":10},  {"Count":4, "Mp":30},   {"Count":5, "Mp":100} ]  },
+	  { "Id":3,  "Name": "Powder",      "Pay":[                        {"Count":3, "Mp":15},  {"Count":4, "Mp":50},   {"Count":5, "Mp":150} ]  },
+	  { "Id":4,  "Name": "Jewellery",   "Pay":[                        {"Count":3, "Mp":20},  {"Count":4, "Mp":75},   {"Count":5, "Mp":200} ]  },
+	  { "Id":5,  "Name": "Jade",        "Pay":[                        {"Count":3, "Mp":25},  {"Count":4, "Mp":100},  {"Count":5, "Mp":500} ]  },
+	  { "Id":6,  "Name": "Grandmother", "Pay":[ {"Count":2, "Mp":3},   {"Count":3, "Mp":25},  {"Count":4, "Mp":150},  {"Count":5, "Mp":1000} ] },
+	  { "Id":7,  "Name": "Lin",         "Pay":[ {"Count":2, "Mp":5},   {"Count":3, "Mp":50},  {"Count":4, "Mp":250},  {"Count":5, "Mp":2500} ] },
+	  { "Id":8,  "Name": "Jia",         "Pay":[ {"Count":2, "Mp":10},  {"Count":3, "Mp":100}, {"Count":4, "Mp":1000}, {"Count":5, "Mp":5000} ] }
+   ]
+}

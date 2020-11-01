@@ -1,0 +1,69 @@
+{
+   "GameId"           : 11,
+   "Name"             : "zeus",
+   "Width"            : 5,
+   "Height"           : 3,
+   "Lines"            : 20,
+   "PayLineType"      : 1,
+   "PayLineId"        : "local3x5_20",
+   "ParSheetId"       : "N_3x5_Zeus",
+   "BonusRepoId"      : "Zeus",
+   "BonusSeqRepoId"	  : "Zeus",
+   "DemoRepoId"       : "Zeus",
+   "PayoutContext"    : {
+      "ClsId"     : 1,
+	  "Scatters"  : [ 9 ],
+      "WildSymbol": {
+         "Id"              : 10,
+         "Multiplier"      : 1,
+         "IsExpand"        : false
+      }
+   },
+   "PayTable": [
+      { "Id":0, "Name": "Harp",    "Pay":[ {"Count":3, "Mp":5},  {"Count":4, "Mp":20},  {"Count":5, "Mp":100}  ] },
+	  { "Id":1, "Name": "Coin",    "Pay":[ {"Count":3, "Mp":5},  {"Count":4, "Mp":20},  {"Count":5, "Mp":150}  ] },
+	  { "Id":2, "Name": "Vase",    "Pay":[ {"Count":3, "Mp":10}, {"Count":4, "Mp":25},  {"Count":5, "Mp":200}  ] },
+	  { "Id":3, "Name": "Scepter", "Pay":[ {"Count":3, "Mp":10}, {"Count":4, "Mp":50},  {"Count":5, "Mp":250}  ] },
+      { "Id":4, "Name": "Shield",  "Pay":
+        [ 
+		  {"Count":2, "Mp":5},
+		  {"Count":3, "Mp":15},
+		  {"Count":4, "Mp":75},
+		  {"Count":5, "Mp":300}
+        ]
+      },
+      { "Id":5, "Name": "Crown",   "Pay":
+        [ 
+		  {"Count":2, "Mp":5},
+		  {"Count":3, "Mp":20},
+		  {"Count":4, "Mp":100},
+		  {"Count":5, "Mp":400}
+        ]
+      },
+      { "Id":6, "Name": "Eagle",   "Pay":
+        [ 
+		  {"Count":2, "Mp":5},
+		  {"Count":3, "Mp":30},
+		  {"Count":4, "Mp":150},
+		  {"Count":5, "Mp":500}
+        ]
+      },
+      { "Id":7, "Name": "Zeus",    "Pay":
+        [ 
+		  {"Count":2, "Mp":5},
+		  {"Count":3, "Mp":50},
+		  {"Count":4, "Mp":250},
+		  {"Count":5, "Mp":1000}
+        ]
+      },
+	  { "Id":9, "Name": "ThunderBolt", "Pay":[ {"Count":3, "Mp":5}, {"Count":4, "Mp":10}, {"Count":5, "Mp":50}  ] },
+      { "Id":10, "Name": "Pegasus", "Pay":
+        [ 
+		  {"Count":2, "Mp":10},
+		  {"Count":3, "Mp":100},
+		  {"Count":4, "Mp":1000},
+		  {"Count":5, "Mp":10000}
+        ]
+      }
+   ]
+}

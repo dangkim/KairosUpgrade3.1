@@ -1,0 +1,35 @@
+{
+   "GameId"           : 69,
+   "Name"             : "skystrikers",
+   "Width"            : 5,
+   "Height"           : 3,
+   "Lines"            : 20,
+   "PayLineType"      : 5, //ThreeByFive2
+   "PayLineId"        : "local3x5_20v2",
+   "ParSheetId"       : "N_3x5_SkyStrikers",
+   "BonusRepoId"      : "skystrikers",
+   "BonusSeqRepoId"	  : "skystrikers",
+   "DemoRepoId"       : "skystrikers",
+   "PayoutContext"    : {
+      "ClsId"     : 1,
+	    "Scatters"  : [ ],
+      "WildSymbol": {
+         "Id"              : 11,
+         "Multiplier"      : 1,
+         "IsExpand"        : false
+      }
+   },
+   "PayTable": [
+      { "Id":0, "Name": "Nine",       "Pay":[ {"Count":3, "Mp":5},  {"Count":4, "Mp":10},  {"Count":5, "Mp":50} ]  },
+	    { "Id":1, "Name": "Ten",        "Pay":[ {"Count":3, "Mp":5},  {"Count":4, "Mp":10},  {"Count":5, "Mp":50} ]  },
+	    { "Id":2, "Name": "Jack",       "Pay":[ {"Count":3, "Mp":8},  {"Count":4, "Mp":20},  {"Count":5, "Mp":100} ] },
+	    { "Id":3, "Name": "Queen",      "Pay":[ {"Count":3, "Mp":8},  {"Count":4, "Mp":20},  {"Count":5, "Mp":100} ] },
+	    { "Id":4, "Name": "King",       "Pay":[ {"Count":3, "Mp":10}, {"Count":4, "Mp":50},  {"Count":5, "Mp":200} ] },
+	    { "Id":5, "Name": "Ace",        "Pay":[ {"Count":3, "Mp":10}, {"Count":4, "Mp":50},  {"Count":5, "Mp":200} ] },
+	    { "Id":6, "Name": "Tank",       "Pay":[ {"Count":3, "Mp":15}, {"Count":4, "Mp":100}, {"Count":5, "Mp":250} ] },
+      { "Id":7, "Name": "Helicopter", "Pay":[ {"Count":3, "Mp":15}, {"Count":4, "Mp":100}, {"Count":5, "Mp":250} ] },
+      { "Id":8, "Name": "Plane",      "Pay":[ {"Count":2, "Mp":5},  {"Count":3, "Mp":20},  {"Count":4, "Mp":150},  {"Count":5, "Mp":300} ] },
+      { "Id":9, "Name": "Red Plane",  "Pay":[ {"Count":2, "Mp":5},  {"Count":3, "Mp":30},  {"Count":4, "Mp":300},  {"Count":5, "Mp":500} ] },
+      { "Id":11,"Name": "Wild",       "Pay":[ {"Count":2, "Mp":5},  {"Count":3, "Mp":45},  {"Count":4, "Mp":650},  {"Count":5, "Mp":1000}] }
+   ]
+}

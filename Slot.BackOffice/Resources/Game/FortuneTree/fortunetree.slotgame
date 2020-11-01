@@ -1,0 +1,38 @@
+﻿{
+   "GameId"        : 34,
+   "Name"          : "fortunetree",
+   "Width"         : 5,
+   "Height"        : 3,
+   "Lines"         : 25,
+   "PayLineType"   : 1,
+   "PayLineId"     : "",
+   "ParSheetId"    : "N_3x5_FortuneTree",
+   "BonusRepoId"   : "fortunetree",
+   "BonusSeqRepoId": "FortuneTree",
+   "DemoRepoId"    : "fortunetree",
+   "PayoutContext" : {
+      "ClsId"     : 6,
+	  "Scatters"  : [ 11 ],
+      "WildSymbol": {
+         "Id"          : 12,
+         "Multiplier"  : 1,
+		 "IsExpand"    : false,
+         "ExpandReels" : []
+      },
+	  "WildAltMultiplier" : { }
+   },
+   "PayTable": [
+      { "Id":0,  "Name": "Symbol01", "Pay":[ {"Count":3, "Mp":5},   {"Count":4, "Mp":10},  {"Count":5, "Mp":100} ] },
+	  { "Id":1,  "Name": "Symbol02", "Pay":[ {"Count":3, "Mp":5},   {"Count":4, "Mp":15},  {"Count":5, "Mp":100} ] },
+	  { "Id":2,  "Name": "Symbol03", "Pay":[ {"Count":3, "Mp":10},  {"Count":4, "Mp":15},  {"Count":5, "Mp":100} ] },
+	  { "Id":3,  "Name": "Symbol04", "Pay":[ {"Count":3, "Mp":10},  {"Count":4, "Mp":15},  {"Count":5, "Mp":100} ] },
+	  { "Id":4,  "Name": "Symbol05", "Pay":[ {"Count":3, "Mp":10},  {"Count":4, "Mp":20},  {"Count":5, "Mp":200} ] },
+	  { "Id":5,  "Name": "Symbol06", "Pay":[ {"Count":3, "Mp":10},  {"Count":4, "Mp":30},  {"Count":5, "Mp":200} ] },
+	  { "Id":6,  "Name": "Symbol07", "Pay":[ {"Count":3, "Mp":15},  {"Count":4, "Mp":35},  {"Count":5, "Mp":300} ] },
+	  { "Id":7,  "Name": "Symbol08", "Pay":[ {"Count":3, "Mp":20},  {"Count":4, "Mp":50},  {"Count":5, "Mp":300} ] },
+	  { "Id":8,  "Name": "Symbol09", "Pay":[ {"Count":3, "Mp":30},  {"Count":4, "Mp":100}, {"Count":5, "Mp":800} ] },
+	  { "Id":9,  "Name": "Symbol10", "Pay":[ {"Count":3, "Mp":35},  {"Count":4, "Mp":100}, {"Count":5, "Mp":800} ] },
+	  { "Id":10, "Name": "Symbol11", "Pay":[ {"Count":3, "Mp":50},  {"Count":4, "Mp":100}, {"Count":5, "Mp":800} ] },
+	  { "Id":11, "Name": "Scatter",  "Pay":[ {"Count":3, "Mp":125}, {"Count":4, "Mp":250}, {"Count":5, "Mp":1250} ] },
+   ]
+}

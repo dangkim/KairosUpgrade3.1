@@ -1,0 +1,29 @@
+Test.Level                  : 4
+Test.TimeStart              : 1/8/2019 1:00:56 AM
+Test.TimeEnd                : 1/8/2019 1:14:38 AM
+SpinCount                   : 100000000
+TotalBet                    : 2500000000.00
+----------------------------------------
+Rolling Hit Rate       (MG) :         4.17
+Smashing Wild Hit Rate (MG) :        83.36
+Wolves Mode Hit Rate   (MG) :       243.73
+Epic Win Hit Rate (MG)      :       811.19
+Feature Hit Rate       (MG) :       200.93
+Rolling Hit Rate       (FG) :         1.29
+----------------------------------------
+MG Win                      : 953572810.00
+MG Rolling Win              : 354128005.00
+MG Smashing Wild Win        : 125172999.00
+MG Wolves Mode Epic Win     : 258220155.00
+FG Win                      : 366236154.00
+FG Rolling Win              : 317981707.00
+----------------------------------------
+MG RTP                     :       38.14%
+MG Rolling  RTP            :       14.17%
+MG Smash Wild RTP          :        5.01%
+MG Wolves Epic RTP         :       10.33%
+Total MG RTP               :       67.64%
+FG RTP                     :       14.65%
+FG Rolling RTP             :       12.72%
+--- RTP.OverAll ------------------------
+RTP.Total (Over All)      :     95.0125%

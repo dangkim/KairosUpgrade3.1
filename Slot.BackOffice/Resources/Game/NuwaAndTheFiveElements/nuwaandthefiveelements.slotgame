@@ -1,0 +1,10 @@
+{
+  "GameId": 98,
+  "Name": "nuwa",
+  "Width": 3,
+  "Height": 3,
+  "Lines": 77,
+  "Credits": 75,
+  "PayLineType": 10, // 5x7
+  "PayLineId": "outsource1_5x7_77"
+}

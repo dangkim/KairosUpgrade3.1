@@ -1,0 +1,17 @@
+Test.Level                : 4
+Test.TimeStart            : 5/4/2019 1:21:30 PM
+Test.TimeEnd              : 5/4/2019 1:24:11 PM
+Test.SpinMode             : Random
+----------------------------------------
+SpinCount                 : 10000000
+TotalBet                  : 200000000.00
+Game Win                  :  82893681.00
+Free Spin Win             : 110826213.00
+Free SpinCount            :   1804801.00
+MG Feature Hit Rate       :         6.16
+FG Feature Hit Rate       :   1804801.00
+----------------------------------------
+Main Game RTP             :       41.45%
+Free Spin RTP             :       55.41%
+--- RTP.OverAll ------------------------
+RTP.Total (Over All)      :       96.86%

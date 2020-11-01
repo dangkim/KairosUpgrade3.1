@@ -1,0 +1,34 @@
+{
+    "GameId": 80,
+    "Name": "geniesluck",
+    "Rows": [ 3,4,4,4,3 ],
+    "Lines": 40,
+    "PayLineType": 7,
+    "PayLineId": "local34443_40",
+    "ParSheetId": "N_34443_GeniesLuck",
+    "BonusRepoId": "geniesluck",
+    "BonusSeqRepoId": "geniesluck",
+    "DemoRepoId": "geniesluck",
+    "PayoutContext": {
+        "ClsId": 1,
+	      "Scatters": [ 10 ],
+        "WildSymbol": {
+           "Id": 11,
+           "Multiplier": 1,
+           "IsExpand": false
+        }
+    },
+    "PayTable": [
+        { "Id":0, "Name": "Ten",    "Pay":[ {"Count":3, "Mp":2  },  {"Count":4, "Mp":4  },  {"Count":5, "Mp":10 } ] },
+	      { "Id":1, "Name": "Jack",   "Pay":[ {"Count":3, "Mp":2  },  {"Count":4, "Mp":6  },  {"Count":5, "Mp":12 } ] },
+        { "Id":2, "Name": "Queen",  "Pay":[ {"Count":3, "Mp":4  },  {"Count":4, "Mp":8  },  {"Count":5, "Mp":14 } ] },
+        { "Id":3, "Name": "King",   "Pay":[ {"Count":3, "Mp":4  },  {"Count":4, "Mp":8  },  {"Count":5, "Mp":14 } ] },
+        { "Id":4, "Name": "Ace",    "Pay":[ {"Count":3, "Mp":6  },  {"Count":4, "Mp":10 },  {"Count":5, "Mp":16 } ] },
+	      { "Id":5, "Name": "HP1",    "Pay":[ {"Count":3, "Mp":6  },  {"Count":4, "Mp":12 },  {"Count":5, "Mp":20 } ] },
+        { "Id":6, "Name": "HP2",    "Pay":[ {"Count":3, "Mp":8  },  {"Count":4, "Mp":16 },  {"Count":5, "Mp":30 } ] },
+        { "Id":7, "Name": "HP3",    "Pay":[ {"Count":3, "Mp":10 },  {"Count":4, "Mp":20 },  {"Count":5, "Mp":40 } ] },
+        { "Id":8, "Name": "HP4",    "Pay":[ {"Count":3, "Mp":12 },  {"Count":4, "Mp":24 },  {"Count":5, "Mp":50 } ] },
+        { "Id":9, "Name": "Genie",  "Pay":[ {"Count":2, "Mp":2  },  {"Count":3, "Mp":20 },  {"Count":4, "Mp":40 },  {"Count":5, "Mp":120  } ] },
+        { "Id":11,"Name": "Wild",   "Pay":[ {"Count":2, "Mp":6  },  {"Count":3, "Mp":40 },  {"Count":4, "Mp":80 },  {"Count":5, "Mp":400  } ] }
+    ]
+}

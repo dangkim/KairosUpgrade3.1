@@ -1,0 +1,63 @@
+{
+   "GameId"           : 9,
+   "Name"             : "desertoasis",
+   "Width"            : 5,
+   "Height"           : 3,
+   "Lines"            : 20,
+   "PayLineType"      : 1,
+   "PayLineId"        : "local3x5_20",
+   "ParSheetId"       : "N_3x5_DesertOasis",
+   "BonusRepoId"      : "DesertOasis",
+   "BonusSeqRepoId"	  : "DesertOasis",
+   "DemoRepoId"       : "DesertOasis",
+   "PayoutContext"    : {
+      "ClsId"     : 1,
+	  "Scatters"  : [ 9, 10 ],
+      "WildSymbol": {
+         "Id"              : 11,
+         "Multiplier"      : 1,
+         "IsExpand"        : true,
+         "ExpandReels"     : [ true, true, true, true, true ]
+      }
+   },
+   "PayTable": [
+	  { "Id":0, "Name": "Ten",    "Pay":[ {"Count":3, "Mp":5}, {"Count":4, "Mp":15},   {"Count":5, "Mp":50}  ] },
+	  { "Id":1, "Name": "Jack",   "Pay":[ {"Count":3, "Mp":5}, {"Count":4, "Mp":20},   {"Count":5, "Mp":75}  ] },
+	  { "Id":2, "Name": "Queen",  "Pay":[ {"Count":3, "Mp":10}, {"Count":4, "Mp":30},   {"Count":5, "Mp":100}  ] },
+	  { "Id":3, "Name": "King",   "Pay":[ {"Count":3, "Mp":10}, {"Count":4, "Mp":40},   {"Count":5, "Mp":125}  ] },
+	  { "Id":4, "Name": "Ace",    "Pay":[ {"Count":3, "Mp":15}, {"Count":4, "Mp":50},   {"Count":5, "Mp":150}  ] },
+	  { "Id":5, "Name": "Shoe",   "Pay":[ {"Count":3, "Mp":20}, {"Count":4, "Mp":70},   {"Count":5, "Mp":200}  ] },
+      { "Id":6, "Name": "Vase",   "Pay":
+        [ 
+		  {"Count":2, "Mp":2},
+		  {"Count":3, "Mp":25},
+		  {"Count":4, "Mp":100},
+		  {"Count":5, "Mp":400}
+        ]
+      },
+      { "Id":7, "Name": "Carpet", "Pay":
+        [ 
+		  {"Count":2, "Mp":4},
+		  {"Count":3, "Mp":40},
+		  {"Count":4, "Mp":150},
+		  {"Count":5, "Mp":500}
+        ]
+      },
+      { "Id":8, "Name": "Alibaba", "Pay":
+        [ 
+		  {"Count":2, "Mp":10},
+		  {"Count":3, "Mp":200},
+		  {"Count":4, "Mp":2000},
+		  {"Count":5, "Mp":10000}
+        ]
+      },
+      { "Id":10, "Name": "Island", "Pay":
+        [ 
+		  {"Count":2, "Mp":2},
+		  {"Count":3, "Mp":5},
+		  {"Count":4, "Mp":50},
+		  {"Count":5, "Mp":500}
+        ]
+      },
+   ]
+}

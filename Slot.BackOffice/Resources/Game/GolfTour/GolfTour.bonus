@@ -1,0 +1,22 @@
+﻿{   
+   "22": {
+      "ClsId":22,
+      "ClientId":4,
+      "RevealType":2,
+      "NumChoices":9,
+      "NumReveal":3,
+      "IsRevealAll":false,
+      "Trigger":
+      {
+         "ClsId":16,
+	     "Symbols":[7,8,9],
+	     "MinCount":3
+      },
+      "RevealWeights":
+      {
+         "1":{ "0.80":1, "0.95":2, "0.98":3, "1":5 },
+		 "2":{ "0.80":1, "0.95":2, "0.98":3, "1":5 },
+		 "3":{ "0.80":1, "0.95":2, "0.98":3, "1":5 }
+      }
+   }
+}

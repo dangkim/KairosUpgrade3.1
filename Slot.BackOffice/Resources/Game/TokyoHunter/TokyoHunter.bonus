@@ -1,0 +1,72 @@
+{
+   "16": {
+      "ClsId": 16,
+	  "ClientId": 2,
+	  "FSParSheetId": "N_3x5_TokyoHunter",
+	  "FSIinitSpinCount": 8,
+	  "FSMultiplier": 1,
+	  "FSAddSpinCount": 8,
+	  "Trigger": {
+         "ClsId": 1,
+	     "Symbol": 10,
+	     "MinCount": 3
+      },
+	  "PayoutContext": {
+		 "ClsId": 1,
+	     "Scatters": [ 10 ],
+         "WildSymbol": {
+            "Id": 11,
+            "Multiplier": 1,
+            "IsExpand": true,
+            "ExpandReels": [ false, true, true, true, false ]
+         }
+	  },
+	  "MultiplierWeight": {
+	     "1": { "0.20":2, "0.48":4, "0.85":5, "1.00":8 },
+		 "2": { "0.20":2, "0.48":4, "0.85":5, "1.00":8 },
+		 "3": { "0.20":2, "0.48":4, "0.85":5, "1.00":8 }
+	  }
+   },
+   "24": {
+      "ClsId": 24,
+      "ClientId": 3,
+      "RevealType": 1,
+      "NumChoices": 2,
+      "NumReveal": 1,
+      "IsRevealAll": false,
+      "Trigger": {
+         "ClsId": 7,
+		 "ReelSymbols": {
+		    "1": [ 4,5,6,7 ],
+			"2": [ 0 ],
+			"3": [ 4,5,6,7 ]
+		 }
+      },
+      "RevealWeights": {
+         "1": {
+            "0.30": 1,
+            "0.54": 2,
+            "0.81": 3,
+            "0.90": 5,
+			"0.95": 8,
+            "1.00": 10 
+         },
+		 "2": {
+            "0.30": 1,
+            "0.54": 2,
+            "0.81": 3,
+            "0.90": 5,
+			"0.95": 8,
+            "1.00": 10 
+         },
+		 "3": {
+            "0.30": 1,
+            "0.54": 2,
+            "0.81": 3,
+            "0.90": 5,
+			"0.95": 8,
+            "1.00": 10 
+         }
+      }
+   }
+}

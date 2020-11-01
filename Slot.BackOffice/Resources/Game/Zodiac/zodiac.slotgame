@@ -1,0 +1,37 @@
+{
+  "GameId"           : 75,
+  "Name"             : "zodiac",
+  "Width"            : 5,
+  "Height"           : 3,
+  "Lines"            : 30,
+  "PayLineType"      : 1,
+  "PayLineId"        : "local3x5_30",
+  "ParSheetId"       : "N_3x5_Zodiac",
+  "BonusRepoId"      : "zodiac",
+  "BonusSeqRepoId"	 : "zodiac",
+  "DemoRepoId"       : "zodiac",
+  "PayoutContext"    : {
+      "ClsId"     : 1,
+      "Scatters": [ 13,  12],
+      "WildSymbol": {
+          "Id"              : 14,
+          "Multiplier"      : 1,
+          "IsExpand"        : false,
+          "ExpandReels"     : [ ]
+      }
+  },
+  "PayTable": [
+      { "Id":0, "Name": "Pig",  "Pay":[ {"Count":3, "Mp":5},  {"Count":4, "Mp":40},  {"Count":5, "Mp":80} ] },
+	    { "Id":1, "Name": "Dog",  "Pay":[ {"Count":3, "Mp":5},  {"Count":4, "Mp":40},  {"Count":5, "Mp":80} ] },
+	    { "Id":2, "Name": "Rooster",   "Pay":[ {"Count":3, "Mp":10}, {"Count":4, "Mp":50},  {"Count":5, "Mp":100} ] },
+	    { "Id":3, "Name": "Monkey",   "Pay":[ {"Count":3, "Mp":10}, {"Count":4, "Mp":50},  {"Count":5, "Mp":100} ] },
+	    { "Id":4, "Name": "Goat",    "Pay":[ {"Count":3, "Mp":15}, {"Count":4, "Mp":80},  {"Count":5, "Mp":150} ] },
+	    { "Id":5, "Name": "Horse",    "Pay":[ {"Count":3, "Mp":15}, {"Count":4, "Mp":80},  {"Count":5, "Mp":150} ] },
+	    { "Id":6, "Name": "Snake",    "Pay":[ {"Count":3, "Mp":15}, {"Count":4, "Mp":80}, {"Count":5, "Mp":150} ] },
+      { "Id":7, "Name": "Dragon", "Pay":[ {"Count":3, "Mp":20}, {"Count":4, "Mp":100}, {"Count":5, "Mp":300} ] },
+      { "Id":8, "Name": "Rabbit",  "Pay":[ {"Count":3, "Mp":20}, {"Count":4, "Mp":100}, {"Count":5, "Mp":300} ] },
+      { "Id":9, "Name": "Tiger",  "Pay":[ {"Count":2, "Mp":5}, {"Count":3, "Mp":30}, {"Count":4, "Mp":200}, {"Count":5, "Mp":500} ] },
+      { "Id":10, "Name": "Ox",  "Pay":[ {"Count":2, "Mp":5}, {"Count":3, "Mp":30}, {"Count":4, "Mp":200}, {"Count":5, "Mp":500} ] },
+      { "Id":11, "Name": "Rat",  "Pay":[ {"Count":2, "Mp":10}, {"Count":3, "Mp":50}, {"Count":4, "Mp":350}, {"Count":5, "Mp":800} ] }
+  ]
+}

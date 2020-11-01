@@ -1,0 +1,10 @@
+{
+  "Version": 2,
+  "GameId": 105,
+  "Name": "XuanWuBlessing",
+  "Width": 5,
+  "Height": 3,
+  "Lines": 20,
+  "PayLineType": 1,
+  "PayLineId": "local3x5_20v3"
+}

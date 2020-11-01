@@ -1,0 +1,62 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Buffalo\**" />
+    <EmbeddedResource Remove="Buffalo\**" />
+    <None Remove="Buffalo\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="coverlet.msbuild" Version="2.5.1">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.AspNetCore.Http" Version="2.2.0" />
+    <PackageReference Include="Microsoft.CodeCoverage" Version="16.0.0-preview-20190203-03" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="2.2.0" />
+    <PackageReference Include="NUnit" Version="3.11.0" />
+    <PackageReference Include="NUnit3TestAdapter" Version="3.11.2" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.9.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\GameModules\Slot.Games.AlchemyReels\Slot.Games.AlchemyReels.csproj" />
+    <ProjectReference Include="..\GameModules\Slot.Games.BikiniBeach\Slot.Games.BikiniBeach.csproj" />
+    <ProjectReference Include="..\GameModules\Slot.Games.CaptainRabbit\Slot.Games.CaptainRabbit.fsproj" />
+    <ProjectReference Include="..\GameModules\Slot.Games.ChessRoyale\Slot.Games.ChessRoyale.csproj" />
+    <ProjectReference Include="..\GameModules\Slot.Games.Cleopatra\Slot.Games.Cleopatra.csproj" />
+	<ProjectReference Include="..\GameModules\Slot.Games.DragonRiches\Slot.Games.DragonRiches.csproj" />
+    <ProjectReference Include="..\GameModules\Slot.Games.DinoAge\Slot.Games.DinoAge.csproj" />
+    <ProjectReference Include="..\GameModules\Slot.Games.FaFaZhu\Slot.Games.FaFaZhu.csproj" />
+    <ProjectReference Include="..\GameModules\Slot.Games.FortuneChimes\Slot.Games.FortuneChimes.csproj" />
+    <ProjectReference Include="..\GameModules\Slot.Games.FortuneKoi\Slot.Games.FortuneKoi.csproj" />
+    <ProjectReference Include="..\GameModules\Slot.Games.FortunePack\Slot.Games.FortunePack.csproj" />
+    <ProjectReference Include="..\GameModules\Slot.Games.FountainOfFortune\Slot.Games.FountainOfFortune.csproj" />
+    <ProjectReference Include="..\GameModules\Slot.Games.FourGuardians\Slot.Games.FourGuardians.csproj" />
+    <ProjectReference Include="..\GameModules\Slot.Games.FrostDragon\Slot.Games.FrostDragon.csproj" />
+    <ProjectReference Include="..\GameModules\Slot.Games.GeniesLuck\Slot.Games.GeniesLuck.csproj" />
+    <ProjectReference Include="..\GameModules\Slot.Games.JewelLand\Slot.Games.JewelLand.csproj" />
+    <ProjectReference Include="..\GameModules\Slot.Games.LionDance\Slot.Games.LionDance.csproj" />
+    <ProjectReference Include="..\GameModules\Slot.Games.MagicPaper\Slot.Games.MagicPaper.csproj" />
+    <ProjectReference Include="..\GameModules\Slot.Games.NuwaAndTheFiveElements\Slot.Games.NuwaAndTheFiveElements.csproj" />
+    <ProjectReference Include="..\GameModules\Slot.Games.PandaWarrior\Slot.Games.PandaWarrior.csproj" />
+    <ProjectReference Include="..\GameModules\Slot.Games.Panda\Slot.Games.Panda.csproj" />
+    <ProjectReference Include="..\GameModules\Slot.Games.PhantomThief\Slot.Games.PhantomThief.csproj" />
+    <ProjectReference Include="..\GameModules\Slot.Games.Qixi\Slot.Games.Qixi.csproj" />
+    <ProjectReference Include="..\GameModules\Slot.Games.SevenWonders\Slot.Games.SevenWonders.csproj" />
+    <ProjectReference Include="..\GameModules\Slot.Games.SpaceNeon\Slot.Games.SpaceNeon.csproj" />
+    <ProjectReference Include="..\GameModules\Slot.Games.SweetTreats\Slot.Games.SweetTreats.csproj" />
+    <ProjectReference Include="..\GameModules\Slot.Games.ThreeBeauties\Slot.Games.ThreeBeauties.csproj" />
+    <ProjectReference Include="..\GameModules\Slot.Games.FuDaoLe\Slot.Games.FuDaoLe.csproj" />
+    <ProjectReference Include="..\GameModules\Slot.Games.XuanWuBlessing\Slot.Games.XuanWuBlessing.csproj" />
+    <ProjectReference Include="..\Slot.Core\Slot.Core.csproj" />
+    <ProjectReference Include="..\Slot.Core.Modules.Infrastructure\Slot.Core.Modules.Infrastructure.csproj" />
+    <ProjectReference Include="..\GameModules\Slot.Games.ReelGems\Slot.Games.ReelGems.csproj" />
+    <ProjectReference Include="..\GameModules\Slot.Games.WuxiaTwisted\Slot.Games.WuxiaTwisted.csproj" />
+    <ProjectReference Include="..\GameModules\Slot.Games.Wolves\Slot.Games.Wolves.fsproj" />
+  </ItemGroup>
+</Project>

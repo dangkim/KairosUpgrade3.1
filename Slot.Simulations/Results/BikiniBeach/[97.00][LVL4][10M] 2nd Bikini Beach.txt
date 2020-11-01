@@ -1,0 +1,20 @@
+Test.Level                  : 4
+Test.TimeStart              : 5/15/2019 6:18:38 PM
+Test.TimeEnd                : 5/15/2019 6:19:17 PM
+SpinCount                   : 10000000
+TotalBet                    : 300000000.00
+----------------------------------------
+Swim Wear Hit Rate     (MG) :       111.80
+Body Part Hit Rate     (MG) :       112.76
+Feature Hit Rate       (MG) :        77.08
+MG Win                      : 153360780.00
+MG Swim Wear Win            :  13669470.00
+MG Body Part Win            :  12939600.00
+FG Win                      : 110433220.00
+----------------------------------------
+MG RTP                     :       51.12%
+MG Swim Wear RTP           :        4.56%
+MG Body Part RTP           :        4.31%
+FG RTP                     :       36.81%
+--- RTP.OverAll ------------------------
+RTP.Total (Over All)      :     96.8010%

@@ -1,0 +1,305 @@
+Test Name:	[LVL1] 10M PandaWarrior
+Test Outcome:	Passed
+Result StandardOutput:	
+Collapsing            : 11; 264
+Collapsing            : 10; 520
+Collapsing            : 9; 1476
+Collapsing            : 8; 2658
+Collapsing            : 7; 7917
+Collapsing            : 6; 23224
+Collapsing            : 5; 67142
+Collapsing            : 4; 174811
+Collapsing            : 3; 411662
+Collapsing            : 2; 1021605
+Collapsing            : 1; 2810804
+Free Spin Collapsing            : 22; 1
+Free Spin Collapsing            : 18; 1
+Free Spin Collapsing            : 17; 1
+Free Spin Collapsing            : 16; 11
+Free Spin Collapsing            : 15; 4
+Free Spin Collapsing            : 14; 12
+Free Spin Collapsing            : 13; 36
+Free Spin Collapsing            : 12; 48
+Free Spin Collapsing            : 11; 104
+Free Spin Collapsing            : 10; 321
+Free Spin Collapsing            : 9; 751
+Free Spin Collapsing            : 8; 1809
+Free Spin Collapsing            : 7; 4513
+Free Spin Collapsing            : 6; 10229
+Free Spin Collapsing            : 5; 22011
+Free Spin Collapsing            : 4; 47949
+Free Spin Collapsing            : 3; 91217
+Free Spin Collapsing            : 2; 152829
+Free Spin Collapsing            : 1; 222210
+-----------------------------------------------------------
+Test.SpinCount                     : 10000000
+Test.FreeSpinHitCount              : 135064
+Test.FreeSpinRetriggerHitCount     : 16674
+Test.FreeSpinCount                 : 860597
+Test.FreeSpinCountTumble           : 1342380
+Test.Level             : 1
+Test.TimeStart         : 30/04/2019 7:28 PM
+Test.TimeEnd           : 30/04/2019 10:00 PM
+-----------------------------------------------------------
+TotalBet               : 300000000
+TotalWin.Spin          : 124120185
+TotalWin.Tumble        : 76858865
+TotalWin.FreeSpin      : 47065590
+TotalWin.FreeSpinTumble: 43340250
+--- HIT RATE ----------------------------------------------
+HitRate.FreeSpin           :    74.04
+HitRate.RetriggerFreeSpin  :    51.61
+--- FEATURE RTP -------------------------------------------
+Non-Scatter            :    0.00%
+Scatter                :    0.00%
+Tumble Non-Scatter     :    0.00%
+Tumble Scatter         :    0.00%
+--- RTP ---------------------------------------------------
+RTP.Spin               :   41.37%
+RTP.Tumble             :   25.62%
+RTP.FreeSpin           :   15.69%
+RTP.FreeSpinTumble     :   14.45%
+RTP.Total              :   97.13%
+
+Test Name:	[LVL2] 10M PandaWarrior
+Test Outcome:	Passed
+Result StandardOutput:	
+Collapsing            : 11; 241
+Collapsing            : 10; 259
+Collapsing            : 9; 1209
+Collapsing            : 8; 1687
+Collapsing            : 7; 6146
+Collapsing            : 6; 23652
+Collapsing            : 5; 66035
+Collapsing            : 4; 171629
+Collapsing            : 3; 418558
+Collapsing            : 2; 1052409
+Collapsing            : 1; 2828686
+Free Spin Collapsing            : 17; 1
+Free Spin Collapsing            : 16; 2
+Free Spin Collapsing            : 15; 10
+Free Spin Collapsing            : 14; 19
+Free Spin Collapsing            : 13; 24
+Free Spin Collapsing            : 12; 36
+Free Spin Collapsing            : 11; 129
+Free Spin Collapsing            : 10; 328
+Free Spin Collapsing            : 9; 690
+Free Spin Collapsing            : 8; 1758
+Free Spin Collapsing            : 7; 4439
+Free Spin Collapsing            : 6; 10010
+Free Spin Collapsing            : 5; 21742
+Free Spin Collapsing            : 4; 47100
+Free Spin Collapsing            : 3; 89402
+Free Spin Collapsing            : 2; 149776
+Free Spin Collapsing            : 1; 217367
+-----------------------------------------------------------
+Test.SpinCount                     : 10000000
+Test.FreeSpinHitCount              : 132123
+Test.FreeSpinRetriggerHitCount     : 16475
+Test.FreeSpinCount                 : 842388
+Test.FreeSpinCountTumble           : 1314834
+Test.Level             : 2
+Test.TimeStart         : 30/04/2019 10:00 PM
+Test.TimeEnd           : 01/05/2019 12:32 AM
+-----------------------------------------------------------
+TotalBet               : 300000000
+TotalWin.Spin          : 123037250
+TotalWin.Tumble        : 78005160
+TotalWin.FreeSpin      : 46171940
+TotalWin.FreeSpinTumble: 42464275
+--- HIT RATE ----------------------------------------------
+HitRate.FreeSpin           :    75.69
+HitRate.RetriggerFreeSpin  :    51.13
+--- FEATURE RTP -------------------------------------------
+Non-Scatter            :    0.00%
+Scatter                :    0.00%
+Tumble Non-Scatter     :    0.00%
+Tumble Scatter         :    0.00%
+--- RTP ---------------------------------------------------
+RTP.Spin               :   41.01%
+RTP.Tumble             :   26.00%
+RTP.FreeSpin           :   15.39%
+RTP.FreeSpinTumble     :   14.15%
+RTP.Total              :   96.56%
+
+Test Name:	[LVL3] 10M PandaWarrior
+Test Outcome:	Passed
+Result StandardOutput:	
+Collapsing            : 10; 258
+Collapsing            : 9; 973
+Collapsing            : 8; 3613
+Collapsing            : 7; 7528
+Collapsing            : 6; 21897
+Collapsing            : 5; 60833
+Collapsing            : 4; 176025
+Collapsing            : 3; 401081
+Collapsing            : 2; 1034055
+Collapsing            : 1; 2858994
+Free Spin Collapsing            : 17; 1
+Free Spin Collapsing            : 16; 7
+Free Spin Collapsing            : 15; 6
+Free Spin Collapsing            : 14; 13
+Free Spin Collapsing            : 13; 42
+Free Spin Collapsing            : 12; 45
+Free Spin Collapsing            : 11; 129
+Free Spin Collapsing            : 10; 346
+Free Spin Collapsing            : 9; 780
+Free Spin Collapsing            : 8; 1871
+Free Spin Collapsing            : 7; 4581
+Free Spin Collapsing            : 6; 10576
+Free Spin Collapsing            : 5; 22521
+Free Spin Collapsing            : 4; 49523
+Free Spin Collapsing            : 3; 93536
+Free Spin Collapsing            : 2; 157485
+Free Spin Collapsing            : 1; 227158
+-----------------------------------------------------------
+Test.SpinCount                     : 10000000
+Test.FreeSpinHitCount              : 138250
+Test.FreeSpinRetriggerHitCount     : 17533
+Test.FreeSpinCount                 : 882199
+Test.FreeSpinCountTumble           : 1378603
+Test.Level             : 3
+Test.TimeStart         : 01/05/2019 12:32 AM
+Test.TimeEnd           : 01/05/2019 3:03 AM
+-----------------------------------------------------------
+TotalBet               : 300000000
+TotalWin.Spin          : 116881185
+TotalWin.Tumble        : 73236080
+TotalWin.FreeSpin      : 48362470
+TotalWin.FreeSpinTumble: 44544480
+--- HIT RATE ----------------------------------------------
+HitRate.FreeSpin           :    72.33
+HitRate.RetriggerFreeSpin  :    50.32
+--- FEATURE RTP -------------------------------------------
+Non-Scatter            :    0.00%
+Scatter                :    0.00%
+Tumble Non-Scatter     :    0.00%
+Tumble Scatter         :    0.00%
+--- RTP ---------------------------------------------------
+RTP.Spin               :   38.96%
+RTP.Tumble             :   24.41%
+RTP.FreeSpin           :   16.12%
+RTP.FreeSpinTumble     :   14.85%
+RTP.Total              :   94.34%
+
+Test Name:	[LVL4] 10M PandaWarrior
+Test Outcome:	Passed
+Result StandardOutput:	
+Collapsing            : 11; 251
+Collapsing            : 10; 250
+Collapsing            : 9; 953
+Collapsing            : 8; 2728
+Collapsing            : 7; 4779
+Collapsing            : 6; 20219
+Collapsing            : 5; 67929
+Collapsing            : 4; 165793
+Collapsing            : 3; 391639
+Collapsing            : 2; 986018
+Collapsing            : 1; 2834324
+Free Spin Collapsing            : 20; 1
+Free Spin Collapsing            : 19; 2
+Free Spin Collapsing            : 16; 4
+Free Spin Collapsing            : 15; 8
+Free Spin Collapsing            : 14; 12
+Free Spin Collapsing            : 13; 40
+Free Spin Collapsing            : 12; 48
+Free Spin Collapsing            : 11; 142
+Free Spin Collapsing            : 10; 351
+Free Spin Collapsing            : 9; 726
+Free Spin Collapsing            : 8; 1857
+Free Spin Collapsing            : 7; 4431
+Free Spin Collapsing            : 6; 10619
+Free Spin Collapsing            : 5; 22683
+Free Spin Collapsing            : 4; 48843
+Free Spin Collapsing            : 3; 93047
+Free Spin Collapsing            : 2; 155690
+Free Spin Collapsing            : 1; 226038
+-----------------------------------------------------------
+Test.SpinCount                     : 10000000
+Test.FreeSpinHitCount              : 137550
+Test.FreeSpinRetriggerHitCount     : 17178
+Test.FreeSpinCount                 : 876994
+Test.FreeSpinCountTumble           : 1368354
+Test.Level             : 4
+Test.TimeStart         : 01/05/2019 3:03 AM
+Test.TimeEnd           : 01/05/2019 5:32 AM
+-----------------------------------------------------------
+TotalBet               : 300000000
+TotalWin.Spin          : 116620970
+TotalWin.Tumble        : 68457420
+TotalWin.FreeSpin      : 47962160
+TotalWin.FreeSpinTumble: 44278945
+--- HIT RATE ----------------------------------------------
+HitRate.FreeSpin           :    72.70
+HitRate.RetriggerFreeSpin  :    51.05
+--- FEATURE RTP -------------------------------------------
+Non-Scatter            :    0.00%
+Scatter                :    0.00%
+Tumble Non-Scatter     :    0.00%
+Tumble Scatter         :    0.00%
+--- RTP ---------------------------------------------------
+RTP.Spin               :   38.87%
+RTP.Tumble             :   22.82%
+RTP.FreeSpin           :   15.99%
+RTP.FreeSpinTumble     :   14.76%
+RTP.Total              :   92.44%
+
+Test Name:	[LVL5] 10M PandaWarrior
+Test Outcome:	Passed
+Result StandardOutput:	
+Collapsing            : 11; 253
+Collapsing            : 10; 232
+Collapsing            : 9; 1039
+Collapsing            : 8; 2758
+Collapsing            : 7; 4773
+Collapsing            : 6; 20367
+Collapsing            : 5; 67861
+Collapsing            : 4; 166670
+Collapsing            : 3; 391819
+Collapsing            : 2; 986243
+Collapsing            : 1; 2832941
+Free Spin Collapsing            : 16; 5
+Free Spin Collapsing            : 15; 9
+Free Spin Collapsing            : 14; 17
+Free Spin Collapsing            : 13; 30
+Free Spin Collapsing            : 12; 47
+Free Spin Collapsing            : 11; 108
+Free Spin Collapsing            : 10; 323
+Free Spin Collapsing            : 9; 734
+Free Spin Collapsing            : 8; 1737
+Free Spin Collapsing            : 7; 4566
+Free Spin Collapsing            : 6; 10293
+Free Spin Collapsing            : 5; 22342
+Free Spin Collapsing            : 4; 49248
+Free Spin Collapsing            : 3; 92698
+Free Spin Collapsing            : 2; 155574
+Free Spin Collapsing            : 1; 224494
+-----------------------------------------------------------
+Test.SpinCount                     : 10000000
+Test.FreeSpinHitCount              : 136923
+Test.FreeSpinRetriggerHitCount     : 16993
+Test.FreeSpinCount                 : 872650
+Test.FreeSpinCountTumble           : 1362079
+Test.Level             : 5
+Test.TimeStart         : 01/05/2019 5:32 AM
+Test.TimeEnd           : 01/05/2019 8:00 AM
+-----------------------------------------------------------
+TotalBet               : 300000000
+TotalWin.Spin          : 112219340
+TotalWin.Tumble        : 67264405
+TotalWin.FreeSpin      : 47684905
+TotalWin.FreeSpinTumble: 43974415
+--- HIT RATE ----------------------------------------------
+HitRate.FreeSpin           :    73.03
+HitRate.RetriggerFreeSpin  :    51.35
+--- FEATURE RTP -------------------------------------------
+Non-Scatter            :    0.00%
+Scatter                :    0.00%
+Tumble Non-Scatter     :    0.00%
+Tumble Scatter         :    0.00%
+--- RTP ---------------------------------------------------
+RTP.Spin               :   37.41%
+RTP.Tumble             :   22.42%
+RTP.FreeSpin           :   15.89%
+RTP.FreeSpinTumble     :   14.66%
+RTP.Total              :   90.38%

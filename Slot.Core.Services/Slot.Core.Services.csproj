@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Slot.Core.Data\Slot.Core.Data.csproj" />
+    <ProjectReference Include="..\Slot.Core.Modules.Infrastructure\Slot.Core.Modules.Infrastructure.csproj" />
+    <ProjectReference Include="..\Slot.Core\Slot.Core.csproj" />
+    <ProjectReference Include="..\Slot.Model\Slot.Model.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.CSharp" Version="4.5.0" />
+    <PackageReference Include="Microsoft.Extensions.Http" Version="2.2.0" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" version="2.2.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" version="2.2.0" />
+    <PackageReference Include="Microsoft.Extensions.Caching.Abstractions" version="2.2.0" />
+  </ItemGroup>
+  
+</Project>

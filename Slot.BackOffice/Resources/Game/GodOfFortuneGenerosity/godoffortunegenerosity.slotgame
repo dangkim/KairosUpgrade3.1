@@ -1,0 +1,35 @@
+﻿{
+   "GameId"           : 62,
+   "Name"             : "godoffortunegenerosity",
+   "Width"            : 5,
+   "Height"           : 3,
+   "Lines"            : 20,
+   "PayLineType"      : 1,
+   "PayLineId"        : "local3x5_20",
+   "ParSheetId"       : "N_3x5_GodOfFortuneGenerosity",
+   "BonusRepoId"      : "GodOfFortuneGenerosity",
+   "BonusSeqRepoId"	  : "GodOfFortuneGenerosity",
+   "DemoRepoId"       : "GodOfFortuneGenerosity",
+   "PayoutContext": {
+		"ClsId": 16,
+		"Scatters": [ 11 ],
+		"WildSymbol": {
+		  "Id": 10,
+		  "Multiplier": 1,
+		  "IsExpand": false
+		}
+  },
+  "PayTable": [
+    { "Id": 0, "Name": "Nine",              "Pay": [ { "Count": 3, "Mp":  5 }, { "Count": 4, "Mp":  10 }, { "Count": 5, "Mp":   25 } ] },
+	{ "Id": 1, "Name": "Ten",               "Pay": [ { "Count": 3, "Mp":  5 }, { "Count": 4, "Mp":  10 }, { "Count": 5, "Mp":   25 } ] },
+    { "Id": 2, "Name": "J",                 "Pay": [ { "Count": 3, "Mp": 10 }, { "Count": 4, "Mp":  20 }, { "Count": 5, "Mp":   40 } ] },
+    { "Id": 3, "Name": "Q",                 "Pay": [ { "Count": 3, "Mp": 10 }, { "Count": 4, "Mp":  20 }, { "Count": 5, "Mp":   40 } ] },
+    { "Id": 4, "Name": "K",                 "Pay": [ { "Count": 3, "Mp": 10 }, { "Count": 4, "Mp":  25 }, { "Count": 5, "Mp":   50 } ] },
+    { "Id": 5, "Name": "A",                 "Pay": [ { "Count": 3, "Mp": 15 }, { "Count": 4, "Mp":  25 }, { "Count": 5, "Mp":   75 } ] },
+    { "Id": 6, "Name": "Jade Bracelet",     "Pay": [ { "Count": 3, "Mp": 15 }, { "Count": 4, "Mp":  40 }, { "Count": 5, "Mp":  100 } ] },
+    { "Id": 7, "Name": "Incese Pot",        "Pay": [ { "Count": 3, "Mp": 15 }, { "Count": 4, "Mp":  40 }, { "Count": 5, "Mp":  200 } ] },
+    { "Id": 8, "Name": "Gold Ingot",        "Pay": [ { "Count": 3, "Mp": 25 }, { "Count": 4, "Mp":  40 }, { "Count": 5, "Mp":  350 } ] },
+    { "Id": 9, "Name": "Gold Seal",         "Pay": [ { "Count": 3, "Mp": 25 }, { "Count": 4, "Mp":  50 }, { "Count": 5, "Mp":  500 } ] },
+    { "Id": 10, "Name": "Wild",             "Pay": [ { "Count": 3, "Mp": 75 }, { "Count": 4, "Mp": 100 }, { "Count": 5, "Mp": 1000 } ] }
+  ]
+}

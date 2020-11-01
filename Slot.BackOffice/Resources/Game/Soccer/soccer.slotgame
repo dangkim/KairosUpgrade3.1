@@ -1,0 +1,42 @@
+{
+    "Version" : 1,
+    "GameId": 48,
+    "Name": "Soccer",
+    "Width": 5,
+    "Height": 3,
+    "Lines": 30,
+    "PayLineType": 1,
+    "PayLineId": "outsource2_3x5_30",
+    "ParSheetId": "N_3x5_Soccer",
+    "BonusRepoId": "soccer",
+    "BonusSeqRepoId": "soccer",
+    "DemoRepoId": "soccer",
+    "PayoutContext": {
+        "ClsId": 10,
+        "Scatters": [ 8 ],
+        "WildSymbol": {
+            "Id": 10,
+            "Multiplier": 1,
+            "IsExpand": false,
+            "ExpandReels": [ ]
+        },
+        "AdditionWin": {
+            "ClsId": 1,
+            "Multiplier": 2,
+            "LSide": 7,
+            "RSide": 1,
+            "MultipleWining": true
+        }
+    },
+    "PayTable": [
+        { "Id": 0, "Name": "Sword",      "Pay": [ { "Count": 3, "Mp":  5 }, { "Count": 4, "Mp":  20 }, { "Count": 5, "Mp": 100 } ] },
+        { "Id": 1, "Name": "Horse",      "Pay": [ { "Count": 3, "Mp":  6 }, { "Count": 4, "Mp":  50 }, { "Count": 5, "Mp": 125 } ] },
+        { "Id": 2, "Name": "Spear",      "Pay": [ { "Count": 3, "Mp":  8 }, { "Count": 4, "Mp":  70 }, { "Count": 5, "Mp": 150 } ] },
+        { "Id": 3, "Name": "Fan",        "Pay": [ { "Count": 3, "Mp": 10 }, { "Count": 4, "Mp":  80 }, { "Count": 5, "Mp": 200 } ] },
+        { "Id": 4, "Name": "Qiao",       "Pay": [ { "Count": 3, "Mp": 12 }, { "Count": 4, "Mp": 100 }, { "Count": 5, "Mp": 300 } ] },
+        { "Id": 5, "Name": "ZhaoYun",    "Pay": [ { "Count": 3, "Mp": 20 }, { "Count": 4, "Mp": 150 }, { "Count": 5, "Mp": 800 } ] },
+        { "Id": 6, "Name": "ZhugeLiang", "Pay": [ { "Count": 2, "Mp":  2 }, { "Count": 3, "Mp":  25 }, { "Count": 4, "Mp": 225 }, { "Count": 5, "Mp": 1500 } ] },
+        { "Id": 7, "Name": "Guanyu",     "Pay": [ { "Count": 2, "Mp":  3 }, { "Count": 3, "Mp":  30 }, { "Count": 4, "Mp": 300 }, { "Count": 5, "Mp": 2000 } ] },
+        { "Id": 8, "Name": "Gate",       "Pay": [ { "Count": 3, "Mp":  2 }, { "Count": 4, "Mp":   5 }, { "Count": 5, "Mp": 10 } ] }
+    ]
+}

@@ -1,0 +1,55 @@
+﻿{
+    "57": {
+        "ClsId": 57, //BonusFeature.StackReSpin
+        "ClientId": 3,
+        "ParSheetId": "N_34443_GeniesLuckReSpin",
+        "ReSpinCount": 3,
+        "StackSymbols": [ 9, 11 ],
+        "Trigger": {
+            "ClsId": 26, //FullStack
+            "Symbol": 9,
+            "Reels": [ 0 ]
+        },
+        "PayoutContext": {
+            "ClsId": 1,
+	          "Scatters": [ 10 ],
+            "WildSymbol": {
+               "Id": 11,
+               "Multiplier": 1,
+               "IsExpand": false
+            }
+        }
+    },
+    "58": {
+        "ClsId": 58, //BonusFeature.FSWithStackReSpin
+        "ClientId": 2,
+        "FSParSheetId": "N_34443_GeniesLuckFreeSpin",
+        "FSInitSpinCount": 10,
+        "FSAddSpinCount": 10,
+        "FSMultiplier": 1,
+        "Trigger": {
+            "ClsId": 29, //ScatterDifferentReelHeight
+            "Symbol": 10,
+            "MinCount": 3
+        },
+        "ReSpinCount": 3,
+        "ReSpinStartFullStackMirror": {
+            "9": [ 0, 4 ]
+        },
+        "ReSpinStackSymbols": [ 9, 11 ],
+        "ReSpinTrigger": {
+            "ClsId": 26, //FullStack
+            "Symbol": 9,
+            "Reels": [ 0, 4 ]
+        },
+        "PayoutContext": {
+            "ClsId": 25, //LineBothWays
+	          "Scatters": [ 10 ],
+            "WildSymbol": {
+               "Id": 11,
+               "Multiplier": 1,
+               "IsExpand": false
+            }
+        }
+    }
+}

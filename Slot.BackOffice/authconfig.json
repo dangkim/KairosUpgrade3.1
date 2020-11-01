@@ -1,0 +1,10 @@
+﻿{
+  "Jwt": {
+    "Issuer": "http://www.w88.com",
+    "Key": "44qKTE9jNMQ16tHvBkTu9DcaqUkk4_nTZ1jHQma3t-U",
+    "Duration": 60
+  },
+  "CasClientId": "1000008",
+  "CasClientPassword": "BD9BA687-6E02-453A-812D-224B01DDEE5A",
+  "CasSecurityCheckUrl": "http://192.168.77.62/cas/stv"
+}

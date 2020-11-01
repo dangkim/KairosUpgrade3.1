@@ -1,0 +1,265 @@
+﻿[LVL1][10M]
+-----------------------------------------------------------
+Test.SpinCount	: 10000000
+Test.Level		: 1
+Test.TimeStart	: 4/8/2019 12:56 PM
+Test.TimeEnd	: 4/8/2019 1:03 PM
+-----------------------------------------------------------
+TotalBet	: 200000000
+TotalWin	: 193786232
+Max Win		: 626
+-----------------------------------------------------------
+Spin Count					: 10000000
+Collapse Count				: 6851523
+Scatter Count				: 77523
+Free Spin Count				: 771692
+-----------------------------------------------------------
+RTP.Spin:					28.25%
+RTP.Collapse:				33.76%
+RTP.Free Spins:				13.71%
+RTP.Free Spins Collapse:	21.17%
+RTP.Expected:				96.90%
+RTP.Total:					96.89%
+-----------------------------------------------------------
+RTP.Collapse Count-1:		18.23%
+RTP.Collapse Count-2:		9.50%
+RTP.Collapse Count-3:		6.03%
+
+[LVL1][100M]
+-----------------------------------------------------------
+Test.SpinCount	: 100000000
+Test.Level		: 1
+Test.TimeStart	: 4/8/2019 1:03 PM
+Test.TimeEnd	: 4/8/2019 2:15 PM
+-----------------------------------------------------------
+TotalBet	: 2000000000
+TotalWin	: 1937968200
+Max Win		: 638
+-----------------------------------------------------------
+Spin Count					: 100000000
+Collapse Count				: 68475737
+Scatter Count				: 779429
+Free Spin Count				: 7755619
+-----------------------------------------------------------
+RTP.Spin:					28.26%
+RTP.Collapse:				33.64%
+RTP.Free Spins:				13.79%
+RTP.Free Spins Collapse:	21.22%
+RTP.Expected:				96.90%
+RTP.Total:					96.90%
+-----------------------------------------------------------
+RTP.Collapse Count-1:		18.18%
+RTP.Collapse Count-2:		9.46%
+RTP.Collapse Count-3:		6.00%
+
+[LVL1][250M]
+-----------------------------------------------------------
+Test.SpinCount	: 250000000
+Test.Level		: 1
+Test.TimeStart	: 4/8/2019 2:15 PM
+Test.TimeEnd	: 4/8/2019 5:52 PM
+-----------------------------------------------------------
+TotalBet	: 5000000000
+TotalWin	: 4841281523
+Max Win	: 638
+-----------------------------------------------------------
+Spin Count					: 250000000
+Collapse Count				: 171188584
+Scatter Count				: 1945574
+Free Spin Count				: 19366313
+-----------------------------------------------------------
+RTP.Spin:					28.26%
+RTP.Collapse:				33.64%
+RTP.Free Spins:				13.77%
+RTP.Free Spins Collapse:	21.16%
+RTP.Expected:				96.90%
+RTP.Total:					96.83%
+-----------------------------------------------------------
+RTP.Collapse Count-1:		18.19%
+RTP.Collapse Count-2:		9.45%
+RTP.Collapse Count-3:		6.00%
+
+----------------------------------------------------------------------------------------------------------------------
+
+Main Game A
+-----------------------------------------------------------
+Test.SpinCount	: 49097664
+Test.Level		: 1
+Test.TimeStart	: 4/2/2019 6:30 PM
+Test.TimeEnd	: 4/2/2019 8:31 PM
+-----------------------------------------------------------
+TotalBet	: 981953280
+TotalWin	: 578091440
+Max Win		: 726
+-----------------------------------------------------------
+Spin Count					: 49097664
+Collapse Count				: 53265520
+Scatter Count				: 266112
+Free Spin Count				: 0
+-----------------------------------------------------------
+RTP.Spin:					58.87%
+RTP.Collapse:				66.56%
+RTP.Free Spins:				0.00%
+RTP.Free Spins Collapse:	0.00%
+RTP.Total:					125.43%							
+-----------------------------------------------------------
+RTP.Collapse Count-1:		34.51%							
+RTP.Collapse Count-2:		18.27%							
+RTP.Collapse Count-3:		13.78%							
+-----------------------------------------------------------
+
+Main Game B
+-----------------------------------------------------------
+Test.SpinCount	: 21222432
+Test.Level		: 1
+Test.TimeStart	: 4/3/2019 10:21 AM
+Test.TimeEnd	: 4/3/2019 11:00 AM
+-----------------------------------------------------------
+TotalBet	: 424448640
+TotalWin	: 149053000
+Max Win		: 355
+-----------------------------------------------------------
+Spin Count					: 21222432
+Collapse Count				: 18597942
+Scatter Count				: 78408
+Free Spin Count				: 0
+-----------------------------------------------------------
+RTP.Spin:					35.12%
+RTP.Collapse:				47.00%
+RTP.Free Spins:				0.00%
+RTP.Free Spins Collapse:	0.00%
+RTP.Total:					82.12%
+-----------------------------------------------------------
+RTP.Collapse Count-1:		23.61%
+RTP.Collapse Count-2:		13.52%
+RTP.Collapse Count-3:		9.86%
+
+Main Game C
+-----------------------------------------------------------
+Test.SpinCount	: 19535208
+Test.Level		: 1
+Test.TimeStart	: 4/3/2019 11:09 AM
+Test.TimeEnd	: 4/3/2019 11:41 AM
+-----------------------------------------------------------
+TotalBet	: 390704160
+TotalWin	: 119443440
+Max Win		: 615
+-----------------------------------------------------------
+Spin Count				: 19535208
+Collapse Count			: 14441592
+Scatter Count			: 78408
+Free Spin Count			: 0
+-----------------------------------------------------------
+RTP.Spin:					30.57%
+RTP.Collapse:				38.27%
+RTP.Free Spins:				0.00%
+RTP.Free Spins Collapse:	0.00%
+RTP.Total:					68.84%
+-----------------------------------------------------------
+RTP.Collapse Count-1:		21.79%
+RTP.Collapse Count-2:		10.52%
+RTP.Collapse Count-3:		5.95%
+
+Main Game D
+-----------------------------------------------------------
+Test.SpinCount	: 21894246
+Test.Level		: 1
+Test.TimeStart	: 4/3/2019 11:43 AM
+Test.TimeEnd	: 4/3/2019 12:05 PM
+-----------------------------------------------------------
+TotalBet	: 437884920
+TotalWin	: 74849560
+Max Win		: 330
+-----------------------------------------------------------
+Spin Count				: 21894246
+Collapse Count			: 9234676
+Scatter Count			: 97416
+Free Spin Count			: 0
+-----------------------------------------------------------
+RTP.Spin:					17.09%
+RTP.Collapse:				17.94%
+RTP.Free Spins:				0.00%
+RTP.Free Spins Collapse:	0.00%
+RTP.Total:					35.04%							
+-----------------------------------------------------------
+RTP.Collapse Count-1:		10.41%							
+RTP.Collapse Count-2:		5.42%							
+RTP.Collapse Count-3:		2.11%							
+
+Main Game E
+-----------------------------------------------------------
+Test.SpinCount	: 28531440
+Test.Level		: 1
+Test.TimeStart	: 4/3/2019 12:08 PM
+Test.TimeEnd	: 4/3/2019 12:42 PM
+-----------------------------------------------------------
+TotalBet	: 570628800
+TotalWin	: 71512080
+Max Win		: 270
+-----------------------------------------------------------
+Spin Count					: 28531440
+Collapse Count				: 15147356
+Scatter Count				: 111888
+Free Spin Count				: 0
+-----------------------------------------------------------
+RTP.Spin:					12.53%
+RTP.Collapse:				15.91%
+RTP.Free Spins:				0.00%
+RTP.Free Spins Collapse:	0.00%
+RTP.Total:					28.44%
+-----------------------------------------------------------
+RTP.Collapse Count-1:		9.26%
+RTP.Collapse Count-2:		4.38%
+RTP.Collapse Count-3:		2.27%
+
+Free Game A
+-----------------------------------------------------------
+Test.SpinCount	: 50295168
+Test.Level		: 1
+Test.TimeStart	: 4/5/2019 10:56 AM
+Test.TimeEnd	: 4/5/2019 3:24 PM
+-----------------------------------------------------------
+TotalBet	: 1005903360
+TotalWin	: 6226004937
+Max Win		: 3222
+-----------------------------------------------------------
+Spin Count					: 50295168
+Collapse Count				: 69721344
+Scatter Count				: 33264
+Free Spin Count				: 0
+-----------------------------------------------------------
+RTP.Spin:					241.57%
+RTP.Collapse:				377.38%
+RTP.Free Spins:				0.00%
+RTP.Free Spins Collapse:	0.00%
+RTP.Total:					618.95%
+-----------------------------------------------------------
+RTP.Collapse Count-1:		159.15%
+RTP.Collapse Count-2:		104.49%
+RTP.Collapse Count-3:		113.74%
+
+Free Game B
+-----------------------------------------------------------
+Test.SpinCount	: 28531440
+Test.Level	: 1
+Test.TimeStart	: 4/5/2019 3:24 PM
+Test.TimeEnd	: 4/5/2019 4:06 PM
+-----------------------------------------------------------
+TotalBet	: 570628800
+TotalWin	: 473873637
+Max Win		: 810
+-----------------------------------------------------------
+Spin Count					: 28531440
+Collapse Count				: 14959840
+Scatter Count				: 111888
+Free Spin Count				: 0
+-----------------------------------------------------------
+RTP.Spin:					37.60%
+RTP.Collapse:				45.45%
+RTP.Free Spins:				0.00%
+RTP.Free Spins Collapse:	0.00%
+RTP.Total:					83.04%
+-----------------------------------------------------------
+RTP.Collapse Count-1:		26.21%
+RTP.Collapse Count-2:		12.42%
+RTP.Collapse Count-3:		6.81%

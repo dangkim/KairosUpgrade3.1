@@ -1,0 +1,21 @@
+Test.Level                  : 3
+Test.TimeStart              : 4/8/2019 7:57:50 PM
+Test.TimeEnd                : 4/8/2019 8:13:05 PM
+SpinCount                   : 100000000
+TotalBet                    : 2500000000.00
+----------------------------------------
+Honey Hit Rate         (MG) :       155.45
+Feature Hit Rate       (MG) :       147.22
+Honey Hit Rate         (FG) :       181.89
+Feature Hit Rate       (FG) :       216.32
+MG Win                      : 1359648968.00
+MG Honey Win                : 223331950.00
+FG Win                      : 685958043.00
+FG Honey Win                : 109431000.00
+----------------------------------------
+MG RTP                     :       54.39%
+MG Honey  RTP              :        8.93%
+FG RTP                     :       27.44%
+FG Honey RTP               :        4.38%
+--- RTP.OverAll ------------------------
+RTP.Total (Over All)      :     95.1348%

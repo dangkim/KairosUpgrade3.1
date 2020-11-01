@@ -1,0 +1,68 @@
+﻿[LVL1][10M]
+-----------------------------------------------------------
+Test.SpinCount	: 10000000
+Test.Level		: 1
+Test.TimeStart	: 4/12/2019 5:55 PM
+Test.TimeEnd	: 4/12/2019 6:02 PM
+-----------------------------------------------------------
+TotalBet	: 300000000
+TotalWin	: 290458430
+Max Win		: 1280
+-----------------------------------------------------------
+Spin Count					: 10000000
+Collapse Count				: 7208677
+Scatter Count				: 116728
+Free Spin Count				: 900337
+-----------------------------------------------------------
+RTP.Spin:					43.60%
+RTP.Collapse:				25.37%
+RTP.Free Spins:				15.91%
+RTP.Free Spins Collapse:	11.94%
+RTP.Expected:				96.89%
+RTP.Total:					96.82%
+
+[LVL1][100M]
+-----------------------------------------------------------
+Test.SpinCount	: 100000000
+Test.Level		: 1
+Test.TimeStart	: 4/12/2019 6:02 PM
+Test.TimeEnd	: 4/12/2019 7:41 PM
+-----------------------------------------------------------
+TotalBet	: 3000000000
+TotalWin	: 2906104825
+Max Win		: 1210
+-----------------------------------------------------------
+Spin Count					: 100000000
+Collapse Count				: 72088352
+Scatter Count				: 1166817
+Free Spin Count				: 9012310
+-----------------------------------------------------------
+RTP.Spin:					43.61%
+RTP.Collapse:				25.37%
+RTP.Free Spins:				15.92%
+RTP.Free Spins Collapse:	11.97%
+RTP.Expected:				96.89%
+RTP.Total:					96.87%
+
+[LVL1][250M]
+-----------------------------------------------------------
+Test.SpinCount	: 250000000
+Test.Level		: 1
+Test.TimeStart	: 4/12/2019 7:41 PM
+Test.TimeEnd	: 4/12/2019 11:18 PM
+-----------------------------------------------------------
+TotalBet	: 7500000000
+TotalWin	: 7265682805
+Max Win		: 1230
+-----------------------------------------------------------
+Spin Count					: 250000000
+Collapse Count				: 180210297
+Scatter Count				: 2915136
+Free Spin Count				: 22527739
+-----------------------------------------------------------
+RTP.Spin:					43.63%
+RTP.Collapse:				25.36%
+RTP.Free Spins:				15.92%
+RTP.Free Spins Collapse:	11.98%
+RTP.Expected:				96.89%
+RTP.Total:					96.88%

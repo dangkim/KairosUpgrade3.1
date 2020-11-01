@@ -1,0 +1,47 @@
+﻿{
+    "41": {
+        "ClsId": 41, //BonusFeature.FSCollapse
+        "ClientId": 2, //FreeSpin
+        "FsParSheetId": "N_3x5_PhantomThiefFreeSpin",
+        "FsInitSpinCount": 6,
+        "CollapsingReels": {
+            "FullReelCollapse": false,
+            "Multiplier": 1
+        },
+        "Trigger": {
+            "ClsId": 1, //Scatter
+            "Symbol": 8,
+            "MinCount": 3
+        },
+        "RetriggerWeight":
+	      {
+            "1":{ "0.3350": 2, "0.6500": 3, "1.0000": 4 },
+            "2":{ "0.3350": 2, "0.6500": 3, "1.0000": 4 },
+            "3":{ "0.3350": 2, "0.6500": 3, "1.0000": 4 },
+            "4":{ "0.3350": 2, "0.6500": 3, "1.0000": 4 },
+            "5":{ "0.3350": 2, "0.6500": 3, "1.0000": 4 },
+            "6":{ "0.3350": 2, "0.6500": 3, "1.0000": 4 },
+            "7":{ "0.3350": 2, "0.6500": 3, "1.0000": 4 },
+            "8":{ "0.3350": 2, "0.6500": 3, "1.0000": 4 }
+        },
+        "PayoutContext": {
+            "ClsId": 17, //PayoutContextCollapsingLR
+            "Scatters": [ 4, 5, 6 ],
+            "WildSymbol": {
+                "Id": 9,
+                "Multiplier": 1,
+                "IsExpand": false
+            }
+        },
+        "PayTable": [
+            { "Id": 0, "Name": "Crossbow",  "Pay": [ { "Count": 3, "Mp": 5  },  { "Count": 4, "Mp": 20  },   { "Count": 5, "Mp": 65 } ] },
+            { "Id": 1, "Name": "Gauntlet",	"Pay": [ { "Count": 3, "Mp": 10 },  { "Count": 4, "Mp": 25  },   { "Count": 5, "Mp": 80 } ] },
+            { "Id": 2, "Name": "Hammer",		"Pay": [ { "Count": 3, "Mp": 10 },  { "Count": 4, "Mp": 25  },   { "Count": 5, "Mp": 80 } ] },
+            { "Id": 3, "Name": "Helmet", 		"Pay": [ { "Count": 3, "Mp": 15 },  { "Count": 4, "Mp": 35  },   { "Count": 5, "Mp": 100} ] },
+            { "Id": 4, "Name": "GemGreen",	"Pay": [ { "Count": 3, "Mp": 1  },  { "Count": 4, "Mp": 3   },   { "Count": 5, "Mp": 5  } ] }, 
+            { "Id": 5, "Name": "GemBlue",		"Pay": [ { "Count": 3, "Mp": 2  },  { "Count": 4, "Mp": 5   },   { "Count": 5, "Mp": 8  } ] },
+            { "Id": 6, "Name": "GemOrange",	"Pay": [ { "Count": 3, "Mp": 3  },  { "Count": 4, "Mp": 8   },   { "Count": 5, "Mp": 15 } ] },
+            { "Id": 7, "Name": "Police",		"Pay": [ { "Count": 3, "Mp": 50 },  { "Count": 4, "Mp": 300 },   { "Count": 5, "Mp": 800} ] }
+        ]
+    }
+}

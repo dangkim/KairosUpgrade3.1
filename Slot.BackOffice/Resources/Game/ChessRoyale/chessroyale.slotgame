@@ -1,0 +1,8 @@
+{
+  "GameId": 89,
+  "Name": "chessroyale",
+  "Width": 5,
+  "Height": 3,
+  "Lines": 10,
+  "PayLineId": "local3x5_10"
+}

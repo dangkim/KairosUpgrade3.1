@@ -1,0 +1,36 @@
+﻿{
+   "11": {
+      "ClsId":11,
+      "ClientId":2,
+      "FSParsheetId":"N_3x5_UnderwaterWorldFreeSpin",
+      "FSInitSpinCount":15,
+      "FSMultiplier":3,
+      "FSAddSpinCount":15,
+      "Trigger":
+      {
+         "ClsId":2,
+	     "Symbol":11,
+	     "MinCount":3
+      },
+	  "PayoutContext":
+	  {
+         "ClsId"     : 5,
+	     "Scatters"  : [ 11 ],
+         "WildSymbol": {
+           "Id"              : 12,
+           "Multiplier"      : 1,
+           "IsExpand"        : false
+         }
+	  }
+   },
+   "1": {
+      "ClsId":1,
+	  "ClientId":1,
+      "MaxRound":1,
+      "MapStep":3,
+      "Trigger":
+      {
+         "ClsId":4
+      }
+   },
+}

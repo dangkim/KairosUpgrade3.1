@@ -1,0 +1,46 @@
+metricbeat.modules:
+- module: docker
+  metricsets:
+    - "container"
+    - "cpu"
+    - "diskio"
+    - "healthcheck"
+    - "info"
+    #- "image"
+    - "memory"
+    - "network"
+  hosts: ["unix:///var/run/docker.sock"]
+  period: 10s
+  enabled: true
+
+output.elasticsearch:
+  hosts: ["http://logserver:9200"]
+  index: "docker-host-%{[beat.version]}-%{+yyyy.MM.dd}"
+
+logging.level: info
+logging.to_files: true
+logging.files:
+  path: /mnt/data/log/metricbeat
+  name: metricbeat
+  keepfiles: 7
+  permissions: 0644
+  
+# setup.kibana:
+#   host: "http://logserver/kibana"
+
+  # If set to true, replace dots in labels with `_`.
+  #labels.dedot: false
+
+  # To connect to Docker over TLS you must specify a client and CA certificate.
+  #ssl:
+    #certificate_authority: "/etc/pki/root/ca.pem"
+    #certificate:           "/etc/pki/client/cert.pem"
+    #key:                   "/etc/pki/client/cert.key"
+
+
+# setup.kibana.host: "192.168.77.33"
+# setup.kibana.protocol: "http"
+# setup.kibana.path: /kibana
+# setup.dashboards.enabled: true
+setup.template.name: "docker-host"
+setup.template.pattern: "docker-host-*"

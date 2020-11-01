@@ -1,0 +1,35 @@
+{
+   "GameId"           : 26,
+   "Name"             : "genisys",
+   "Width"            : 5,
+   "Height"           : 3,
+   "Lines"            : 20,
+   "PayLineType"      : 1,
+   "PayLineId"        : "local3x5_20",
+   "ParSheetId"       : "N_3x5_Genisys",
+   "BonusRepoId"      : "Genisys",
+   "BonusSeqRepoId"	  : "Genisys",
+   "DemoRepoId"       : "Genisys",
+   "PayoutContext"    : {
+      "ClsId"     : 1,
+	  "Scatters"  : [ 9 ],
+      "WildSymbol": {
+         "Id"              : 10,
+         "Multiplier"      : 1,
+         "IsExpand"        : false
+      }
+   },
+   "PayTable": [
+      { "Id":0,  "Name": "Ten",         "Pay":[ {"Count":3, "Mp":5},  {"Count":4, "Mp":25},  {"Count":5, "Mp":100} ] },
+	  { "Id":1,  "Name": "Jack",        "Pay":[ {"Count":3, "Mp":5},  {"Count":4, "Mp":25},  {"Count":5, "Mp":100} ] },
+	  { "Id":2,  "Name": "Queen",       "Pay":[ {"Count":3, "Mp":5},  {"Count":4, "Mp":25},  {"Count":5, "Mp":100} ] },
+	  { "Id":3,  "Name": "King",        "Pay":[ {"Count":3, "Mp":5},  {"Count":4, "Mp":25},  {"Count":5, "Mp":100} ] },
+	  { "Id":4,  "Name": "Ace",         "Pay":[ {"Count":3, "Mp":10}, {"Count":4, "Mp":50},  {"Count":5, "Mp":150} ] },
+	  { "Id":5,  "Name": "MachineGun",  "Pay":[ {"Count":3, "Mp":10}, {"Count":4, "Mp":50},  {"Count":5, "Mp":150} ] },
+	  { "Id":6,  "Name": "MechanicArm", "Pay":[ {"Count":3, "Mp":15}, {"Count":4, "Mp":75},  {"Count":5, "Mp":250} ] },
+	  { "Id":7,  "Name": "Sarah",       "Pay":[ {"Count":3, "Mp":15}, {"Count":4, "Mp":75},  {"Count":5, "Mp":250} ] },
+	  { "Id":8,  "Name": "Terminator",  "Pay":[ {"Count":3, "Mp":20}, {"Count":4, "Mp":100}, {"Count":5, "Mp":400} ] },
+	  { "Id":9,  "Name": "TimeMachine", "Pay":[ {"Count":3, "Mp":3},  {"Count":4, "Mp":10},  {"Count":5, "Mp":125} ] },
+	  { "Id":10, "Name": "T800",        "Pay":[ {"Count":3, "Mp":33}, {"Count":4, "Mp":333}, {"Count":5, "Mp":33333} ] }
+   ]
+}

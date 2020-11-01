@@ -1,0 +1,22 @@
+Test.Level                : 2
+Test.TimeStart            : 8/20/2018 11:21:16 PM
+Test.TimeEnd              : 8/21/2018 2:19:20 AM
+Test.SpinMode             : Random
+---NORMAL -------------------------------
+Test.SpinCount            : 10000000
+TotalBet                  : 250000000.00
+Game Win                  : 145740578.00
+Free Spin Win             :  92173812.00
+Main Game RTP             :        58.30
+Free Spin RTP             :        36.87
+Total RTP                 :        95.17
+--- BUY REEL----------------------------
+Test.SpinCount            : 49488165
+TotalBet                  : 860964395.00
+Game Win                  : 557292548.00
+Free Spin Win             : 232502382.00
+Main Game RTP             :        64.73
+Free Spin RTP             :        27.00
+Total RTP                 :        91.73
+--- RTP.OverAll -------------------------
+RTP.Total (Over All)      :        92.51

@@ -1,0 +1,108 @@
+﻿{
+   "18": {
+      "ClsId":18,
+      "ClientId":2,
+      "FSParsheetId":"N_3x5_ZeusFreeSpin",
+	  "FSWithBFS":true,
+      "BFSNumChoices":2,
+      "BFSNumReveal":6,
+      "FSInitSpinCount":0,
+      "FSMultiplier":0,
+      "Trigger":
+      {
+         "ClsId":9,
+	     "ReelSymbols": { "1": 8, "5": 8 }
+      },
+	  "PayoutContext":
+	  {
+         "ClsId"     : 1,
+	     "Scatters"  : [ 9 ],
+         "WildSymbol": {
+           "Id"              : 10,
+           "Multiplier"      : 1,
+           "IsExpand"        : false
+         }
+	  },
+	  "BonusFreeSpinWeight": [
+	  {
+	     "Weights":
+		 {
+			"0.658":
+			{
+			   "0.15":[{"Type":3,"Value":5}],
+			   "0.4":[{"Type":3,"Value":8}],
+			   "0.68":[{"Type":3,"Value":10}],
+			   "0.85":[{"Type":3,"Value":12}],
+			   "0.95":[{"Type":3,"Value":15}],
+			   "1":[{"Type":3,"Value":20}]
+			},
+			"0.95":
+			{
+			   "0.12":[{"Type":3,"Value":5}],
+			   "0.32":[{"Type":3,"Value":10}],
+			   "0.55":[{"Type":3,"Value":12}],
+			   "0.75":[{"Type":3,"Value":15}],
+			   "0.9":[{"Type":3,"Value":18}],
+			   "1":[{"Type":3,"Value":20}]
+			},
+			"1":
+			{
+			   "0.13":[{"Type":3,"Value":8}],
+			   "0.34":[{"Type":3,"Value":10}],
+			   "0.56":[{"Type":3,"Value":12}],
+			   "0.77":[{"Type":3,"Value":15}],
+			   "0.87":[{"Type":3,"Value":18}],
+			   "1":[{"Type":3,"Value":20}]
+			}
+         }
+      },
+	  { 
+	      "Weights":
+		  {
+			"0.7":
+			{
+			   "0.32":[{"Type":2,"Value":2}],
+			   "0.68":[{"Type":2,"Value":3}],
+			   "0.82":[{"Type":2,"Value":5}],
+			   "0.92":[{"Type":2,"Value":6}],
+			   "0.97":[{"Type":2,"Value":8}],
+			   "1":[{"Type":2,"Value":10}]
+			},
+			"0.9":
+			{
+			   "0.3":[{"Type":2,"Value":3}],
+			   "0.68":[{"Type":2,"Value":4}],
+			   "0.81":[{"Type":2,"Value":5}],
+			   "0.92":[{"Type":2,"Value":6}],
+			   "0.97":[{"Type":2,"Value":8}],
+			   "1":[{"Type":2,"Value":10}]
+			},
+			"1":
+			{
+			   "0.35":[{"Type":2,"Value":5}],
+			   "0.68":[{"Type":2,"Value":6}],
+			   "0.82":[{"Type":2,"Value":7}],
+			   "0.92":[{"Type":2,"Value":6}],
+			   "0.97":[{"Type":2,"Value":8}],
+			   "1":[{"Type":2,"Value":10}]
+			}
+         }
+      }],
+	  "RetriggerWeight":
+	  {
+         "1":{ "0.15":2,"0.4":3,"0.68":4,"0.85":5,"0.95":8,"1":10 },
+		 "2":{ "0.15":2,"0.4":3,"0.68":4,"0.85":5,"0.95":8,"1":10 },
+		 "3":{ "0.15":2,"0.4":3,"0.68":4,"0.85":5,"0.95":8,"1":10 }
+      }
+   },
+   "2": {
+      "ClsId":2,
+	  "ClientId":1,
+      "MaxRound":1,
+      "MapStep":5,
+      "Trigger":
+      {
+         "ClsId":4
+      }
+   }
+}

@@ -1,0 +1,36 @@
+﻿{
+   "GameId"           : 61,
+   "Name"             : "kingsofhighway",
+   "Width"            : 5,
+   "Height"           : 3,
+   "Lines"            : 9,
+   "PayLineType"      : 1,
+   "PayLineId"        : "local3x5_9",
+   "ParSheetId"       : "N_3x5_KingsOfHighway",
+   "BonusRepoId"      : "",
+   "BonusSeqRepoId"	  : "",
+   "DemoRepoId"       : "",
+   "PayoutContext"    : {
+      "ClsId"     : 2,
+	  "Scatters"  : [ 10 ],
+      "WildSymbol": {
+         "Id"              : 11,
+         "Multiplier"      : 2,
+         "IsExpand"        : false,
+         "ExpandReels"     : []
+      }
+   },
+   "PayTable": [
+      { "Id":0, "Name": "Hot",      "Pay":[                      {"Count":3, "Mp":5},   {"Count":4, "Mp":15},   {"Count":5, "Mp":100}   ] },
+	    { "Id":1, "Name": "Gasoline", "Pay":[                      {"Count":3, "Mp":5},   {"Count":4, "Mp":15},   {"Count":5, "Mp":100}   ] },
+	    { "Id":2, "Name": "Tires",    "Pay":[                      {"Count":3, "Mp":5},   {"Count":4, "Mp":20},   {"Count":5, "Mp":200}   ] },
+	    { "Id":3, "Name": "Wheel",    "Pay":[                      {"Count":3, "Mp":5},   {"Count":4, "Mp":20},   {"Count":5, "Mp":200}   ] },
+	    { "Id":4, "Name": "Engine",   "Pay":[                      {"Count":3, "Mp":5},   {"Count":4, "Mp":25},   {"Count":5, "Mp":300}   ] },
+	    { "Id":5, "Name": "Toolbox",  "Pay":[                      {"Count":3, "Mp":10},  {"Count":4, "Mp":30},   {"Count":5, "Mp":500}   ] },
+	    { "Id":6, "Name": "Red",      "Pay":[ {"Count":2, "Mp":3}, {"Count":3, "Mp":20},  {"Count":4, "Mp":100},  {"Count":5, "Mp":1000}  ] },
+	    { "Id":7, "Name": "Blue",     "Pay":[ {"Count":2, "Mp":3}, {"Count":3, "Mp":20},  {"Count":4, "Mp":100},  {"Count":5, "Mp":1000}  ] },
+	    { "Id":8, "Name": "Green",    "Pay":[ {"Count":2, "Mp":5}, {"Count":3, "Mp":50},  {"Count":4, "Mp":250},  {"Count":5, "Mp":2500}  ] },
+	    { "Id":9, "Name": "Driver",   "Pay":[ {"Count":1, "Mp":2}, {"Count":2, "Mp":10},  {"Count":3, "Mp":100},  {"Count":4, "Mp":500},  {"Count":5, "Mp":5000} ] },
+	    { "Id":10,"Name": "Scatter",  "Pay":[ {"Count":2, "Mp":1}, {"Count":3, "Mp":5},   {"Count":4, "Mp":10},   {"Count":5, "Mp":100}   ] }
+   ]
+}

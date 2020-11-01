@@ -1,0 +1,32 @@
+{
+    "GameId": 47,
+    "Name": "Phoenix",
+    "Width": 5,
+    "Height": 3,
+    "Lines": 30,
+    "PayLineType": 1,
+    "PayLineId": "local3x5_30",
+    "ParSheetId": "N_3x5_Phoenix",
+    "BonusRepoId": "phoenix",
+    "BonusSeqRepoId": "phoenix",
+    "DemoRepoId": "phoenix",
+    "PayoutContext": {
+        "ClsId": 12,
+        "Scatters": [ 8 ],
+        "WildSymbol": {
+            "Id": 9,
+            "Multiplier": 1,
+            "IsExpand": false
+        }
+    },
+    "PayTable": [
+        { "Id": 0, "Name": "SMALLTILE2",    "Pay": [ { "Count": 3, "Mp": 1 },   { "Count": 4, "Mp": 2 },    { "Count": 5, "Mp": 5 } ] },
+        { "Id": 1, "Name": "SMALLTILE3",    "Pay": [ { "Count": 3, "Mp": 1 },   { "Count": 4, "Mp": 2 },    { "Count": 5, "Mp": 6 } ] },
+        { "Id": 2, "Name": "SMALLTILE4",    "Pay": [ { "Count": 3, "Mp": 1 },   { "Count": 4, "Mp": 3 },    { "Count": 5, "Mp": 7 } ] },
+        { "Id": 3, "Name": "PHOENIXTILE",   "Pay": [ { "Count": 3, "Mp": 1 },   { "Count": 4, "Mp": 6 },    { "Count": 5, "Mp": 15 } ] },
+        { "Id": 4, "Name": "BIGTILE3",      "Pay": [ { "Count": 3, "Mp": 5 },   { "Count": 4, "Mp": 15 },   { "Count": 5, "Mp": 28 } ] },
+        { "Id": 5, "Name": "BIGTILE2",      "Pay": [ { "Count": 3, "Mp": 10 },  { "Count": 4, "Mp": 20 },   { "Count": 5, "Mp": 50 } ] },
+        { "Id": 6, "Name": "BIGTILE1",      "Pay": [ { "Count": 3, "Mp": 15 },  { "Count": 4, "Mp": 50 },   { "Count": 5, "Mp": 100 } ] },
+        { "Id": 9, "Name": "WILD",          "Pay": [ { "Count": 3, "Mp": 50 },  { "Count": 4, "Mp": 70 },   { "Count": 5, "Mp": 250 } ] }
+    ]
+}

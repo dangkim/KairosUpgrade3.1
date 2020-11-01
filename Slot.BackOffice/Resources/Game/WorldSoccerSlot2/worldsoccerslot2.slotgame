@@ -1,0 +1,35 @@
+{ 
+  "Version" : 2,
+  "GameId": 81,
+  "Name": "WorldSoccerSlot2",
+  "Width": 5,
+  "Height": 3,
+  "Credits": 50,
+  "PayLineType": 1,
+  "PayLineId": "",
+  "ParSheetId": "N_3x5_WorldSoccerSlot2",
+  "BonusSeqRepoId": "worldsoccerslot2",
+  "BonusRepoId": "worldsoccerslot2",
+  "DemoRepoId": "worldsoccerslot2",
+  "PayoutContext": {
+    "ClsId": 27,
+    "Scatters": [9],
+    "WildSymbol": {
+      "Id": 10,
+      "Multiplier": 1,
+      "IsExpand": false
+    }
+  },
+  "PayTable": [
+    { "Id": 0, "Name": "Truck",                 "Pay": [{"Count": 3, "Mp": 2}, {"Count": 4, "Mp":15}, {"Count": 5, "Mp": 80}] },
+    { "Id": 1, "Name": "Shoe",                  "Pay": [{"Count": 3, "Mp": 5}, {"Count": 4, "Mp": 20}, {"Count": 5, "Mp": 100}] },
+    { "Id": 2, "Name": "Mask",                  "Pay": [{"Count": 3, "Mp": 8}, {"Count": 4, "Mp": 25}, {"Count": 5, "Mp": 120}] },
+    { "Id": 3, "Name": "Ice",                   "Pay": [{"Count": 3, "Mp": 10}, {"Count": 4, "Mp": 30}, {"Count": 5, "Mp": 125}] },
+    { "Id": 4, "Name": "Double Player",         "Pay": [{"Count": 3, "Mp": 15}, {"Count": 4, "Mp": 60}, {"Count": 5, "Mp": 150}] },
+    { "Id": 5, "Name": "Referee",               "Pay": [{"Count": 3, "Mp": 15}, {"Count": 4, "Mp": 75}, {"Count": 5, "Mp": 175}] },
+    { "Id": 6, "Name": "Goal Keeper",           "Pay": [{"Count": 3, "Mp": 20}, {"Count": 4, "Mp": 80}, {"Count": 5, "Mp": 200}] },
+    { "Id": 7, "Name": "White Man",             "Pay": [{"Count": 3, "Mp": 20}, {"Count": 4, "Mp": 100},{"Count": 5, "Mp": 250}] },
+    { "Id": 8, "Name": "Red Man",               "Pay": [{"Count": 3, "Mp": 30}, {"Count": 4, "Mp": 125},{"Count": 5, "Mp": 500}] },
+    { "Id": 9, "Name": "Scatter",               "Pay": [{"Count": 3, "Mp": 5}, {"Count": 4, "Mp": 50},{"Count": 5, "Mp": 250}] }
+  ]
+}

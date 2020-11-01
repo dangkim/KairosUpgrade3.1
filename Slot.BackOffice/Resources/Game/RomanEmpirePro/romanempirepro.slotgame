@@ -1,0 +1,58 @@
+{
+   "GameId"           : 39,
+   "Name"             : "romanempirepro",
+   "Width"            : 5,
+   "Height"           : 3,
+   "Lines"            : 30,
+   "PayLineType"      : 1,
+   "PayLineId"        : "local3x5_30",
+   "ParSheetId"       : "N_3x5_RomanEmpirePro",
+   "BonusRepoId"      : "RomanEmpirePro",
+   "BonusSeqRepoId"	  : "RomanEmpirePro",
+   "DemoRepoId"       : "RomanEmpirePro",
+   "PayoutContext"    : {
+      "ClsId"     : 5,
+	  "Scatters"  : [ 11 ],
+      "WildSymbol": {
+         "Id"              : 12,
+         "Multiplier"      : 1,
+         "IsExpand"        : true,
+         "ExpandReels"     : [ false, true, true, true, false ]
+      }
+   },
+   "PayTable": [
+      { "Id":0, "Name": "Jack",     "Pay":[ {"Count":3, "Mp":4},  {"Count":4, "Mp":15}, {"Count":5, "Mp":100} ] },
+	  { "Id":1, "Name": "Queen",    "Pay":[ {"Count":3, "Mp":4},  {"Count":4, "Mp":15}, {"Count":5, "Mp":100} ] },
+	  { "Id":2, "Name": "King",     "Pay":[ {"Count":3, "Mp":7},  {"Count":4, "Mp":25}, {"Count":5, "Mp":200} ] },
+	  { "Id":3, "Name": "Ace",      "Pay":[ {"Count":3, "Mp":7},  {"Count":4, "Mp":25}, {"Count":5, "Mp":200} ] },
+	  { "Id":4, "Name": "MaceSpike","Pay":[ {"Count":3, "Mp":10}, {"Count":4, "Mp":30}, {"Count":5, "Mp":300} ] },
+	  { "Id":5, "Name": "Shield",   "Pay":[ {"Count":3, "Mp":10}, {"Count":4, "Mp":30}, {"Count":5, "Mp":300} ] },
+	  { "Id":6, "Name": "Colosseum","Pay":[ {"Count":3, "Mp":12}, {"Count":4, "Mp":50}, {"Count":5, "Mp":500} ] },
+	  { "Id":7, "Name": "Castle",   "Pay":[ {"Count":3, "Mp":12}, {"Count":4, "Mp":50}, {"Count":5, "Mp":500} ] },
+	  { "Id":8, "Name": "Helena",   "Pay":[ {"Count":3, "Mp":15}, {"Count":4, "Mp":80}, {"Count":5, "Mp":750} ] },
+	  { "Id":9, "Name": "Gladiator","Pay":
+	    [ 
+		  {"Count":2, "Mp":5},
+		  {"Count":3, "Mp":20},
+		  {"Count":4, "Mp":100},
+		  {"Count":5, "Mp":2000}
+       ]
+      },
+	  { "Id":10, "Name": "RomanSoldier", "Pay":
+	    [ 
+		  {"Count":2, "Mp":5},
+		  {"Count":3, "Mp":40},
+		  {"Count":4, "Mp":150},
+		  {"Count":5, "Mp":4000}
+       ]
+      },
+	  { "Id":11, "Name": "RomanCoins", "Pay":
+	    [ 
+		  {"Count":2, "Mp":2},
+		  {"Count":3, "Mp":5},
+		  {"Count":4, "Mp":25},
+		  {"Count":5, "Mp":200}
+       ]
+      },
+   ]
+}

@@ -1,0 +1,32 @@
+{
+   "GameId"           : 33,
+   "Name"             : "goldenwheel",
+   "Width"            : 5,
+   "Height"           : 3,
+   "Lines"            : 20,
+   "PayLineType"      : 1,
+   "PayLineId"        : "local3x5_20",
+   "ParSheetId"       : "N_3x5_GoldenWheel",
+   "BonusRepoId"      : "GoldenWheel",
+   "BonusSeqRepoId"	  : "GoldenWheel",
+   "DemoRepoId"       : "GoldenWheel",
+   "PayoutContext"    : {
+      "ClsId"     : 1,
+	  "Scatters"  : [ ],
+      "WildSymbol": {
+         "Id"              : 10,
+         "Multiplier"      : 1,
+         "IsExpand"        : false,
+      }
+   },
+   "PayTable": [
+      { "Id":0, "Name": "Diamond", "Pay":[ {"Count":2, "Mp":2}, {"Count":3, "Mp":5},  {"Count":4, "Mp":10}, {"Count":5, "Mp":50} ] },
+	  { "Id":1, "Name": "Clubs",   "Pay":[ {"Count":2, "Mp":2}, {"Count":3, "Mp":5},  {"Count":4, "Mp":10}, {"Count":5, "Mp":50} ] },
+	  { "Id":2, "Name": "Hearts",  "Pay":[                      {"Count":3, "Mp":5},  {"Count":4, "Mp":15}, {"Count":5, "Mp":75} ] },
+	  { "Id":3, "Name": "Spades",  "Pay":[                      {"Count":3, "Mp":10}, {"Count":4, "Mp":20}, {"Count":5, "Mp":100} ] },
+	  { "Id":4, "Name": "Bar",     "Pay":[                      {"Count":3, "Mp":10}, {"Count":4, "Mp":25}, {"Count":5, "Mp":125} ] },
+	  { "Id":5, "Name": "Blue7",   "Pay":[                      {"Count":3, "Mp":10}, {"Count":4, "Mp":25}, {"Count":5, "Mp":125} ] },
+	  { "Id":6, "Name": "Green7",  "Pay":[                      {"Count":3, "Mp":15}, {"Count":4, "Mp":45}, {"Count":5, "Mp":250} ] },
+	  { "Id":7, "Name": "Red7",    "Pay":[ {"Count":2, "Mp":5}, {"Count":3, "Mp":15}, {"Count":4, "Mp":80}, {"Count":5, "Mp":800} ] }
+   ]
+}

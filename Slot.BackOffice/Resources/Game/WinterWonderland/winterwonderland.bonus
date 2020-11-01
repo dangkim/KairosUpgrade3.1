@@ -1,0 +1,92 @@
+﻿{
+  "51": {
+    "ClsId": 51,
+    "IsContainBonus": true,
+    "Seq": [{"ClsId": 50, "Weighted" : 1}, {"ClsId": 49, "Weighted" : 1}],
+    "Features": {
+      "49": {
+        "ClsId": 49,
+        "ClientId": 1,
+        "Order": 1,
+        "RevealType": 4,
+        "NumChoices": 5,
+        "MaximumOfReveal": 8,
+        "Trigger": {
+          "ClsId": 9,
+          "ReelSymbols": {
+            "1": 8,
+            "5": 8
+          }
+        },
+        "AmountWeights": {
+          "1": {
+            "0.1500": 2,
+            "0.3100": 3,
+            "0.4800": 4,
+            "0.6400": 5,
+            "0.7800": 6,
+            "0.9100": 7,
+            "1.0000": 8
+          },
+          "2": {
+            "0.1500": 2,
+            "0.3100": 3,
+            "0.4800": 4,
+            "0.6400": 5,
+            "0.7800": 6,
+            "0.9100": 7,
+            "1.0000": 8
+          }
+        },
+        "PrizeWeights": {
+          "1": {
+            "0.3500": 1,
+            "0.6700": 2,
+            "0.9000": 3,
+            "1.0000": 4
+          },
+          "2": {
+            "0.3500": 1,
+            "0.6700": 2,
+            "0.9000": 3,
+            "1.0000": 4
+          }
+        }
+      },
+      "50": {
+        "ClsId": 50,
+        "ClientId": 2,
+        "Order": 2,
+        "IsContainBonus": false,
+        "Trigger": {
+          "Symbol": 9,
+          "MinCount": 3,
+          "ClsId": 1
+        },
+        "InitSpinCount": 10,
+        "ParSheetId": "N_3x5_WinterWonderland_FS",
+        "MultiplierWeights": {
+          "1": {
+            "0.1000": 1,
+            "0.5400": 2,
+            "1.0000": 3
+          },
+          "2": {
+            "0.1000": 1,
+            "0.5400": 2,
+            "1.0000": 3
+          }
+        },
+        "PayoutContext": {
+          "ClsId": 1,
+          "Scatters": [],
+          "WildSymbol": {
+            "Id": 10,
+            "Multiplier": 1,
+            "IsExpand": false
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+    "Version" : 1,
+    "GameId": 49,
+    "Name": "FourBeauties",
+    "Width": 5,
+    "Height": 3,
+    "Lines": 30,
+    "PayLineType": 1,
+    "PayLineId": "outsource2_3x5_30",
+    "ParSheetId": "N_3x5_FourBeauties",
+    "BonusRepoId": "fourbeauties",
+    "BonusSeqRepoId": "fourbeauties",
+    "DemoRepoId": "fourbeauties",
+    "PayoutContext": {
+        "ClsId": 10,
+        "Scatters": [ 8 ],
+        "WildSymbol": {
+            "Id": 10,
+            "Multiplier": 1,
+            "IsExpand": false,
+            "ExpandReels": [ ]
+        },
+        "AdditionWin": {
+            "ClsId": 1,
+            "Multiplier": 2,
+            "LSide": 7,
+            "RSide": 1,
+            "MultipleWining": true
+        }
+    },
+    "PayTable": [
+        { "Id": 0, "Name": "Symbol0", "Pay": [ { "Count": 3, "Mp":  5 }, { "Count": 4, "Mp":  20 }, { "Count": 5, "Mp": 100 } ] },
+        { "Id": 1, "Name": "Symbol1", "Pay": [ { "Count": 3, "Mp":  6 }, { "Count": 4, "Mp":  50 }, { "Count": 5, "Mp": 125 } ] },
+        { "Id": 2, "Name": "Symbol2", "Pay": [ { "Count": 3, "Mp":  8 }, { "Count": 4, "Mp":  70 }, { "Count": 5, "Mp": 150 } ] },
+        { "Id": 3, "Name": "Symbol3", "Pay": [ { "Count": 3, "Mp": 10 }, { "Count": 4, "Mp":  80 }, { "Count": 5, "Mp": 200 } ] },
+        { "Id": 4, "Name": "Symbol4", "Pay": [ { "Count": 3, "Mp": 12 }, { "Count": 4, "Mp": 100 }, { "Count": 5, "Mp": 300 } ] },
+        { "Id": 5, "Name": "Symbol5", "Pay": [ { "Count": 3, "Mp": 20 }, { "Count": 4, "Mp": 150 }, { "Count": 5, "Mp": 800 } ] },
+        { "Id": 6, "Name": "Symbol6", "Pay": [ { "Count": 2, "Mp":  2 }, { "Count": 3, "Mp":  25 }, { "Count": 4, "Mp": 225 }, { "Count": 5, "Mp": 1500 } ] },
+        { "Id": 7, "Name": "Symbol7", "Pay": [ { "Count": 2, "Mp":  3 }, { "Count": 3, "Mp":  30 }, { "Count": 4, "Mp": 300 }, { "Count": 5, "Mp": 2000 } ] },
+        { "Id": 8, "Name": "Symbol8", "Pay": [ { "Count": 3, "Mp":  2 }, { "Count": 4, "Mp":   5 }, { "Count": 5, "Mp": 10 } ] }
+    ]
+}

@@ -1,0 +1,31 @@
+Test.Level                  : 2
+Test.TimeStart              : 11/4/2019 7:20:16 PM
+Test.TimeEnd                : 11/4/2019 7:35:21 PM
+SpinCount                   : 100000000
+TotalBet                    : 3000000000.00
+----------------------------------------
+Exploding Hit Rate     (MG) :         3.05
+MG Avg Feature Hit Rate     :       107.55
+Exploding Feature Hit Rate  : 100000000.00
+Exploding Hit Rate     (FG) :         0.47
+Reveal Hit Rate        (FG) :  13017284.00
+MG Scatter Win              :  21121170.00
+MG None Scatter Win         : 1080125481.00
+MG ReSpin Scatter Win       :   6773010.00
+MG ReSpin None Scatter Win  : 385820043.00
+MG Reveal Win               : 420527520.00
+FG Win                      : 420184700.00
+FG Exploding Win            : 433237770.00
+FG Reveal Win               : 121514130.00
+----------------------------------------
+MG Scatter RTP             :        0.70%
+MG None Scatter RTP        :       36.00%
+MG ReSpin Scatter RTP      :        0.23%
+MG ReSpin NOne Scatter RTP :       12.86%
+MG Reveal  RTP             :       14.02%
+FG RTP                     :       14.01%
+FG Exploding RTP           :       14.44%
+FG Reveal RTP              :        4.05%
+--- RTP.OverAll ------------------------
+RTP.Total (Over All)      :     96.3101%
+8%

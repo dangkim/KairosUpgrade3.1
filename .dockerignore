@@ -1,0 +1,41 @@
+.ionide
+.vs
+.vscode
+archives
+benchmark
+Documents
+# GameModules
+packages
+Scripts
+Slot.Aggregation
+# Slot.BackOffice
+Slot.BackOffice.UnitTests
+# Slot.Core
+# Slot.Core.Data
+# Slot.Core.Modules.Infrastructure
+# Slot.Core.Service
+Slot.GrainInterfaces
+Slot.Grains
+# Slot.Model
+Slot.SiloHost
+Slot.Simulations
+Slot.UnitTests
+# Slot.WebApiCore
+Tools
+.dockerignore
+.env
+.git
+.gitignore
+azure-pipelines.yml
+build.ps1
+deploy_uat.ps1
+docker-compose.yml
+Install.md
+Kairos.Aggregation.sln
+Kairos.BackOffice.sln
+Kairos.GameService.sln
+README.md
+
+**/bin/
+**/obj/
+**/logs/

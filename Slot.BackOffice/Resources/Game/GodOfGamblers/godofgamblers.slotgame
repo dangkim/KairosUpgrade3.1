@@ -1,0 +1,72 @@
+{
+   "GameId"           : 28,
+   "Name"             : "godofgamblers",
+   "Width"            : 5,
+   "Height"           : 3,
+   "Lines"            : 25,
+   "PayLineType"      : 1,
+   "PayLineId"        : "local3x5_25",
+   "ParSheetId"       : "W_3x5_GodOfGamblers",
+   "BonusRepoId"      : "GodOfGamblers",
+   "BonusSeqRepoId"	  : "GodOfGamblers",
+   "DemoRepoId"       : "GodOfGamblers",
+   "PayoutContext"    : {
+      "ClsId"     : 1,
+	    "Scatters"  : [ 11 ],
+      "WildSymbol": {
+         "Id"              : 12,
+         "Multiplier"      : 2,
+         "IsExpand"        : false
+      }
+   },
+   "PayTable": [
+      { "Id":0, "Name": "Wine", "Pay":
+        [ 
+		      {"Count":2, "Mp":2},
+		      {"Count":3, "Mp":5},
+		      {"Count":4, "Mp":25},
+		      {"Count":5, "Mp":100}
+        ]
+      },
+	    { "Id":1, "Name": "Cigar",    "Pay":[ {"Count":3, "Mp":5},  {"Count":4, "Mp":25},  {"Count":5, "Mp":100}  ] },
+	    { "Id":2, "Name": "Chips",    "Pay":[ {"Count":3, "Mp":5},  {"Count":4, "Mp":25},  {"Count":5, "Mp":100}  ] },
+	    { "Id":3, "Name": "Dice",     "Pay":[ {"Count":3, "Mp":5},  {"Count":4, "Mp":25},  {"Count":5, "Mp":100}  ] },
+	    { "Id":4, "Name": "Gun",      "Pay":[ {"Count":3, "Mp":10}, {"Count":4, "Mp":50},  {"Count":5, "Mp":150}  ] },
+	    { "Id":5, "Name": "Roulette", "Pay":[ {"Count":3, "Mp":10}, {"Count":4, "Mp":50},  {"Count":5, "Mp":150}  ] },
+	    { "Id":6, "Name": "GoldCoins","Pay":[ {"Count":3, "Mp":15}, {"Count":4, "Mp":75},  {"Count":5, "Mp":250}  ] },
+	    { "Id":7, "Name": "Jewerly",  "Pay":[ {"Count":3, "Mp":15}, {"Count":4, "Mp":75},  {"Count":5, "Mp":250}  ] },
+	    { "Id":8, "Name": "Car",      "Pay":[ {"Count":3, "Mp":20}, {"Count":4, "Mp":100}, {"Count":5, "Mp":400}  ] },
+      { "Id":9, "Name": "Lady",     "Pay":
+        [ 
+		      {"Count":2, "Mp":2},
+		      {"Count":3, "Mp":25},
+		      {"Count":4, "Mp":125},
+		      {"Count":5, "Mp":750}
+        ]
+      },
+      { "Id":10, "Name": "Gentleman", "Pay":
+        [ 
+		      {"Count":2, "Mp":2},
+		      {"Count":3, "Mp":25},
+		      {"Count":4, "Mp":125},
+		      {"Count":5, "Mp":750}
+        ]
+      },
+      { "Id":11, "Name": "StraightFlush", "Pay":
+        [ 
+		      {"Count":2, "Mp":2},
+		      {"Count":3, "Mp":5},
+		      {"Count":4, "Mp":20},
+		      {"Count":5, "Mp":500}
+        ]
+      },
+      { "Id":12, "Name": "Domino", "Pay":
+        [ 
+		      {"Count":2, "Mp":2},
+		      {"Count":3, "Mp":250},
+		      {"Count":4, "Mp":2500},
+		      {"Count":5, "Mp":10000}
+        ]
+      }
+   ]
+}

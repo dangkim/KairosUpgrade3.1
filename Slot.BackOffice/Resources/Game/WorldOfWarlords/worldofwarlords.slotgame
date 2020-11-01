@@ -1,0 +1,34 @@
+{
+   "GameId"           : 17,
+   "Name"             : "worldofwarlords",
+   "Width"            : 5,
+   "Height"           : 3,
+   "Lines"            : 30,
+   "PayLineType"      : 1,
+   "PayLineId"        : "local3x5_30",
+   "ParSheetId"       : "N_3x5_WorldOfWarlords",
+   "BonusRepoId"      : "WorldOfWarlords",
+   "BonusSeqRepoId"	  : "WorldOfWarlords",
+   "DemoRepoId"       : "WorldOfWarlords",
+   "PayoutContext"    : {
+      "ClsId"     : 1,
+	  "Scatters"  : [ 8, 9, 10 ],
+      "WildSymbol": {
+         "Id"              : 11,
+         "Multiplier"      : 1,
+         "IsExpand"        : true,
+         "ExpandReels"     : [ false, false, true, false, false ]
+      }
+   },
+   "PayTable": [
+      { "Id":0, "Name": "Axe",           "Pay":[ {"Count":3, "Mp":5},   {"Count":4, "Mp":25},  {"Count":5, "Mp":75} ] },
+	  { "Id":1, "Name": "Shield",        "Pay":[ {"Count":3, "Mp":5},   {"Count":4, "Mp":25},  {"Count":5, "Mp":75} ] },
+	  { "Id":2, "Name": "TheKingStamp",  "Pay":[ {"Count":3, "Mp":5},   {"Count":4, "Mp":25},  {"Count":5, "Mp":75} ] },
+	  { "Id":3, "Name": "Scroll",        "Pay":[ {"Count":3, "Mp":20},  {"Count":4, "Mp":75},  {"Count":5, "Mp":200} ] },
+	  { "Id":4, "Name": "ElvesBow",      "Pay":[ {"Count":3, "Mp":30},  {"Count":4, "Mp":150}, {"Count":5, "Mp":800} ] },
+	  { "Id":5, "Name": "WarriorOrc",    "Pay":[ {"Count":3, "Mp":30},  {"Count":4, "Mp":150}, {"Count":5, "Mp":1000} ] },
+	  { "Id":6, "Name": "NightElf",      "Pay":[ {"Count":3, "Mp":50},  {"Count":4, "Mp":250}, {"Count":5, "Mp":1500} ] },
+	  { "Id":7, "Name": "TheKing",       "Pay":[ {"Count":3, "Mp":100}, {"Count":4, "Mp":800}, {"Count":5, "Mp":2000} ] },
+	  { "Id":10, "Name": "Portal",       "Pay":[ {"Count":3, "Mp":5},   {"Count":4, "Mp":20},  {"Count":5, "Mp":100} ] }
+   ]
+}

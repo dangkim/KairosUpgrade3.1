@@ -1,0 +1,17 @@
+Test.Level                  : 1
+Test.TimeStart              : 6/12/2019 5:53:01 PM
+Test.TimeEnd                : 6/12/2019 5:53:08 PM
+SpinCount                   : 1000000
+TotalBet                    :  50000000.00
+----------------------------------------
+Feature Hit Rate       (MG) :        88.35
+Sarchophagus Hit Rate  (FG) :        43.14
+MG Win                      :  32088490.00
+FG Win                      :  12573705.00
+FG Sarchophagus Win         :   3400250.00
+----------------------------------------
+MG RTP                      :       64.18%
+FG RTP                      :       25.15%
+FG Sarchophagus RTP         :        6.80%
+--- RTP.OverAll ------------------------
+RTP.Total (Over All)        :     96.1249%

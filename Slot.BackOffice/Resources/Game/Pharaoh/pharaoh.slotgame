@@ -1,0 +1,62 @@
+{
+   "GameId"           : 18,
+   "Name"             : "pharaoh",
+   "Width"            : 5,
+   "Height"           : 3,
+   "Lines"            : 20,
+   "PayLineType"      : 1,
+   "PayLineId"        : "local3x5_20",
+   "ParSheetId"       : "N_3x5_Pharaoh",
+   "BonusRepoId"      : "Pharaoh",
+   "BonusSeqRepoId"	  : "Pharaoh",
+   "DemoRepoId"       : "Pharaoh",
+   "PayoutContext"    : {
+      "ClsId"     : 1,
+	  "Scatters"  : [ 9, 10 ],
+      "WildSymbol": {
+         "Id"              : 11,
+         "Multiplier"      : 1,
+         "IsExpand"        : false
+      }
+   },
+   "PayTable": [
+      { "Id":0, "Name": "Ankh", "Pay":
+        [ 
+		  {"Count":2, "Mp":2},
+		  {"Count":3, "Mp":5},
+		  {"Count":4, "Mp":15},
+		  {"Count":5, "Mp":50}
+        ]
+      },
+      { "Id":1, "Name": "Shen", "Pay":
+        [ 
+		  {"Count":2, "Mp":2},
+		  {"Count":3, "Mp":5},
+		  {"Count":4, "Mp":20},
+		  {"Count":5, "Mp":75}
+        ]
+      },
+	  { "Id":2, "Name": "EyeOfRa",       "Pay":[ {"Count":3, "Mp":10}, {"Count":4, "Mp":30},   {"Count":5, "Mp":100}  ] },
+	  { "Id":3, "Name": "Scarab",        "Pay":[ {"Count":3, "Mp":10}, {"Count":4, "Mp":40},   {"Count":5, "Mp":125}  ] },
+	  { "Id":4, "Name": "CrookAndFrail", "Pay":[ {"Count":3, "Mp":15}, {"Count":4, "Mp":50},   {"Count":5, "Mp":150}  ] },
+	  { "Id":5, "Name": "Gold",          "Pay":[ {"Count":3, "Mp":20}, {"Count":4, "Mp":70},   {"Count":5, "Mp":200}  ] },
+	  { "Id":6, "Name": "Cobra",         "Pay":[ {"Count":3, "Mp":25}, {"Count":4, "Mp":100},  {"Count":5, "Mp":400}  ] },
+      { "Id":7, "Name": "Anubis",        "Pay":
+        [ 
+		  {"Count":2, "Mp":5},
+		  {"Count":3, "Mp":40},
+		  {"Count":4, "Mp":150},
+		  {"Count":5, "Mp":500}
+        ]
+      },
+      { "Id":8, "Name": "Ramses", "Pay":
+        [ 
+		  {"Count":2, "Mp":10},
+		  {"Count":3, "Mp":50},
+		  {"Count":4, "Mp":350},
+		  {"Count":5, "Mp":1000}
+        ]
+      },
+	  { "Id":10, "Name": "Scatter", "Pay":[ {"Count":3, "Mp":5}, {"Count":4, "Mp":25}, {"Count":5, "Mp":500}  ] }
+   ]
+}

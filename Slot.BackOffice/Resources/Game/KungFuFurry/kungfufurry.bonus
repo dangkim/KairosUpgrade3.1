@@ -1,0 +1,47 @@
+﻿{
+    "59": {
+        "ClsId": 59, //BonusFeature.FSMultiWheel
+        "ClientId": 2, //FreeSpin
+        "FSParSheetId": "I_D3x3_KungfuFurryFreeSpin",
+        "FSMultiplier": 1,
+        "FSInitSpinCount": 3,
+        "FSResetSpinCount": 3,
+        "FSResetSpinLimit":  200,
+        "NullSymbol": 17,
+        "Trigger": {
+            "ClsId": 24, //SymbolInPositions
+            "Positions": {
+                "4": [ 16 ],
+                "13": [ 16 ]
+            },
+            "MinCount": 2
+        },
+        "Retrigger": {
+            "ClsId": 24, //SymbolInPositions
+            "Positions": {
+                "4": [ 16 ]
+            },
+            "MinCount": 1
+        },
+        "ReelSetRetrigger": {
+            "ClsId": 24, //SymbolInPositions
+            "Positions": {
+                "4": [ 10, 11, 12, 13, 14, 15 ]
+            },
+            "MinCount": 1
+        },
+        "PayoutContext": {
+            "ClsId": 24, //NonReelMultiWheel
+            "Scatters": [ 9 ],
+            "WildSymbols": [
+                { "Id": 10, "Multiplier": 1,  "IsExpand": false },
+                { "Id": 11, "Multiplier": 2,  "IsExpand": false },
+                { "Id": 12, "Multiplier": 3,  "IsExpand": false },
+                { "Id": 13, "Multiplier": 4,  "IsExpand": false },
+                { "Id": 14, "Multiplier": 5,  "IsExpand": false },
+                { "Id": 15, "Multiplier": 10, "IsExpand": false },
+                { "Id": 16, "Multiplier": 1,  "IsExpand": false }
+            ]
+        }
+    }
+}

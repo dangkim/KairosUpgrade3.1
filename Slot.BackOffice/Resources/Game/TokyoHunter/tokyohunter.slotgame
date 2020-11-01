@@ -1,0 +1,36 @@
+﻿{
+   "GameId"           : 31,
+   "Name"             : "tokyohunter",
+   "Width"            : 5,
+   "Height"           : 3,
+   "Lines"            : 25,
+   "PayLineType"      : 1,
+   "PayLineId"        : "local3x5_25",
+   "ParSheetId"       : "N_3x5_TokyoHunter",
+   "BonusRepoId"      : "TokyoHunter",
+   "BonusSeqRepoId"	  : "TokyoHunter",
+   "DemoRepoId"       : "TokyoHunter",
+   "PayoutContext"    : {
+      "ClsId"     : 1,
+	  "Scatters"  : [ 10 ],
+      "WildSymbol": {
+         "Id"              : 11,
+         "Multiplier"      : 1,
+         "IsExpand"        : true,
+         "ExpandReels"     : [ false, true, true, true, false ]
+      }
+   },
+   "PayTable": [
+      { "Id":0,  "Name": "Ryo",      "Pay":[ {"Count":3, "Mp":5},  {"Count":4, "Mp":50},  {"Count":5, "Mp":100} ] },
+	  { "Id":1,  "Name": "Pistol",   "Pay":[ {"Count":3, "Mp":5},  {"Count":4, "Mp":50},  {"Count":5, "Mp":100} ] },
+	  { "Id":2,  "Name": "Lighter",  "Pay":[ {"Count":3, "Mp":5},  {"Count":4, "Mp":50},  {"Count":5, "Mp":100} ] },
+	  { "Id":3,  "Name": "Flower",   "Pay":[ {"Count":3, "Mp":5},  {"Count":4, "Mp":80},  {"Count":5, "Mp":250} ] },
+	  { "Id":4,  "Name": "Kaori",    "Pay":[ {"Count":3, "Mp":5},  {"Count":4, "Mp":80},  {"Count":5, "Mp":250} ] },
+	  { "Id":5,  "Name": "Nurse",    "Pay":[ {"Count":3, "Mp":10}, {"Count":4, "Mp":100}, {"Count":5, "Mp":500} ] },
+	  { "Id":6,  "Name": "Police",   "Pay":[ {"Count":3, "Mp":10}, {"Count":4, "Mp":100}, {"Count":5, "Mp":500} ] },
+	  { "Id":7,  "Name": "Waitress", "Pay":[ {"Count":3, "Mp":10}, {"Count":4, "Mp":100}, {"Count":5, "Mp":500} ] },
+	  { "Id":8,  "Name": "Panty",    "Pay":[ {"Count":3, "Mp":20}, {"Count":4, "Mp":150}, {"Count":5, "Mp":800} ] },
+	  { "Id":9,  "Name": "Bra",      "Pay":[ {"Count":3, "Mp":20}, {"Count":4, "Mp":150}, {"Count":5, "Mp":800} ] },
+	  { "Id":10, "Name": "Shinjuku", "Pay":[ {"Count":3, "Mp":5},  {"Count":4, "Mp":25},  {"Count":5, "Mp":125} ] },
+   ]
+}

@@ -1,0 +1,8 @@
+﻿{
+    "GameId": 101,
+    "Name": "dinoage",
+    "Width": 5,
+    "Height": 3,
+    "Lines": 9,
+    "PayLineId": "local3x5_9"
+}

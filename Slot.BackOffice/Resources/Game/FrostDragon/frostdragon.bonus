@@ -1,0 +1,23 @@
+﻿{
+  "65": {
+    "ClsId": 65, //BonusFeature.FSCollapseAvalanche
+    "ClientId": 2, //FreeSpin
+    "FsParSheetId": "N_3x5_FrostDragonFreeSpin",
+    "FsInitSpinCount": 10,
+    "FSAddSpinCount": 10,
+    "Trigger": {
+      "ClsId": 1, //Scatter
+      "Symbol": 7,
+      "MinCount": 3
+    },
+    "PayoutContext": {
+      "ClsId": 28, //PayoutContextCollapsingLRAvalanche
+      "Scatters": [],
+      "WildSymbol": {
+        "Id": 8,
+        "Multiplier": 1,
+        "IsExpand": false
+      }
+    }
+  }
+}

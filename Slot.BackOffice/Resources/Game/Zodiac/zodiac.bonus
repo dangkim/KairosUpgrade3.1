@@ -1,0 +1,91 @@
+﻿{
+  "16": {
+    "ClsId": 16,
+    "ClientId": 2,
+    "FSParSheetId": "N_3x5_Zodiac_Feature",
+    "FSIinitSpinCount": 10,
+    "FSAddSpinCount": 10,
+    "FSMultiplier": 1,
+    "Trigger": {
+      "ClsId": 1,
+      "Symbol": 13,
+      "MinCount": 3
+    },
+    "PayoutContext": {
+      "ClsId": 1,
+      "Scatters": [ 13 ],
+      "WildSymbol": {
+        "Id": 14,
+        "Multiplier": 1,
+        "IsExpand": false,
+        "ExpandReels": []
+      }
+    },
+    "MultiplierWeight": {
+      "1": {
+        "0.07": 2,
+        "0.22": 3,
+        "0.42": 4,
+        "0.67": 5,
+        "1.00": 8
+      },
+      "2": {
+        "0.07": 2,
+        "0.22": 3,
+        "0.42": 4,
+        "0.67": 5,
+        "1.00": 8
+      },
+      "3": {
+        "0.07": 2,
+        "0.22": 3,
+        "0.42": 4,
+        "0.67": 5,
+        "1.00": 8
+      },
+      "4": {
+        "0.07": 2,
+        "0.22": 3,
+        "0.42": 4,
+        "0.67": 5,
+        "1.00": 8
+      }
+    }
+  },
+  "29": {
+    "ClsId": 29,
+    "ClientId": 4,
+    "Order": 1,
+    "RevealType": 2,
+    "NumChoices": 3,
+    "NumReveal": 10,
+    "IsRandomSelection": true,
+    "SymbolsForSelection": [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11 ],
+    "IsRevealAllMatching": true,
+    "Trigger": {
+      "ClsId": 1,
+      "Symbol": 12,
+      "MinCount": 3
+    },
+    "RevealWeightedPrize": {
+      "1": {
+        "0.40": 1,
+        "0.75": 2,
+        "0.95": 3,
+        "1.00": 4
+      },
+      "2": {
+        "0.40": 1,
+        "0.75": 3,
+        "0.95": 4,
+        "1.00": 5
+      },
+      "3": {
+        "0.40": 1,
+        "0.75": 5,
+        "0.95": 6,
+        "1.00": 8
+      }
+    }
+  }
+}

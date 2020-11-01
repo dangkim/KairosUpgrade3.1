@@ -1,0 +1,5 @@
+create nonclustered index Owner_Index on  [dbo].[Tournament](OwnerId)
+create nonclustered index StartTime_Index on  [dbo].[Tournament](StartTime)
+create nonclustered index EndTime_Index on  [dbo].[Tournament](EndTime)
+create nonclustered index RelationType_Index on  [dbo].[TRelation](RelationType)
+create nonclustered index RelationId_Index on  [dbo].[TRelation](RelationId)

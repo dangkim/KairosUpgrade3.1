@@ -1,0 +1,29 @@
+﻿{
+   "20": {
+      "ClsId":20,
+      "ClientId":2,
+      "FSParsheetId":"N_3x5_SevenWonders",
+	  "FSStickyWildSymbol":7,
+      "FSIinitSpinCount":1,
+      "FSMultiplier":1,
+      "FSAddSpinCount":1,
+      "DisplayFeature":false,
+      "Trigger":
+      {
+         "ClsId":6,
+		 "Symbol":7,
+		 "Reels":[ 2, 3, 4 ]
+      },
+	  "PayoutContext":
+	  {
+         "ClsId"     : 1,
+	     "Scatters"  : [ ],
+         "WildSymbol": {
+           "Id"              : 7,
+           "Multiplier"      : 1,
+           "IsExpand"        : true,
+           "ExpandReels"     : [ false, true, true, true, false ]
+         }
+	  }
+   }
+}

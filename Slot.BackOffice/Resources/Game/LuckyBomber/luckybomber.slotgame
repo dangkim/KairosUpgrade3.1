@@ -1,0 +1,36 @@
+{
+    "GameId": 63,
+    "Name": "luckybomber",
+    "Width": 5,
+    "Height": 3,
+    "Lines": 30,
+    "CollapsingReels": {
+        "FullReelCollapse": false,
+        "Multiplier": 1
+    },
+    "PayLineType": 4, //ThreeByFiveCollapsing
+    "PayLineId": "local3x5c_30",
+    "ParSheetId": "N_3x5_LuckyBomber",
+    "BonusRepoId": "luckybomber",
+    "BonusSeqRepoId": "luckybomber",
+    "DemoRepoId": "luckybomber",
+    "PayoutContext": {
+        "ClsId": 17, //PayoutContextCollapsingLR
+        "Scatters": [ ],
+        "WildSymbol": {
+            "Id": 9,
+            "Multiplier": 1,
+            "IsExpand": false
+        }
+    },
+    "PayTable": [
+        { "Id": 0, "Name": "Jack",          "Pay": [ { "Count": 3, "Mp": 5  },  { "Count": 4, "Mp": 20 },   { "Count": 5, "Mp": 65  } ] },
+        { "Id": 1, "Name": "Queen",         "Pay": [ { "Count": 3, "Mp": 10 },  { "Count": 4, "Mp": 25 },   { "Count": 5, "Mp": 80  } ] },
+        { "Id": 2, "Name": "King",          "Pay": [ { "Count": 3, "Mp": 10 },  { "Count": 4, "Mp": 25 },   { "Count": 5, "Mp": 80  } ] },
+        { "Id": 3, "Name": "Ace",           "Pay": [ { "Count": 3, "Mp": 15 },  { "Count": 4, "Mp": 35 },   { "Count": 5, "Mp": 100 } ] },
+        { "Id": 4, "Name": "Blue Pyramid",  "Pay": [ { "Count": 3, "Mp": 20 },  { "Count": 4, "Mp": 40 },   { "Count": 5, "Mp": 125 } ] }, 
+        { "Id": 5, "Name": "Green Box",     "Pay": [ { "Count": 3, "Mp": 25 },  { "Count": 4, "Mp": 50 },   { "Count": 5, "Mp": 150 } ] },
+        { "Id": 6, "Name": "Sphere",        "Pay": [ { "Count": 3, "Mp": 30 },  { "Count": 4, "Mp": 60 },   { "Count": 5, "Mp": 200 } ] },
+        { "Id": 7, "Name": "Monster",       "Pay": [ { "Count": 3, "Mp": 50 },  { "Count": 4, "Mp": 300},   { "Count": 5, "Mp": 800 } ] }
+    ]
+}

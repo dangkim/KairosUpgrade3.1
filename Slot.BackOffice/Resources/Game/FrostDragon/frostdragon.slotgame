@@ -1,0 +1,37 @@
+{
+  "GameId": 83,
+  "Name": "frostdragon",
+  "Width": 5,
+  "Height": 3,
+  "Lines": 20,
+  "CollapsingReels": {
+    "FullReelCollapse": false,
+    "Multiplier": 1
+  },
+  "PayLineType": 4, //ThreeByFiveCollapsing
+  "PayLineId": "local3x5_20",
+  "ParSheetId": "N_3x5_FrostDragon",
+  "BonusRepoId": "frostdragon",
+  "BonusSeqRepoId": "frostdragon",
+  "DemoRepoId": "frostdragon",
+  "PayoutContext": {
+    "ClsId": 28, //PayoutContextCollapsingLRAvalanche
+    "Scatters": [],
+    "WildSymbol": {
+      "Id": 8,
+      "Multiplier": 1,
+      "IsExpand": false
+    },
+    "AvalancheMainGameMultiplier": [ 1, 2, 3, 5 ],
+    "AvalancheFreeGameMultiplier": [ 3, 6, 9, 15 ]
+  },
+  "PayTable": [
+    {"Id":0,"Name":"Nine",    "Pay":[{"Count":3,"Mp":3},{"Count":4,"Mp":8},{"Count":5,"Mp":20}]},
+    {"Id":1,"Name":"Ten",     "Pay":[{"Count":3,"Mp":3},{"Count":4,"Mp":8},{"Count":5,"Mp":20}]},
+    {"Id":2,"Name":"Jack",    "Pay":[{"Count":3,"Mp":5},{"Count":4,"Mp":10},{"Count":5,"Mp":50}]},
+    {"Id":3,"Name":"Queen",   "Pay":[{"Count":3,"Mp":5},{"Count":4,"Mp":10},{"Count":5,"Mp":50}]},
+    {"Id":4,"Name":"King",    "Pay":[{"Count":3,"Mp":8},{"Count":4,"Mp":15},{"Count":5,"Mp":80}]},
+    {"Id":5,"Name":"Ace",     "Pay":[{"Count":3,"Mp":8},{"Count":4,"Mp":15},{"Count":5,"Mp":80}]},
+    {"Id":6,"Name":"Picture", "Pay":[{"Count":3,"Mp":15},{"Count":4,"Mp":30},{"Count":5,"Mp":250}]}
+  ]
+}

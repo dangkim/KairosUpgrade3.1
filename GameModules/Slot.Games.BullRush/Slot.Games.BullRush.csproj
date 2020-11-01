@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Slot.Core.Modules.Infrastructure\Slot.Core.Modules.Infrastructure.csproj" />
+    <ProjectReference Include="..\..\Slot.Model\Slot.Model.csproj" />
+  </ItemGroup>
+
+</Project>

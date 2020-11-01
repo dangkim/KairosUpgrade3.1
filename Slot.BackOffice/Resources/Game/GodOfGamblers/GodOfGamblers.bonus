@@ -1,0 +1,90 @@
+﻿{
+   "14": {
+      "ClsId":14,
+      "ClientId":2,
+      "FSParsheetId":"W_3x5_GodOfGamblersFreeSpin",
+	    "FSWithBFS":true,
+      "BFSNumChoices":2,
+      "BFSNumReveal":6,
+      "FSInitSpinCount":8,
+      "FSMultiplier":2,
+      "FSMultiplierType":1,
+      "FSAddSpinCount":15,
+      "Trigger":
+      {
+          "ClsId":1,
+	        "Symbol":11,
+	        "MinCount":3
+      },
+      "PayoutContext":
+	    {
+          "ClsId"     : 1,
+	        "Scatters"  : [ 11 ],
+          "WildSymbol": {
+              "Id"              : 12,
+              "Multiplier"      : 1,
+              "IsExpand"        : false
+          }
+      },
+	    "BonusFreeSpinWeight":
+      {
+	        "Weights":
+		      {
+		          "0.5500":
+			        {
+			           "0.0100":[{"Type":3, "Value":13},  {"Type":3,  "Value":12}],
+			           "0.0200":[{"Type":3, "Value":12},  {"Type":3,  "Value":4 }],
+			           "0.0700":[{"Type":3, "Value":11},  {"Type":3,  "Value":3 }],
+			           "0.1400":[{"Type":3, "Value":2 },  {"Type":3,  "Value":3 }],
+			           "0.2400":[{"Type":3, "Value":9 },  {"Type":3,  "Value":4 }],
+			           "0.3400":[{"Type":3, "Value":8 },  {"Type":3,  "Value":2 }],
+			           "0.5400":[{"Type":3, "Value":7 },  {"Type":3,  "Value":6 }],
+			           "0.7400":[{"Type":3, "Value":6 },  {"Type":3,  "Value":5 }],
+			           "0.8900":[{"Type":3, "Value":5 },  {"Type":3,  "Value":3 }],
+			           "0.9700":[{"Type":3, "Value":4 },  {"Type":3,  "Value":1 }],
+			           "0.9800":[{"Type":3, "Value":3 },  {"Type":3,  "Value":2 }],
+			           "0.9900":[{"Type":3, "Value":2 },  {"Type":3,  "Value":1 }],
+			           "1.0000":[{"Type":3, "Value":1 },  {"Type":3,  "Value":1 }]
+			        },
+			        "0.7500":
+			        {
+			           "0.1800":[{"Type":2, "Value":1 },  {"Type":2,  "Value":6 }],
+			           "0.2940":[{"Type":2, "Value":1 },  {"Type":2,  "Value":7 }],
+			           "0.4090":[{"Type":2, "Value":4 },  {"Type":2,  "Value":4 }],
+			           "0.5140":[{"Type":2, "Value":3 },  {"Type":2,  "Value":5 }],
+			           "0.6350":[{"Type":2, "Value":3 },  {"Type":2,  "Value":4 }],
+			           "0.7350":[{"Type":2, "Value":2 },  {"Type":2,  "Value":6 }],
+			           "0.8130":[{"Type":2, "Value":2 },  {"Type":2,  "Value":5 }],
+			           "0.8630":[{"Type":2, "Value":1 },  {"Type":2,  "Value":4 }],
+			           "0.9040":[{"Type":2, "Value":1 },  {"Type":2,  "Value":3 }],
+			           "0.9540":[{"Type":2, "Value":1 },  {"Type":2,  "Value":2 }],
+			           "1.0000":[{"Type":2, "Value":1 },  {"Type":2,  "Value":1 }]
+			        },
+			        "1.0000":
+			        {
+			           "0.0100":[{"Type":3, "Value":15},  {"Type":2,  "Value":6 }],
+			           "0.0200":[{"Type":3, "Value":10},  {"Type":2,  "Value":3 }],
+			           "0.1200":[{"Type":3, "Value":9 },  {"Type":2,  "Value":4 }],
+			           "0.2700":[{"Type":3, "Value":8 },  {"Type":2,  "Value":5 }],
+			           "0.4700":[{"Type":3, "Value":3 },  {"Type":2,  "Value":2 }],
+			           "0.7200":[{"Type":3, "Value":6 },  {"Type":2,  "Value":2 }],
+			           "0.8700":[{"Type":3, "Value":5 },  {"Type":2,  "Value":3 }],
+			           "0.9700":[{"Type":3, "Value":4 },  {"Type":2,  "Value":3 }],
+			           "0.9800":[{"Type":3, "Value":3 },  {"Type":2,  "Value":4 }],
+			           "0.9900":[{"Type":3, "Value":2 },  {"Type":2,  "Value":3 }],
+			           "1.0000":[{"Type":3, "Value":1 },  {"Type":2,  "Value":3 }]
+			        }
+          }
+      }
+   },
+   "3": {
+      "ClsId":3,
+	    "ClientId":1,
+      "MaxRound":1,
+      "MapStep":5,
+      "Trigger":
+      {
+         "ClsId":4
+      }
+   }
+}

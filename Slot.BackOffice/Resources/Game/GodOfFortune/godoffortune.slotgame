@@ -1,0 +1,35 @@
+{
+   "GameId"           : 14,
+   "Name"             : "godoffortune",
+   "Width"            : 3,
+   "Height"           : 3,
+   "Lines"            : 8,
+   "PayLineType"      : 0,
+   "PayLineId"        : "local3x3_8",
+   "ParSheetId"       : "I_3x3_GodOfFortune",
+   "BonusRepoId"      : "",
+   "BonusSeqRepoId"	  : "",
+   "DemoRepoId"       : "",
+   "PayoutContext"    : {
+      "ClsId"     : 3,
+	  "Scatters"  : [],
+      "FloatingSymbol": 8
+   },
+   "PayTable": [
+      { "Id":0, "Name": "Scroll",       "Pay":[ {"Count":3, "Mp":10} ] },
+	  { "Id":1, "Name": "Fan",          "Pay":[ {"Count":3, "Mp":20} ] },
+	  { "Id":2, "Name": "FireCrackers", "Pay":[ {"Count":3, "Mp":30} ] },
+	  { "Id":3, "Name": "Orange",       "Pay":[ {"Count":3, "Mp":40} ] },
+	  { "Id":4, "Name": "Lantern",      "Pay":[ {"Count":3, "Mp":80} ] },
+	  { "Id":5, "Name": "Fu",           "Pay":[ {"Count":3, "Mp":100} ] },
+	  { "Id":6, "Name": "GoldIngot",    "Pay":[ {"Count":3, "Mp":200} ] },
+	  { "Id":7, "Name": "GodOfFortune", "Pay":[ {"Count":3, "Mp":1000} ] },
+	  { "Id":8, "Name": "Coin",  "Pay":
+        [ 
+          {"Count":1, "Mp":2}, 
+		  {"Count":2, "Mp":10},
+		  {"Count":3, "Mp":200}
+        ]
+      }
+   ]
+}

@@ -1,0 +1,30 @@
+{
+    "GameId": 50,
+    "Name": "candylicious",
+    "Width": 3,
+    "Height": 3,
+    "Lines": 8,
+    "PayLineType": 0, //PaylineType ThreeByThree
+    "PayLineId": "local3x3_8",
+    "ParSheetId": "I_3x3_Candylicious",
+    "BonusRepoId": "",
+    "BonusSeqRepoId": "",
+    "DemoRepoId": "",
+    "PayoutContext": {
+        "ClsId": 3, //PayoutContextClsId NonReel
+        "Scatters": [ 9 ],
+        "FloatingSymbol": -1
+    },
+    "PayTable": [
+        { "Id": 0, "Name": "Candy",     "Pay": [ { "Count": 3, "Mp": 15  } ] },
+        { "Id": 1, "Name": "Grape",     "Pay": [ { "Count": 3, "Mp": 20  } ] },
+        { "Id": 2, "Name": "Circle",    "Pay": [ { "Count": 3, "Mp": 30  } ] },
+        { "Id": 3, "Name": "Green",     "Pay": [ { "Count": 3, "Mp": 40  } ] },
+        { "Id": 4, "Name": "Orange",    "Pay": [ { "Count": 3, "Mp": 50  } ] },
+        { "Id": 5, "Name": "Heart",     "Pay": [ { "Count": 3, "Mp": 60  } ] },
+        { "Id": 6, "Name": "Love",      "Pay": [ { "Count": 3, "Mp": 120 } ] },
+        { "Id": 7, "Name": "Blue",      "Pay": [ { "Count": 3, "Mp": 250 } ] },
+        { "Id": 8, "Name": "Bear",      "Pay": [ { "Count": 3, "Mp": 400 } ] },
+        { "Id": 9, "Name": "Scatter",   "Pay": [ { "Count": 3, "Mp": 5   },    { "Count": 4, "Mp": 25 }, { "Count": 5, "Mp": 100 }, { "Count": 6, "Mp": 250 }, { "Count": 7, "Mp": 500 }, { "Count": 8, "Mp": 1000 }, { "Count": 9, "Mp": 3000 } ] }
+    ]
+}

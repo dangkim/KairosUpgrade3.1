@@ -1,0 +1,36 @@
+{
+    "GameId": 86,
+    "Name": "gemforest",
+    "Width": 3,
+    "Height": 3,
+    "Lines": 10,
+    "CollapsingReels": {
+        "FullReelCollapse": false,
+        "Multiplier": 1
+    },
+    "PayLineType": 6, //ThreeByThree27Ways
+    "PayLineId": "local3x3_27ways",
+    "ParSheetId": "N_3x3_GemForest",
+    "BonusRepoId": "",
+    "BonusSeqRepoId": "",
+    "DemoRepoId": "",
+    "PayoutContext": {
+        "ClsId": 22, //PayoutContextCollapsingLRAllScatter
+        "WildSymbol": {
+            "Id": 8,
+            "Multiplier": 1,
+            "IsExpand": false 
+        }
+    },
+    "PayTable": [
+        { "Id": 0, "Name": "Jack",        "Pay": [ { "Count": 2, "Mp": 2  },  { "Count": 3, "Mp": 4  }  ] },
+        { "Id": 1, "Name": "Queen",       "Pay": [ { "Count": 3, "Mp": 5  } ] },
+        { "Id": 2, "Name": "King",        "Pay": [ { "Count": 3, "Mp": 5  } ] },
+        { "Id": 3, "Name": "Ace",         "Pay": [ { "Count": 3, "Mp": 6  } ] },
+        { "Id": 4, "Name": "Mushrooms",   "Pay": [ { "Count": 3, "Mp": 11 } ] }, 
+        { "Id": 5, "Name": "Book",        "Pay": [ { "Count": 3, "Mp": 14 } ] },
+        { "Id": 6, "Name": "Scroll",      "Pay": [ { "Count": 3, "Mp": 14 } ] },
+        { "Id": 7, "Name": "Chest",       "Pay": [ { "Count": 1, "Mp": 2  },  { "Count": 2, "Mp": 5 },   { "Count": 3, "Mp": 26   } ] },
+        { "Id": 8, "Name": "Wild",        "Pay": [ { "Count": 1, "Mp": 3  },  { "Count": 2, "Mp": 5 },   { "Count": 3, "Mp": 100  } ] }
+    ]
+}

@@ -1,0 +1,72 @@
+{
+   "GameId"           : 35,
+   "Name"             : "sevenbrothers",
+   "Width"            : 5,
+   "Height"           : 3,
+   "Lines"            : 25,
+   "PayLineType"      : 1,
+   "PayLineId"        : "local3x5_25",
+   "ParSheetId"       : "W_3x5_SevenBrothers",
+   "BonusRepoId"      : "SevenBrothers",
+   "BonusSeqRepoId"	  : "SevenBrothers",
+   "DemoRepoId"       : "SevenBrothers",
+   "PayoutContext"    : {
+      "ClsId"     : 1,
+	  "Scatters"  : [ 11 ],
+      "WildSymbol": {
+         "Id"              : 12,
+         "Multiplier"      : 2,
+         "IsExpand"        : false
+      }
+   },
+   "PayTable": [
+      { "Id":0, "Name": "Crystal", "Pay":
+        [ 
+		  {"Count":2, "Mp":2},
+		  {"Count":3, "Mp":5},
+		  {"Count":4, "Mp":25},
+		  {"Count":5, "Mp":100}
+        ]
+      },
+	  { "Id":1, "Name": "Mountain",      "Pay":[ {"Count":3, "Mp":5},  {"Count":4, "Mp":25},  {"Count":5, "Mp":100}  ] },
+	  { "Id":2, "Name": "SnakeLady",     "Pay":[ {"Count":3, "Mp":5},  {"Count":4, "Mp":25},  {"Count":5, "Mp":100}  ] },
+	  { "Id":3, "Name": "OldMan",        "Pay":[ {"Count":3, "Mp":5},  {"Count":4, "Mp":25},  {"Count":5, "Mp":100}  ] },
+	  { "Id":4, "Name": "HuluPurple",    "Pay":[ {"Count":3, "Mp":10}, {"Count":4, "Mp":50},  {"Count":5, "Mp":150}  ] },
+	  { "Id":5, "Name": "HuluDarkBlue",  "Pay":[ {"Count":3, "Mp":10}, {"Count":4, "Mp":50},  {"Count":5, "Mp":150}  ] },
+	  { "Id":6, "Name": "HuluLightBlue", "Pay":[ {"Count":3, "Mp":15}, {"Count":4, "Mp":75},  {"Count":5, "Mp":250}  ] },
+	  { "Id":7, "Name": "HuluGreen",     "Pay":[ {"Count":3, "Mp":15}, {"Count":4, "Mp":75},  {"Count":5, "Mp":250}  ] },
+	  { "Id":8, "Name": "HuluYellow",    "Pay":[ {"Count":3, "Mp":20}, {"Count":4, "Mp":100}, {"Count":5, "Mp":400}  ] },
+      { "Id":9, "Name": "HuluOrange", "Pay":
+        [ 
+		  {"Count":2, "Mp":2},
+		  {"Count":3, "Mp":25},
+		  {"Count":4, "Mp":125},
+		  {"Count":5, "Mp":750}
+        ]
+      },
+      { "Id":10, "Name": "HuluRed", "Pay":
+        [ 
+		  {"Count":2, "Mp":2},
+		  {"Count":3, "Mp":25},
+		  {"Count":4, "Mp":125},
+		  {"Count":5, "Mp":750}
+        ]
+      },
+      { "Id":11, "Name": "Scatter", "Pay":
+        [ 
+		  {"Count":2, "Mp":2},
+		  {"Count":3, "Mp":5},
+		  {"Count":4, "Mp":20},
+		  {"Count":5, "Mp":500}
+        ]
+      },
+      { "Id":12, "Name": "Wild", "Pay":
+        [ 
+		  {"Count":2, "Mp":5},
+		  {"Count":3, "Mp":100},
+		  {"Count":4, "Mp":200},
+		  {"Count":5, "Mp":800}
+        ]
+      }
+   ]
+}

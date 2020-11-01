@@ -1,0 +1,21 @@
+Test.Level                  : 4
+Test.TimeStart              : 10/1/2019 2:38:16 AM
+Test.TimeEnd                : 10/1/2019 2:39:39 AM
+SpinCount                   : 10000000
+TotalBet                    : 300000000.00
+----------------------------------------
+Hold Spin Hit Rate     (MG) :       144.43
+Feature Hit Rate       (MG) :       130.99
+Feature Hit Rate       (FG) :       138.00
+Hold Spin Hit Rate     (FG) :        36.81
+MG Win                      : 134326291.00
+MG Hold Spin Win            :  42656310.00
+FG Win                      :  92947466.00
+FG Hold Spin Win            :  14324010.00
+----------------------------------------
+MG RTP                     :       44.78%
+MG Hold Spin  RTP          :       14.22%
+FG RTP                     :       30.98%
+FG Hold Spin RTP           :        4.77%
+--- RTP.OverAll ------------------------
+RTP.Total (Over All)      :     94.7514%

@@ -1,0 +1,67 @@
+﻿{
+   "13": {
+      "ClsId":13,
+      "ClientId":2,
+      "FSParsheetId":"N_3x5_LanternFestivalFreeSpin",
+      "FSStackWildSymbol":10,
+	  "StackWildSteps": { "1":1,"2":2,"3":3,"4":1 },
+      "FSIinitSpinCount":4,
+      "FSMultiplier":1,
+      "Trigger":
+      {
+         "ClsId":1,
+	     "Symbol":10,
+	     "MinCount":3
+      },
+	  "PayoutContext":
+	  {
+         "ClsId"     : 1,
+	     "Scatters"  : [ ],
+         "WildSymbol": {
+           "Id"              : 10,
+           "Multiplier"      : 1,
+           "IsExpand"        : false
+         }
+	  }
+   },
+   "21": {
+      "ClsId":21,
+      "ClientId":3,
+      "RevealType":1,
+      "NumChoices":5,
+      "NumReveal":1,
+      "IsRevealAll":true,
+      "Trigger":
+      {
+         "ClsId":1,
+	     "Symbol":8,
+	     "MinCount":3
+      },
+      "RevealWeights":
+      {
+         "1":{ "0.40":3, "0.75":5, "0.95":8, "0.99":10, "1":15 },
+         "2":{ "0.40":3, "0.75":5, "0.95":8, "0.99":10, "1":15 },
+         "3":{ "0.40":3, "0.75":5, "0.95":8, "0.99":10, "1":15 }
+      }
+   },
+   "22": {
+      "ClsId":22,
+      "ClientId":4,
+      "RevealType":2,
+      "NumChoices":5,
+      "NumReveal":3,
+      "IsRevealAll":false,
+      "Trigger":
+      {
+         "ClsId":1,
+	     "Symbol":9,
+	     "MinCount":3
+      },
+      "RevealWeights":
+      {
+         "1":{ "0.100":0, "0.630":1, "0.930":2, "0.954":5, "0.968":7, "0.976":8, "1":10 },
+         "2":{ "0.100":0, "0.630":1, "0.936":2, "0.963":5, "0.977":7, "0.985":8, "1":10 },
+         "3":{ "0.103":0, "0.633":1, "0.933":2, "0.957":5, "0.971":7, "0.979":8, "1":10 }
+      }
+   }
+}

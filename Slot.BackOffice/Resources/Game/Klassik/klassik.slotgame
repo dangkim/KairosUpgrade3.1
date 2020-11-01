@@ -1,0 +1,35 @@
+﻿{
+    "GameId": 44,
+    "Name": "Klassik",
+    "Width": 5,
+    "Height": 3,
+    "Lines": 9,
+    "PayLineType": 1,
+    "PayLineId": "local3x5_9",
+    "ParSheetId": "N_3x5_Klassik",
+    "BonusRepoId": "",
+    "BonusSeqRepoId": "",
+    "DemoRepoId": "",
+    "PayoutContext": {
+        "ClsId": 1,
+        "Scatters": [ 10 ],
+        "WildSymbol": {
+            "Id": 11,
+            "Multiplier": 1,
+            "IsExpand": false
+        }
+    },
+    "PayTable": [
+        { "Id": 0, "Name": "Symbol1",       "Pay": [ { "Count": 3, "Mp": 10 }, { "Count": 4, "Mp": 25 }, { "Count": 5, "Mp": 70 } ] },
+        { "Id": 1, "Name": "Symbol2",       "Pay": [ { "Count": 3, "Mp": 10 }, { "Count": 4, "Mp": 25 }, { "Count": 5, "Mp": 70 } ] },
+        { "Id": 2, "Name": "Symbol3",       "Pay": [ { "Count": 3, "Mp": 10 }, { "Count": 4, "Mp": 30 }, { "Count": 5, "Mp": 80 } ] },
+        { "Id": 3, "Name": "Seven",         "Pay": [ { "Count": 3, "Mp": 10 }, { "Count": 4, "Mp": 30 }, { "Count": 5, "Mp": 80 } ] },
+        { "Id": 4, "Name": "Green",         "Pay": [ { "Count": 3, "Mp": 15 }, { "Count": 4, "Mp": 45 }, { "Count": 5, "Mp": 100 } ] },
+        { "Id": 5, "Name": "Yellow",        "Pay": [ { "Count": 3, "Mp": 15 }, { "Count": 4, "Mp": 45 }, { "Count": 5, "Mp": 100 } ] },
+        { "Id": 6, "Name": "Red",           "Pay": [ { "Count": 3, "Mp": 15 }, { "Count": 4, "Mp": 45 }, { "Count": 5, "Mp": 100 } ] },
+        { "Id": 7, "Name": "Purple",        "Pay": [ { "Count": 2, "Mp": 2 }, { "Count": 3, "Mp": 20 }, { "Count": 4, "Mp": 60 }, { "Count": 5, "Mp": 200 } ] },
+        { "Id": 8, "Name": "Cherry",        "Pay": [ { "Count": 2, "Mp": 2 }, { "Count": 3, "Mp": 20 }, { "Count": 4, "Mp": 60 }, { "Count": 5, "Mp": 200 } ] },
+        { "Id": 9, "Name": "Bell",          "Pay": [ { "Count": 2, "Mp": 5 }, { "Count": 3, "Mp": 35 }, { "Count": 4, "Mp": 120 }, { "Count": 5, "Mp": 300 } ] },
+        { "Id": 10, "Name": "Scatter",      "Pay": [ { "Count": 3, "Mp": 3 }, { "Count": 4, "Mp": 10 }, { "Count": 5, "Mp": 85 } ] }
+    ]
+}

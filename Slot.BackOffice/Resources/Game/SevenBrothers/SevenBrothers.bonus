@@ -1,0 +1,94 @@
+﻿{
+   "17": {
+      "ClsId":17,
+      "ClientId":2,
+      "FSParsheetId":"W_3x5_SevenBrothersFreeSpin",
+	  "FSWithBFS":true,
+      "BFSNumChoices":2,
+      "BFSNumReveal":7,
+      "FSInitSpinCount":8,
+      "FSMultiplier":2,
+      "FSAddSpinCount":15,
+      "Trigger":
+      {
+         "ClsId":1,
+	     "Symbol":11,
+	     "MinCount":3
+      },
+	  "PayoutContext":
+	  {
+         "ClsId"     : 1,
+	     "Scatters"  : [ 11 ],
+         "WildSymbol": {
+           "Id"              : 12,
+           "Multiplier"      : 1,
+           "IsExpand"        : false
+         }
+	  },
+	  "BonusFreeSpinWeight":
+	  {
+	     "Weights":
+		 {
+		    "0.55":
+			{
+			   "0.01":[{"Type":3,"Value":13},{"Type":3,"Value":12}],
+			   "0.02":[{"Type":3,"Value":12},{"Type":3,"Value":4}],
+			   "0.07":[{"Type":3,"Value":11},{"Type":3,"Value":3}],
+			   "0.14":[{"Type":3,"Value":2},{"Type":3,"Value":3}],
+			   "0.24":[{"Type":3,"Value":9},{"Type":3,"Value":4}],
+			   "0.34":[{"Type":3,"Value":8},{"Type":3,"Value":2}],
+			   "0.54":[{"Type":3,"Value":7},{"Type":3,"Value":6}],
+			   "0.74":[{"Type":3,"Value":6},{"Type":3,"Value":5}],
+			   "0.89":[{"Type":3,"Value":5},{"Type":3,"Value":3}],
+			   "0.97":[{"Type":3,"Value":4},{"Type":3,"Value":1}],
+			   "0.98":[{"Type":3,"Value":3},{"Type":3,"Value":2}],
+			   "0.99":[{"Type":3,"Value":2},{"Type":3,"Value":1}],
+			   "1":[{"Type":3,"Value":1},{"Type":3,"Value":1}]
+			},
+			"0.75":
+			{
+			   "0.01":[{"Type":2,"Value":7},{"Type":2,"Value":6}],
+			   "0.06":[{"Type":2,"Value":4},{"Type":2,"Value":2}],
+			   "0.11":[{"Type":2,"Value":4},{"Type":2,"Value":3}],
+			   "0.16":[{"Type":2,"Value":2},{"Type":2,"Value":2}],
+			   "0.2":[{"Type":2,"Value":2},{"Type":2,"Value":3}],
+			   "0.23":[{"Type":2,"Value":2},{"Type":2,"Value":2}],
+			   "0.24":[{"Type":2,"Value":1},{"Type":2,"Value":5}],
+			   "0.25":[{"Type":2,"Value":1},{"Type":2,"Value":4}],
+			   "0.5":[{"Type":2,"Value":1},{"Type":2,"Value":3}],
+			   "0.75":[{"Type":2,"Value":1},{"Type":2,"Value":2}],
+			   "1":[{"Type":2,"Value":1},{"Type":2,"Value":1}]
+			},
+			"1":
+			{
+			   "0.01":[{"Type":3,"Value":15},{"Type":2,"Value":6}],
+			   "0.02":[{"Type":3,"Value":10},{"Type":2,"Value":2}],
+			   "0.12":[{"Type":3,"Value":9},{"Type":2,"Value":3}],
+			   "0.27":[{"Type":3,"Value":8},{"Type":2,"Value":5}],
+			   "0.47":[{"Type":3,"Value":3},{"Type":2,"Value":2}],
+			   "0.72":[{"Type":3,"Value":6},{"Type":2,"Value":2}],
+			   "0.87":[{"Type":3,"Value":5},{"Type":2,"Value":1}],
+			   "0.97":[{"Type":3,"Value":4},{"Type":2,"Value":2}],
+			   "0.98":[{"Type":3,"Value":3},{"Type":2,"Value":4}],
+			   "0.99":[{"Type":3,"Value":2},{"Type":2,"Value":3}],
+			   "1":[{"Type":3,"Value":1},{"Type":2,"Value":2}]
+			}
+         }
+      }
+   },
+   "31": {
+      "ClsId":31,
+      "ClientId":4,
+      "Trigger":
+      {
+         "ClsId":9,
+	     "ReelSymbols": { "1": 4, "5": 4 }
+      },
+	  "InstantWinWeights":
+      {
+         "1":{ "0.195":1, "0.495":2, "0.810":3, "0.890":5, "0.960":8, "0.990":13, "1":18},
+         "2":{ "0.195":1, "0.600":2, "0.890":3, "0.940":5, "0.970":8, "0.990":13, "1":18},
+         "3":{ "0.195":1, "0.600":2, "0.890":3, "0.940":5, "0.970":8, "0.990":13, "1":18}
+      }
+   }
+}

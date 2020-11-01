@@ -1,0 +1,64 @@
+name: $(BuildDefinitionName)_$(SourceBranchName)_$(Date:yyyyMMdd)$(Rev:.r)
+
+trigger:
+  tags:
+    include:
+    - v*
+
+jobs:
+  - job: Docker
+
+    pool:
+      vmImage: 'Ubuntu 16.04'
+
+    variables:
+      buildConfiguration: 'Release'
+      gameServiceImageName: 'gameservice:$(Build.SourceBranchName)'
+      latestGameServiceImageName: 'gameservice:latest'
+      backOfficeImageName: 'backoffice:$(Build.SourceBranchName)'
+      latestBackOfficeImageName: 'backoffice:latest'
+
+    steps:
+
+    - task: DotNetCoreInstaller@0
+      inputs:
+        version: '2.2.300'
+
+    - script: |
+        mkdir $(Build.SourcesDirectory)/results 
+        dotnet test --logger trx $(Build.SourcesDirectory)/Slot.UnitTests/Slot.UnitTests.csproj /p:CollectCoverage=true /p:CoverletOutputFormat=cobertura
+        dotnet tool install -g dotnet-reportgenerator-globaltool --version 4.0.14
+        reportgenerator "-reports:$(Build.SourcesDirectory)/Slot.UnitTests/coverage.cobertura.xml" "-targetdir:$(Build.SourcesDirectory)/results" "-reporttypes:HTMLInline;HTMLChart"
+      displayName: 'Unit testing'
+
+    - task: PublishTestResults@2
+      inputs:
+        testRunner: VSTest
+        testResultsFiles: '**/*.trx'
+        
+    - task: PublishCodeCoverageResults@1
+      inputs:
+        codeCoverageTool: 'cobertura'
+        summaryFileLocation: '$(System.DefaultWorkingDirectory)/**/coverage.cobertura.xml'
+        reportDirectory: '$(Build.SourcesDirectory)/results'
+      displayName: 'Publish coverage results'
+
+    - script: |
+        docker build -t $(dockerId).azurecr.io/$(gameServiceImageName) -t $(dockerId).azurecr.io/$(latestGameServiceImageName) -f ./Slot.WebApiCore/Dockerfile .
+      displayName: 'Build game service image'
+
+    - script: |
+        docker login $(dockerId).azurecr.io -u $(dockerId) -p $(dockerPassword)
+        docker push $(dockerId).azurecr.io/$(gameServiceImageName)
+        docker push $(dockerId).azurecr.io/$(latestGameServiceImageName)
+      displayName: 'Push game service image'
+
+    - script: |
+        docker build -t $(dockerId).azurecr.io/$(backOfficeImageName) -t $(dockerId).azurecr.io/$(latestBackOfficeImageName) -f ./Slot.BackOffice/Dockerfile .
+      displayName: 'Build back office image'
+
+    - script: |
+        docker login $(dockerId).azurecr.io -u $(dockerId) -p $(dockerPassword)
+        docker push $(dockerId).azurecr.io/$(backOfficeImageName)
+        docker push $(dockerId).azurecr.io/$(latestBackOfficeImageName)
+      displayName: 'Push back office image'

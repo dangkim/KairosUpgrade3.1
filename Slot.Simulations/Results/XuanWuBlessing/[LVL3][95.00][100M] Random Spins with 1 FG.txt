@@ -1,0 +1,247 @@
+[LVL3][100M][FG-All Random]
+-----------------------------------------------------------
+Test.SpinCount			: 100000000
+Test.Level				: 3
+Test.TimeStart			: 7/9/2019 2:37 PM
+Test.TimeEnd			: 7/9/2019 3:06 PM
+-----------------------------------------------------------
+TotalBet				: 2000000000
+TotalWin				: 1902128438
+Max Win					: 15000
+-----------------------------------------------------------
+Spin Count				: 100000000
+Scatter Count			: 656011
+Free Spin Count			: 9183384
+-----------------------------------------------------------
+RTP.Spin				: 57.73%
+RTP.Free Spins			: 37.38%
+RTP.Expected			: 95.00%
+RTP.Total				: 95.11%
+-----------------------------------------------------------
+Multiplier: 1 	 Rtp: 2.32%
+Multiplier: 2 	 Rtp: 6.01%
+Multiplier: 3 	 Rtp: 7.70%
+Multiplier: 4 	 Rtp: 5.14%
+Multiplier: 5 	 Rtp: 1.64%
+Multiplier: 6 	 Rtp: 5.90%
+Multiplier: 8 	 Rtp: 3.65%
+Multiplier: 10 	 Rtp: 2.19%
+Multiplier: 15 	 Rtp: 2.83%
+
+
+[LVL3][1B][FG-All Random]
+-----------------------------------------------------------
+Test.SpinCount			: 1000000000
+Test.Level				: 3
+Test.TimeStart			: 7/17/2019 7:57 AM
+Test.TimeEnd			: 7/17/2019 2:12 PM
+-----------------------------------------------------------
+TotalBet				: 20000000000
+TotalWin				: 18998838953
+Max Win					: 15200
+-----------------------------------------------------------
+Spin Count				: 1000000000
+Scatter Count			: 6549791
+Free Spin Count			: 91725462
+-----------------------------------------------------------
+RTP.Spin				: 57.72%
+RTP.Free Spins			: 37.27%
+RTP.Expected			: 95.00%
+RTP.Total				: 94.99%
+-----------------------------------------------------------
+Multiplier: 1 	 Rtp: 2.32%
+Multiplier: 2 	 Rtp: 5.99%
+Multiplier: 3 	 Rtp: 7.68%
+Multiplier: 4 	 Rtp: 5.11%
+Multiplier: 5 	 Rtp: 1.64%
+Multiplier: 6 	 Rtp: 5.90%
+Multiplier: 8 	 Rtp: 3.66%
+Multiplier: 10 	 Rtp: 2.17%
+Multiplier: 15 	 Rtp: 2.81%
+
+
+[LVL3][100M][FG-1]
+-----------------------------------------------------------
+Test.SpinCount			: 100000000
+Test.Level				: 3
+Test.TimeStart			: 7/9/2019 3:06 PM
+Test.TimeEnd			: 7/9/2019 3:33 PM
+-----------------------------------------------------------
+TotalBet				: 2000000000
+TotalWin				: 1900438066
+Max Win					: 15200
+-----------------------------------------------------------
+Spin Count				: 100000000
+Scatter Count			: 654592
+Free Spin Count			: 3381150
+-----------------------------------------------------------
+RTP.Spin				: 57.74%
+RTP.Free Spins			: 37.28%
+RTP.Expected			: 95.00%
+RTP.Total				: 95.02%
+-----------------------------------------------------------
+Multiplier: 1 	 Rtp: 0.85%
+Multiplier: 8 	 Rtp: 9.71%
+Multiplier: 10 	 Rtp: 9.93%
+Multiplier: 15 	 Rtp: 16.79%
+
+
+[LVL3][100M][FG-2]
+-----------------------------------------------------------
+Test.SpinCount			: 100000000
+Test.Level				: 3
+Test.TimeStart			: 7/9/2019 3:33 PM
+Test.TimeEnd			: 7/9/2019 4:00 PM
+-----------------------------------------------------------
+TotalBet				: 2000000000
+TotalWin				: 1897753960
+Max Win					: 15200
+-----------------------------------------------------------
+Spin Count				: 100000000
+Scatter Count			: 654407
+Free Spin Count			: 5517000
+-----------------------------------------------------------
+RTP.Spin				: 57.74%
+RTP.Free Spins			: 37.15%
+RTP.Expected			: 95.00%
+RTP.Total				: 94.89%
+-----------------------------------------------------------
+Multiplier: 1 	 Rtp: 1.39%
+Multiplier: 6 	 Rtp: 24.30%
+Multiplier: 8 	 Rtp: 8.43%
+Multiplier: 10 	 Rtp: 3.02%
+
+
+[LVL3][100M][FG-3]
+-----------------------------------------------------------
+Test.SpinCount			: 100000000
+Test.Level				: 3
+Test.TimeStart			: 7/9/2019 4:00 PM
+Test.TimeEnd			: 7/9/2019 4:29 PM
+-----------------------------------------------------------
+TotalBet				: 2000000000
+TotalWin				: 1898661194
+Max Win					: 14240
+-----------------------------------------------------------
+Spin Count				: 100000000
+Scatter Count			: 654803
+Free Spin Count			: 7745067
+-----------------------------------------------------------
+RTP.Spin				: 57.69%
+RTP.Free Spins			: 37.24%
+RTP.Expected			: 94.99%
+RTP.Total				: 94.93%
+-----------------------------------------------------------
+Multiplier: 1 	 Rtp: 1.96%
+Multiplier: 4 	 Rtp: 22.57%
+Multiplier: 6 	 Rtp: 8.93%
+Multiplier: 8 	 Rtp: 3.78%
+
+
+[LVL3][100M][FG-4]
+-----------------------------------------------------------
+Test.SpinCount			: 100000000
+Test.Level				: 3
+Test.TimeStart			: 7/9/2019 7:32 PM
+Test.TimeEnd			: 7/9/2019 7:59 PM
+-----------------------------------------------------------
+TotalBet				: 2000000000
+TotalWin				: 1896986860
+Max Win					: 14000
+-----------------------------------------------------------
+Spin Count				: 100000000
+Scatter Count			: 654478
+Free Spin Count			: 10858380
+-----------------------------------------------------------
+RTP.Spin				: 57.70%
+RTP.Free Spins			: 37.15%
+RTP.Expected			: 95.00%
+RTP.Total				: 94.85%
+-----------------------------------------------------------
+Multiplier: 1 	 Rtp: 2.74%
+Multiplier: 3 	 Rtp: 26.60%
+Multiplier: 4 	 Rtp: 5.63%
+Multiplier: 6 	 Rtp: 2.17%
+
+
+[LVL3][100M][FG-5]
+-----------------------------------------------------------
+Test.SpinCount			: 100000000
+Test.Level				: 3
+Test.TimeStart			: 7/9/2019 7:59 PM
+Test.TimeEnd			: 7/9/2019 8:28 PM
+-----------------------------------------------------------
+TotalBet				: 2000000000
+TotalWin				: 1899611761
+Max Win					: 15000
+-----------------------------------------------------------
+Spin Count				: 100000000
+Scatter Count			: 654317
+Free Spin Count			: 12486092
+-----------------------------------------------------------
+RTP.Spin				: 57.73%
+RTP.Free Spins			: 37.25%
+RTP.Expected			: 95.01%
+RTP.Total				: 94.98%
+-----------------------------------------------------------
+Multiplier: 1 	 Rtp: 3.15%
+Multiplier: 2 	 Rtp: 13.22%
+Multiplier: 3 	 Rtp: 11.00%
+Multiplier: 5 	 Rtp: 9.88%
+
+
+[LVL3][100M][FG-6]
+-----------------------------------------------------------
+Test.SpinCount			: 100000000
+Test.Level				: 3
+Test.TimeStart			: 7/9/2019 8:28 PM
+Test.TimeEnd			: 7/9/2019 8:58 PM
+-----------------------------------------------------------
+TotalBet				: 2000000000
+TotalWin				: 1898924787
+Max Win					: 15000
+-----------------------------------------------------------
+Spin Count				: 100000000
+Scatter Count			: 654316
+Free Spin Count			: 15008060
+-----------------------------------------------------------
+RTP.Spin				: 57.74%
+RTP.Free Spins			: 37.21%
+RTP.Expected			: 95.00%
+RTP.Total				: 94.95%
+-----------------------------------------------------------
+Multiplier: 1 	 Rtp: 3.79%
+Multiplier: 2 	 Rtp: 22.68%
+Multiplier: 3 	 Rtp: 8.38%
+Multiplier: 4 	 Rtp: 2.35%
+
+
+[LVL3][100M][FG-7]
+-----------------------------------------------------------
+Test.SpinCount			: 100000000
+Test.Level				: 3
+Test.TimeStart			: 7/12/2019 4:47 PM
+Test.TimeEnd			: 7/12/2019 5:18 PM
+-----------------------------------------------------------
+TotalBet				: 2000000000
+TotalWin				: 1913618933
+Max Win					: 10400
+-----------------------------------------------------------
+Spin Count				: 100000000
+Scatter Count			: 655649
+Free Spin Count			: 8262711
+-----------------------------------------------------------
+RTP.Spin				: 57.73%
+RTP.Free Spins			: 37.95%
+RTP.Expected			: 95.00%
+RTP.Total				: 95.68%
+-----------------------------------------------------------
+Multiplier: 1 	 Rtp: 2.08%
+Multiplier: 2 	 Rtp: 6.66%
+Multiplier: 3 	 Rtp: 5.17%
+Multiplier: 4 	 Rtp: 3.02%
+Multiplier: 5 	 Rtp: 0.77%
+Multiplier: 6 	 Rtp: 3.56%
+Multiplier: 8 	 Rtp: 5.22%
+Multiplier: 10 	 Rtp: 4.49%
+Multiplier: 15 	 Rtp: 6.97%

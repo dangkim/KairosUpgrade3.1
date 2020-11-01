@@ -1,0 +1,15 @@
+Test.Level                  : 2
+Test.TimeStart              : 9/6/2019 4:23:05 PM
+Test.TimeEnd                : 9/6/2019 4:24:17 PM
+SpinCount                   : 10000000
+TotalBet                    : 100000000.00
+----------------------------------------
+MG Avg Feature Hit Rate     :        12.68
+Fg Feature Hit Rate         :        19.72
+MG Win                      :  60390665.00
+FG ReSpin Win               :  33526904.00
+----------------------------------------
+MG RTP                      :       60.39%
+FG ReSpin RTP               :       33.53%
+--- RTP.OverAll ------------------------
+RTP.Total (Over All)      :     93.9176%
